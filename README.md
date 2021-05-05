@@ -1,6 +1,6 @@
-# SERVISO
+# Fundación cáritas
 
-Que es serviso
+Haremos página informativa y panel de administración.
 
 ## Instalación
 
