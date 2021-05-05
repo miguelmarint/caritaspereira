@@ -3,37 +3,48 @@
     <section id="about">
       <div class="container">
         <header class="section-header">
-          <h3>About Us</h3>
+          <h3>Sobre nosotros</h3>
           <p>
-            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.
+            En la diócesis de Pereira la labor de pastoral social se inició a
+            partir de su creación. Ante la necesidad de atender a las víctimas
+            del terremoto ocurrido en el eje cafetero en 1999. Pero desde el 31
+            de mayo de 2000 Monseñor Fabio Suescún Mutis creo la fundación
+            Caritas Diocesanas para brindar una plataforma legal y jurídica que
+            permitiera canalizar recursos provenientes del estado de entidades
+            de cooperación internacional, empresas privadas y personas en
+            general que se solidarizaron con la tragedia. Inicialmente los
+            programas y acciones se centraron en la atención a la población
+            desplazada y víctimas de la violencia, mediante convenios realizados
+            con la Presidencia de la Republica, ONGS internacionales, algunas
+            alcaldías y la gobernación de Risaralda. De igual manera se
+            acompañaron programas de diferentes entes gubernamentales dirigidos
+            al desarrollo social y económico de población situación de
+            vulnerabilidad.
           </p>
         </header>
         <div data-aos="fade-up">
           <div class="row about-container">
             <div class="col-lg-6 content order-lg-1 order-2">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-
               <div class="icon-box wow">
-                <div class="icon"><i class="fas fa-shopping-bag"></i></div>
-                <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+                <div class="icon"><i class="fas fa-lightbulb"></i></div>
+                <h4 class="title"><a href="">Misión:</a></h4>
                 <p class="description">
-                  Et harum quidem rerum facilis est et expedita distinctio. Nam
-                  libero tempore, cum soluta nobis est eligendi
+                  Trabajamos por la cultura de la solidaridad, la justicia, la
+                  dignidad humana, la transformación social y la inclusión con
+                  equidad, favoreciendo preferencialmente a los más pobres,
+                  fundamentados en la Caridad de CRISTO.
                 </p>
               </div>
 
               <div class="icon-box wow">
                 <div class="icon"><i class="far fa-image"></i></div>
-                <h4 class="title"><a href="">Magni Dolores</a></h4>
+                <h4 class="title"><a href="">Visión:</a></h4>
                 <p class="description">
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum
+                  Ser la Pastoral Social de la región, con mayor incidencia en
+                  la construcción de una sociedad más justa, que apoya la
+                  defensa de la vida, la dignidad humana y la construcción de
+                  paz, por medio de la evangelización de las realidades
+                  sociales.
                 </p>
               </div>
 
@@ -49,7 +60,7 @@
 
             <div class="col-lg-6 background order-lg-2 order-1 wow">
               <img
-                :src="asset('images/about-img.svg')"
+                :src="asset('images/tenequipo.jpg')"
                 class="img-fluid"
                 alt=""
               />
@@ -134,7 +145,7 @@ export default {};
   padding: 60px 0;
 }
 #about .section-header h3 {
-  font-size: 36px;
+  font-size: 38px;
   color: #283d50;
   text-align: center;
   font-weight: 500;
@@ -143,10 +154,11 @@ export default {};
 #about .section-header p {
   text-align: center;
   margin: auto;
-  font-size: 15px;
+  font-size: 16px;
   padding-bottom: 60px;
   color: #556877;
   width: 50%;
+  text-align: justify;
 }
 #about .row {
   display: flex;
@@ -176,11 +188,11 @@ export default {};
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #007bff;
+  border: 2px solid #028341;
   transition: all 0.3s ease-in-out;
 }
 #about .about-container .icon-box .icon i {
-  color: #007bff;
+  color: #028341;
   font-size: 24px;
 }
 #about .fa-shopping-bag:before {
@@ -190,7 +202,7 @@ export default {};
   margin-left: 80px;
   font-weight: 600;
   margin-bottom: 5px;
-  font-size: 18px;
+  font-size: 19px;
 }
 #about .about-container .icon-box .title a {
   color: #283d50;
@@ -198,7 +210,8 @@ export default {};
 #about .about-container .icon-box .description {
   margin-left: 80px;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 16px;
+  text-align: justify;
 }
 #about .about-container .background {
   margin: 20px 0;
