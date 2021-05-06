@@ -3,7 +3,7 @@
     <section id="services" class="section-bg">
       <div class="container">
         <header class="section-header">
-          <h3>Services</h3>
+          <h3>Programas</h3>
           <p>
             Laudem latine persequeris id sed, ex fabulas delectus quo. No vel
             partiendo abhorreant vituperatoribus.
@@ -17,7 +17,7 @@
                 <div class="icon">
                   <i class="ion-ios-analytics-outline"></i>
                 </div>
-                <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                <h4 class="title"><a href="">PASTORAL RURAL Y DE LA TIERRA</a></h4>
                 <p class="description">
                   Voluptatum deleniti atque corrupti quos dolores et quas
                   molestias excepturi sint occaecati cupiditate non provident
@@ -29,7 +29,7 @@
                 <div class="icon">
                   <i class="ion-ios-bookmarks-outline"></i>
                 </div>
-                <h4 class="title"><a href="">Dolor Sitema</a></h4>
+                <h4 class="title"><a href="">FORMACIÓN AGENTES DE PASTORAL SOCIAL</a></h4>
                 <p class="description">
                   Minim veniam, quis nostrud exercitation ullamco laboris nisi
                   ut aliquip ex ea commodo consequat tarad limino ata
@@ -46,7 +46,7 @@
                 <div class="icon">
                   <i class="ion-ios-paper-outline"></i>
                 </div>
-                <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+                <h4 class="title"><a href="">RESPONSABILIDAD SOCIAL EMPRESARIAL</a></h4>
                 <p class="description">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum dolore eu fugiat nulla pariatur
@@ -58,7 +58,7 @@
                 <div class="icon">
                   <i class="ion-ios-speedometer-outline"></i>
                 </div>
-                <h4 class="title"><a href="">Magni Dolores</a></h4>
+                <h4 class="title"><a href="">ACCIÓN VOLUNTARIA</a></h4>
                 <p class="description">
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
                   qui officia deserunt mollit anim id est laborum
@@ -75,22 +75,10 @@
                 <div class="icon">
                   <i class="ion-ios-world-outline"></i>
                 </div>
-                <h4 class="title"><a href="">Nemo Enim</a></h4>
+                <h4 class="title"><a href="">BANCO DE ALIMENTOS</a></h4>
                 <p class="description">
                   At vero eos et accusamus et iusto odio dignissimos ducimus qui
                   blanditiis praesentium voluptatum deleniti atque
-                </p>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-5 wow bounceInUp">
-              <div class="box">
-                <div class="icon">
-                  <i class="ion-ios-clock-outline"></i>
-                </div>
-                <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-                <p class="description">
-                  Et harum quidem rerum facilis est et expedita distinctio. Nam
-                  libero tempore, cum soluta nobis est eligendi
                 </p>
               </div>
             </div>
@@ -112,7 +100,7 @@ export default {};
 
 #services .section-header h3 {
   font-size: 36px;
-  color: #283d50;
+  color: #0c0c0c;
   text-align: center;
   font-weight: 500;
   position: relative;
@@ -162,7 +150,7 @@ export default {};
   color: #111;
 }
 #services .description {
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 40px;
   line-height: 24px;
   margin-bottom: 0;

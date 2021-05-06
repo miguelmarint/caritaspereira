@@ -49,11 +49,12 @@
               </div>
 
               <div class="icon-box wow">
-                <div class="icon"><i class="far fa-chart-bar"></i></div>
-                <h4 class="title"><a href="">Dolor Sitema</a></h4>
+                <div class="icon"><i class="fas fa-bullseye"></i></div>
+                <h4 class="title"><a href="">Objetivo</a></h4>
                 <p class="description">
-                  Minim veniam, quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat tarad limino ata
+                  Ser instrumento del Área de Promoción Humana para ayudar y
+                  servir a los más desprotegidos de la Diócesis sin distinción
+                  de raza, religión o política.
                 </p>
               </div>
             </div>
@@ -78,22 +79,20 @@
               />
             </div>
             <div class="col-lg-6 wow pt-5 pt-lg-0">
-              <h4>
-                Voluptatem dignissimos provident quasi corporis voluptates sit
-                assumenda.
-              </h4>
-              <p>
-                Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati
-                possimus ea. Quas molestiae perspiciatis occaecati qui rerum.
-                Deleniti quod porro sed quisquam saepe. Numquam mollitia
-                recusandae non ad at et a.
-              </p>
-              <p>
-                Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti.
-                Odit qui asperiores ea corporis deserunt veritatis quidem
-                expedita perferendis. Qui rerum eligendi ex doloribus quia sit.
-                Porro rerum eum eum.
-              </p>
+              <h4>Valores Corporativos</h4>
+              <ul>
+                <li>Fe</li>
+                <li>Esperanza</li>
+                <li>Caridad</li>
+                <li>Justicia</li>
+                <li>Dignidad humana</li>
+                <li>solidaridad</li>
+                <li>compromiso ambiental</li>
+                <li>compromiso ético</li>
+                <li>Bien común</li>
+                <li>Responsabilidad</li>
+                <li>La verdad</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -108,26 +107,39 @@
             </div>
 
             <div class="col-lg-6 wow pt-4 pt-lg-0 order-2 order-lg-1">
-              <h4>
-                Neque saepe temporibus repellat ea ipsum et. Id vel et quia
-                tempora facere reprehenderit.
-              </h4>
-              <p>
-                Delectus alias ut incidunt delectus nam placeat in consequatur.
-                Sed cupiditate quia ea quis. Voluptas nemo qui aut distinctio.
-                Cumque fugit earum est quam officiis numquam. Ducimus corporis
-                autem at blanditiis beatae incidunt sunt.
-              </p>
-              <p>
-                Voluptas saepe natus quidem blanditiis. Non sunt impedit
-                voluptas mollitia beatae. Qui esse molestias. Laudantium libero
-                nisi vitae debitis. Dolorem cupiditate est perferendis iusto.
-              </p>
-              <p>
-                Eum quia in. Magni quas ipsum a. Quis ex voluptatem inventore
-                sint quia modi. Numquam est aut fuga mollitia exercitationem nam
-                accusantium provident quia.
-              </p>
+              <h4>Nuestros Objetivos</h4>
+              <ul>
+                <br>
+                <li>
+                  Ser instrumento del Área de Promoción Humana para ayudar y
+                  servir a los más desprotegidos de la Diócesis sin distinción
+                  de raza, religión o política.
+                </li>
+                <li>
+                  Presentar, promover, apoyar y/o ejecutar proyectos generadores
+                  de empleo, vivienda, educación, salud, recreación y protección
+                  del medio ambiente, teniendo en cuenta la realidad
+                  socio-cultural de las comunidades.
+                </li>
+                <li>
+                  Promover, apoyar y ejecutar programas y proyectos de
+                  capacitación que brinden la posibilidad de mejorar la calidad
+                  de vida de las comunidades.
+                </li>
+                <li>
+                  Gestionar, apoyar y ejecutar programas y proyectos encaminados
+                  a promover la seguridad alimentaria y nutricional a través de
+                  la recolección de alimentos con destino al cubrimiento de
+                  necesidades de la población en general así como también
+                  procurar a través de campañas el desperdicio cero de
+                  alimentos.
+                </li>
+                <li>
+                  Gestionar, promover, apoyar y ejecutar programas y proyectos
+                  encaminados a la defensa, protección y promoción de los
+                  derechos humanos y el acceso a la justicia.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -146,7 +158,7 @@ export default {};
 }
 #about .section-header h3 {
   font-size: 38px;
-  color: #283d50;
+  color: #0c0c0c;
   text-align: center;
   font-weight: 500;
   position: relative;
@@ -156,7 +168,7 @@ export default {};
   margin: auto;
   font-size: 16px;
   padding-bottom: 60px;
-  color: #556877;
+  color: #0c0c0c;
   width: 50%;
   text-align: justify;
 }
@@ -205,7 +217,7 @@ export default {};
   font-size: 19px;
 }
 #about .about-container .icon-box .title a {
-  color: #283d50;
+  color: #0c0c0c;
 }
 #about .about-container .icon-box .description {
   margin-left: 80px;
@@ -238,5 +250,10 @@ export default {};
 #about .about-extra h4 {
   font-weight: 600;
   font-size: 24px;
+}
+
+#about .about-extra ul {
+  text-align: justify;
+  font-size: 16px;
 }
 </style>

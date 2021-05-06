@@ -7,7 +7,7 @@
       <inertia-link class="navbar-brand" :href="route('landing')">
         <img
           id="brand"
-          :src="asset('images/logo.png')"
+          :src="asset('images/logo-cp.png')"
           class="img-fluid"
           alt="Serviso"
         />
@@ -31,7 +31,7 @@
             <button
               type="button"
               @click="scrollMeTo('intro')"
-              class="btn shadow-none nav-link"
+              class="btn btn-light nav-link "
             >
               {{ __("nav.home") }}
             </button>
@@ -167,18 +167,23 @@ export default {
 #brand {
   padding: 0;
   margin: 7px 0;
-  max-height: 26px;
+  max-width: 200px;
 }
 
 .navbar-nav .nav-item a,
 .navbar-nav .nav-item button {
   display: block;
   position: relative;
-  color: #004289;
+  color: #0c0c0c;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
+
+.btn-light{
+  background-color: #028341 !important;
+}
+
 </style>

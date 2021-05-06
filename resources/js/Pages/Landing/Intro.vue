@@ -31,7 +31,7 @@ export default {};
 #intro {
   width: 100%;
   position: relative;
-  background: url("/images/intro-bg.png") center bottom no-repeat;
+  background: url("/images/caritas1.png") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
 }

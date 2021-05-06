@@ -3,7 +3,7 @@
     <section id="why-us" class="wow">
       <div class="container">
         <header class="section-header">
-          <h3>Why choose us?</h3>
+          <h3>Actividades</h3>
           <p>
             Laudem latine persequeris id sed, ex fabulas delectus quo. No vel
             partiendo abhorreant vituperatoribus.
@@ -16,12 +16,15 @@
               <div class="card wow bounceInUp">
                 <i class="fas fa-user"></i>
                 <div class="card-body">
-                  <h5 class="card-title">Corporis dolorem</h5>
+                  <h5 class="card-title">
+                    BARRIGA LLENA, CORAZÓN CONTENTO. PONLE STOP AL HAMBRE
+                  </h5>
                   <p class="card-text">
-                    Deleniti optio et nisi dolorem debitis. Aliquam nobis est
-                    temporibus sunt ab inventore officiis aut voluptatibus.
+                    Barriga llena, corazón contento. Pone stop al hambre, fue el
+                    lema utilizado en los planes de acción de comunicación y
+                    productos finales...
                   </p>
-                  <a href="#" class="readmore">Read more </a>
+                  <a href="#" class="readmore">Leer más </a>
                 </div>
               </div>
             </div>
@@ -69,7 +72,7 @@ export default {};
 <style  scoped>
 #why-us {
   padding: 60px 0;
-  background: #004a99;
+  background: #028341;
 }
 #why-us .section-header h3,
 #why-us .section-header p {
@@ -114,8 +117,8 @@ h6 {
   margin-bottom: 1.5rem !important;
 }
 #why-us .card {
-  background: #00458f;
-  border-color: #00458f;
+  background: #025228;
+  border-color: #028341;
   border-radius: 10px;
   margin: 0 15px;
   padding: 15px 0;
