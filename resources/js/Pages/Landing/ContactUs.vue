@@ -113,6 +113,7 @@ export default {};
   box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 10%);
   padding: 60px 0;
   overflow: hidden;
+  background: #799b9173;
 }
 container-fluid {
   width: 100%;
