@@ -6,6 +6,8 @@
     <Services />
     <WhyUs />
     <Portfolio />
+    <ContactUs />
+    <Footer />
   </div>
 </template>
 
@@ -16,8 +18,10 @@ import AboutUs from "./AboutUs";
 import Services from "./Services";
 import WhyUs from "./WhyUs";
 import Portfolio from "./Portfolio";
+import ContactUs from "./ContactUs";
+import Footer from "@/Layouts/Footer";
 export default {
-  components: { Navbar, Intro, AboutUs, Services, WhyUs, Portfolio },
+  components: { Navbar, Intro, AboutUs, Services, WhyUs, Portfolio, ContactUs, Footer },
 };
 </script>
 
