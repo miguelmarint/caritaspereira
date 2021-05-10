@@ -9,7 +9,7 @@
           id="brand"
           :src="asset('images/logo-cp.png')"
           class="img-fluid"
-          alt="Serviso"
+          alt="Caritas Pereira"
         />
       </inertia-link>
 

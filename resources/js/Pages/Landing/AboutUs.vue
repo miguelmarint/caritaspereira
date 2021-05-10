@@ -26,7 +26,7 @@
           <div class="row about-container">
             <div class="col-lg-6 content order-lg-1 order-2">
               <div class="icon-box wow">
-                <div class="icon"><i class="fas fa-lightbulb"></i></div>
+                <div class="icon"><i class="fas fa-hand-holding-heart"></i></div>
                 <h4 class="title"><a href="">Misión:</a></h4>
                 <p class="description">
                   Trabajamos por la cultura de la solidaridad, la justicia, la
@@ -37,7 +37,7 @@
               </div>
 
               <div class="icon-box wow">
-                <div class="icon"><i class="far fa-image"></i></div>
+                <div class="icon"><i class="fas fa-bible"></i></div>
                 <h4 class="title"><a href="">Visión:</a></h4>
                 <p class="description">
                   Ser la Pastoral Social de la región, con mayor incidencia en
@@ -49,7 +49,7 @@
               </div>
 
               <div class="icon-box wow">
-                <div class="icon"><i class="fas fa-bullseye"></i></div>
+                <div class="icon"><i class="fas fa-people-carry"></i></div>
                 <h4 class="title"><a href="">Objetivo</a></h4>
                 <p class="description">
                   Ser instrumento del Área de Promoción Humana para ayudar y
@@ -79,20 +79,17 @@
               />
             </div>
             <div class="col-lg-6 wow pt-5 pt-lg-0">
-              <h4>Valores Corporativos</h4>
-              <ul>
-                <li>Fe</li>
-                <li>Esperanza</li>
-                <li>Caridad</li>
-                <li>Justicia</li>
-                <li>Dignidad humana</li>
-                <li>solidaridad</li>
-                <li>compromiso ambiental</li>
-                <li>compromiso ético</li>
-                <li>Bien común</li>
-                <li>Responsabilidad</li>
-                <li>La verdad</li>
-              </ul>
+              <h4>Valores Corporativos</h4>  
+                <div class="ready"><i class="fas fa-praying-hands"></i> Fe.</div>
+                <div class="ready"><i class="fas fa-cross"></i> Esperanza.</div> 
+                <div class="ready"><i class="fas fa-heart"></i> Caridad</div> 
+                <div class="ready"><i class="fas fa-balance-scale"></i> Justicia.</div> 
+                <div class="ready"><i class="far fa-hand-paper"></i> Dignidad humana.</div> 
+                <div class="ready"><i class="fas fa-recycle"></i> Compromiso ambiental.</div> 
+                <div class="ready"><i class="far fa-handshake"></i> Compromiso ético.</div>
+                <div class="ready"><i class="fas fa-hand-holding-medical"></i> Bien común.</div>
+                <div class="ready"><i class="far fa-building"></i> Responsabilidad</div>
+                <div class="ready"><i class="fas fa-hand-holding-medical"></i> La verdad.</div> 
             </div>
           </div>
         </div>
@@ -252,8 +249,17 @@ export default {};
   font-size: 24px;
 }
 
+#about .ready{
+  margin-left: 2rem;
+  font-size: 16px;
+  
+}
+
 #about .about-extra ul {
   text-align: justify;
   font-size: 16px;
+  padding-left: 2rem;
+  list-style: circle;
 }
+
 </style>
