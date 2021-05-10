@@ -5,7 +5,23 @@
         <div class="section-header">
           <h3>Contáctanos</h3>
         </div>
-
+        <div class="row" style="padding: 30px">
+        <div class="col-md-5 info">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>
+            Calle 20 Nro 4-47 Pereira y Sede Banco de Alimentos : Transversal 5
+            # 6-30 Calle de las Aromas la Badea Dosquebradas
+          </p>
+        </div>
+        <div class="col-md-4 info" style="margin: 7px 30px;">
+          <i class="fas fa-envelope"></i>
+          <p>comunicaciones@caritaspereira.org</p>
+        </div>
+        <div class="col-md-3 info" style="margin: 7px -100px;">
+          <i class="fas fa-mobile-alt"></i>
+          <p>(+57)321 6467811 – (+57)3148962397 - Fijo 3154138</p>
+        </div>
+      </div>
         <div
           class="row wow fadeInUp"
           style="visibility: visible; animation-name: fadeInUp"
@@ -85,23 +101,7 @@
           </div>
         </div>
       </div>
-      <div class="row" style="padding: 30px">
-        <div class="col-md-5 info">
-          <i class="fas fa-map-marker-alt"></i>
-          <p>
-            Calle 20 Nro 4-47 Pereira y Sede Banco de Alimentos : Transversal 5
-            # 6-30 Calle de las Aromas la Badea Dosquebradas
-          </p>
-        </div>
-        <div class="col-md-4 info">
-          <i class="fas fa-envelope"></i>
-          <p>comunicaciones@caritaspereira.org</p>
-        </div>
-        <div class="col-md-3 info">
-          <i class="fas fa-mobile-alt"></i>
-          <p>(+57)321 6467811 – (+57)3148962397 - Fijo 3154138</p>
-        </div>
-      </div>
+      
     </section>
   </div>
 </template>

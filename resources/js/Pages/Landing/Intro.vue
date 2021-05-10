@@ -3,11 +3,18 @@
     <section id="intro" class="clearfix">
       <div class="container">
         <div class="intro-img">
-          <img :src="asset('images/intro-img.svg')" alt="" class="img-fluid" />
+          <img
+            :src="asset('images/imagotipo-fundacion-caritas-1.png')"
+            alt=""
+            class="img-fluid"
+            style="max-width: 1000px"
+          />
         </div>
         <div class="intro-info">
           <h2>
-            We provide<br /><span>solutions</span><br />for your business!
+            Somos la labor <br /><span
+              >social de la</span
+            ><br />Iglesia Católica
           </h2>
           <div>
             <button type="button" class="btn btn-primary mr-4">
