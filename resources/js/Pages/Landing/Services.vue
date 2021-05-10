@@ -17,10 +17,36 @@
                 <div class="icon">
                   <i class="ion-ios-analytics-outline"></i>
                 </div>
-                <h4 class="title"><a href="">PASTORAL RURAL Y DE LA TIERRA</a></h4>
+                <h4 class="title">
+                  <a href="">PASTORAL RURAL Y DE LA TIERRA</a>
+                </h4>
                 <p class="description">
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi sint occaecati cupiditate non provident
+                  La Pastoral Rural y de la tierra es un servicio de Iglesia,
+                  que busca acompañar y caminar al lado de los hombres y las
+                  mujeres del campo, asumiendo los ritmos y ciclos propios de su
+                  entorno, compartiendo el amor por la tierra, sembrando la
+                  semilla, nutriéndola y regándola en solidaridad con sus
+                  dificultades y esperanzas.
+                </p>
+                <br />
+                <h4 class="criterios">Criterios de Acción</h4>
+                <p class="description">
+                  <ul class="circle">
+                    <li>
+                      Se enmarca en el ámbito de la Pastoral Social: Su misión es
+                      llevar la Buena Nueva de Jesús resucitado a los hombres y
+                      mujeres del campo
+                    </li>
+                    <li>
+                      Tiene una profunda inspiración bíblica: La tierra es don de 
+                      Dios y lugar del encuentro con “los otros” y con “el Otro”.
+                    </li>
+                    <li>
+                      Está orientada por la Doctrina Social de la Iglesia: El 
+                      trabajo, la propiedad y, la justa distribución de los 
+                      bienes y la riqueza son temas centrales.
+                    </li>
+                  </ul>
                 </p>
               </div>
             </div>
@@ -29,7 +55,9 @@
                 <div class="icon">
                   <i class="ion-ios-bookmarks-outline"></i>
                 </div>
-                <h4 class="title"><a href="">FORMACIÓN AGENTES DE PASTORAL SOCIAL</a></h4>
+                <h4 class="title">
+                  <a href="">FORMACIÓN AGENTES DE PASTORAL SOCIAL</a>
+                </h4>
                 <p class="description">
                   Minim veniam, quis nostrud exercitation ullamco laboris nisi
                   ut aliquip ex ea commodo consequat tarad limino ata
@@ -46,7 +74,9 @@
                 <div class="icon">
                   <i class="ion-ios-paper-outline"></i>
                 </div>
-                <h4 class="title"><a href="">RESPONSABILIDAD SOCIAL EMPRESARIAL</a></h4>
+                <h4 class="title">
+                  <a href="">RESPONSABILIDAD SOCIAL EMPRESARIAL</a>
+                </h4>
                 <p class="description">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum dolore eu fugiat nulla pariatur
@@ -144,7 +174,7 @@ export default {};
   margin-left: 40px;
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 19px;
 }
 #services .title a {
   color: #111;
@@ -154,7 +184,22 @@ export default {};
   margin-left: 40px;
   line-height: 24px;
   margin-bottom: 0;
+  text-align: justify;
 }
+#services .criterios {
+  margin-left: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 19px;
+  color: #111;
+}
+
+#services ul{
+  list-style: none;
+  font-size: 16px;
+  text-align: justify;
+}
+
 .section-bg {
   background: #ecf5ff;
 }
