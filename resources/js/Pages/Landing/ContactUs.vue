@@ -5,7 +5,7 @@
         <div class="section-header">
           <h3>Contáctanos</h3>
         </div>
-        <div class="row" style="padding: 30px">
+        <div class="row" >
         <div class="col-md-5 info">
           <i class="fas fa-map-marker-alt"></i>
           <p>
@@ -13,11 +13,11 @@
             # 6-30 Calle de las Aromas la Badea Dosquebradas
           </p>
         </div>
-        <div class="col-md-4 info" style="margin: 7px 30px;">
+        <div class="col-md-4 info">
           <i class="fas fa-envelope"></i>
           <p>comunicaciones@caritaspereira.org</p>
         </div>
-        <div class="col-md-3 info" style="margin: 7px -100px;">
+        <div class="col-md-3 info">
           <i class="fas fa-mobile-alt"></i>
           <p>(+57)321 6467811 – (+57)3148962397 - Fijo 3154138</p>
         </div>
@@ -143,7 +143,7 @@ container-fluid {
 }
 #contact .info i {
   font-size: 32px;
-  color: #028341;
+  color: #025228;
   float: left;
   line-height: 1;
 }
@@ -202,7 +202,7 @@ container-fluid {
   text-align: center !important;
 }
 #contact .form button[type="submit"] {
-  background: #028341;
+  background: #025228;
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;

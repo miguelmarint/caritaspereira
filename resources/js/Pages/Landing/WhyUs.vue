@@ -3,60 +3,73 @@
     <section id="why-us" class="wow">
       <div class="container">
         <header class="section-header">
-          <h3>Actividades</h3>
+          <h3>Voluntariado</h3>
           <p>
-            Laudem latine persequeris id sed, ex fabulas delectus quo. No vel
-            partiendo abhorreant vituperatoribus.
+            Cualquier persona que desee realizar gratuitamente un trabajo
+            voluntario apoyándonos en nuestras tareas operativas o
+            administrativas, puede hacerlo con nosotros a través de los
+            siguientes modelos:
           </p>
         </header>
 
         <div class="row row-eq-height justify-content-center">
-          <div class="col-lg-4 mb-4">
+          <div class="col-lg-4 mb-2">
             <div data-aos="zoom-in">
               <div class="card wow bounceInUp">
-                <i class="fas fa-user"></i>
+                <i class="fas fa-cogs"></i>
                 <div class="card-body">
-                  <h5 class="card-title">
-                    BARRIGA LLENA, CORAZÓN CONTENTO. PONLE STOP AL HAMBRE
-                  </h5>
+                  <h5 class="card-title">Operativo</h5>
                   <p class="card-text">
-                    Barriga llena, corazón contento. Pone stop al hambre, fue el
-                    lema utilizado en los planes de acción de comunicación y
-                    productos finales...
+                    Orientado a apoyar la realización de tareas operativas tales
+                    como:
+                    <ul>
+                    <li style="text-align: left;">Clasificación de alimentos.</li> 
+                    <li style="text-align: left;">Armar paquetes o kits.</li>
+                    <li style="text-align: left;">Re-empaque de productos y/o alimentos.</li>
+                    </ul>
                   </p>
-                  <a href="#" class="readmore">Leer más </a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 mb-4">
+          <div class="col-lg-4 mb-2">
             <div data-aos="zoom-in">
               <div class="card wow bounceInUp">
-                <i class="fas fa-user"></i>
+                <i class="fas fa-handshake"></i>
                 <div class="card-body">
-                  <h5 class="card-title">Voluptates dolores</h5>
+                  <h5 class="card-title">Plan padrino</h5>
                   <p class="card-text">
-                    Voluptates nihil et quis omnis et eaque omnis sint aut.
-                    Ducimus dolorum aspernatur.
+                    Orientado a la consecución de recursos
+                    locales e internacionales que nos permita:
+                    <ul>
+                      <li style="text-align: left;">Atender de manera completa la canasta
+                      básica a todas las organizaciones.</li> 
+                      <li style="text-align: left;">Incrementar la cobertura para llegar a mas
+                      personas.</li>
+                      <li style="text-align: left;">Hacer inversiones para mejorar los
+                      procesos de recuperación de alimentos y
+                      prolongar la vida útil de los alimentos
+                      recuperados.</li>
+                    </ul>
                   </p>
-                  <a href="#" class="readmore">Read more </a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 mb-4">
+          <div class="col-lg-4 mb-2">
             <div data-aos="zoom-in">
               <div class="card wow bounceInUp">
-                <i class="fas fa-user"></i>
+                <i class="fas fa-heart"></i>
                 <div class="card-body">
-                  <h5 class="card-title">Eum ut aspernatur</h5>
+                  <h5 class="card-title">Talento</h5>
                   <p class="card-text">
-                    Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis
-                    porro in non nemo ex.
+                    Orientado a transferir conocimiento desde las diferentes profesiones o experiencia de los voluntarios formados en áreas tales como:
+                    <ul>
+                    <li style="text-align:justify;">Nutrición, Ingenierías, Administración, Contabilidad, Mercadeo, Comunicaciones, Trabajo Social, logística, labores de oficina, etc.</li>
+                  </ul>
                   </p>
-                  <a href="#" class="readmore">Read more </a>
                 </div>
               </div>
             </div>
@@ -72,11 +85,11 @@ export default {};
 <style  scoped>
 #why-us {
   padding: 60px 0;
-  background: #028341;
+  background: #799b9173;
 }
 #why-us .section-header h3,
 #why-us .section-header p {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 .section-header h3 {
   font-size: 36px;
