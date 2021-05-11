@@ -182,8 +182,11 @@ export default {
   font-weight: 500;
 }
 
-.btn-light{
-  background-color: #028341 !important;
+.btn:hover{
+  background-color: #799b9173 !important;
+}
+.nav-link:hover{
+  background-color: #799b9173 !important;
 }
 
 </style>

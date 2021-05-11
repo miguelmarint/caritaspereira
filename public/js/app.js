@@ -19394,12 +19394,37 @@ var _withId = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.withScopeId)("dat
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-202534c2");
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<footer id=\"footer\" data-v-202534c2><div class=\"footer-top\" data-v-202534c2><div class=\"container\" data-v-202534c2><div class=\"row\" data-v-202534c2><div class=\"col-sm footer-info\" data-v-202534c2><h3 data-v-202534c2>Serviso</h3><p data-v-202534c2> Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue. </p></div><div class=\"col-sm  footer-links\" data-v-202534c2><h4 data-v-202534c2>Useful Links</h4><ul data-v-202534c2><li data-v-202534c2><a href=\"\" data-v-202534c2>Home</a></li><li data-v-202534c2><a href=\"\" data-v-202534c2>About us</a></li><li data-v-202534c2><a href=\"\" data-v-202534c2>Services</a></li><li data-v-202534c2><a href=\"\" data-v-202534c2>Terms of service</a></li><li data-v-202534c2><a href=\"\" data-v-202534c2>Privacy policy</a></li></ul></div><div class=\"col-sm footer-contact\" data-v-202534c2><h4 data-v-202534c2>Contáctanos</h4><p data-v-202534c2> Cra 20 # 4-47 <br data-v-202534c2> Pereira y Sede Banco de Alimentos :<br data-v-202534c2> Transversal 5 # 6-30 Calle de las Aromas la Badea Dosquebradas <br data-v-202534c2><strong data-v-202534c2>Teléfono:</strong> (+57)321 6467811 – (+57)3148962397 - Fijo 3154138<br data-v-202534c2><strong data-v-202534c2>Correo electrónico:</strong> comunicaciones@caritaspereira.org<br data-v-202534c2></p><div class=\"social-links\" data-v-202534c2><a href=\"\" class=\"twitter\" data-v-202534c2><i class=\"fab fa-twitter\" data-v-202534c2></i></a><a href=\"\" class=\"facebook\" data-v-202534c2><i class=\"fab fa-facebook-f\" data-v-202534c2></i></a><a href=\"\" class=\"instagram\" data-v-202534c2><i class=\"fab fa-instagram\" data-v-202534c2></i></a><a href=\"\" class=\"google-plus\" data-v-202534c2><i class=\"fab fa-google-plus-g\" data-v-202534c2></i></a><a href=\"\" class=\"linkedin\" data-v-202534c2><i class=\"fab fa-linkedin-in\" data-v-202534c2></i></a></div></div></div></div></div></footer>", 1);
+var _hoisted_1 = {
+  id: "footer"
+};
+var _hoisted_2 = {
+  "class": "footer-top"
+};
+var _hoisted_3 = {
+  "class": "container"
+};
+var _hoisted_4 = {
+  "class": "row"
+};
+var _hoisted_5 = {
+  "class": "col-sm footer-info"
+};
+
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("strong", null, " Somos la labor social de la Iglesia Católica. En todo el mundo tiene una palabra que la identifica, CÁRITAS, que significa CARIDAD.")], -1
+/* HOISTED */
+);
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"col-sm footer-links\" data-v-202534c2><h4 data-v-202534c2>Useful Links</h4><ul data-v-202534c2><li data-v-202534c2><a href=\"\" data-v-202534c2>Home</a></li><li data-v-202534c2><a href=\"\" data-v-202534c2>About us</a></li><li data-v-202534c2><a href=\"\" data-v-202534c2>Services</a></li><li data-v-202534c2><a href=\"\" data-v-202534c2>Terms of service</a></li><li data-v-202534c2><a href=\"\" data-v-202534c2>Privacy policy</a></li></ul></div><div class=\"col-sm footer-contact\" data-v-202534c2><h4 data-v-202534c2>Contáctanos</h4><p data-v-202534c2> Cra 20 # 4-47 <br data-v-202534c2> Pereira y Sede Banco de Alimentos :<br data-v-202534c2> Transversal 5 # 6-30 Calle de las Aromas la Badea Dosquebradas <br data-v-202534c2><strong data-v-202534c2>Teléfono:</strong> (+57)321 6467811 – (+57)3148962397 - Fijo 3154138<br data-v-202534c2><strong data-v-202534c2>Correo electrónico:</strong> comunicaciones@caritaspereira.org<br data-v-202534c2></p><div class=\"social-links\" data-v-202534c2><a href=\"\" class=\"twitter\" data-v-202534c2><i class=\"fab fa-twitter\" data-v-202534c2></i></a><a href=\"\" class=\"facebook\" data-v-202534c2><i class=\"fab fa-facebook-f\" data-v-202534c2></i></a><a href=\"\" class=\"instagram\" data-v-202534c2><i class=\"fab fa-instagram\" data-v-202534c2></i></a><a href=\"\" class=\"google-plus\" data-v-202534c2><i class=\"fab fa-google-plus-g\" data-v-202534c2></i></a><a href=\"\" class=\"linkedin\" data-v-202534c2><i class=\"fab fa-linkedin-in\" data-v-202534c2></i></a></div></div>", 2);
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
 var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [_hoisted_1]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("footer", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+    src: _ctx.asset('images/imagotipo-fundacion-caritas-1.png'),
+    alt: ""
+  }, null, 8
+  /* PROPS */
+  , ["src"]), _hoisted_6]), _hoisted_7])])])])]);
 });
 
 /***/ }),
@@ -21192,6 +21217,29 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "section-header"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Contáctanos")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "row",
+  style: {
+    "padding": "30px"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "col-md-5 info"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
+  "class": "fas fa-map-marker-alt"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, " Calle 20 Nro 4-47 Pereira y Sede Banco de Alimentos : Transversal 5 # 6-30 Calle de las Aromas la Badea Dosquebradas ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "col-md-4 info",
+  style: {
+    "margin": "7px 30px"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
+  "class": "fas fa-envelope"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "comunicaciones@caritaspereira.org")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "col-md-3 info",
+  style: {
+    "margin": "7px -100px"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
+  "class": "fas fa-mobile-alt"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "(+57)321 6467811 – (+57)3148962397 - Fijo 3154138")])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "row wow fadeInUp",
   style: {
     "visibility": "visible",
@@ -21277,24 +21325,7 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
   type: "submit",
   title: "Send Message"
-}, " Enviar mensaje ")])])])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "row",
-  style: {
-    "padding": "30px"
-  }
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "col-md-5 info"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
-  "class": "fas fa-map-marker-alt"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, " Calle 20 Nro 4-47 Pereira y Sede Banco de Alimentos : Transversal 5 # 6-30 Calle de las Aromas la Badea Dosquebradas ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "col-md-4 info"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
-  "class": "fas fa-envelope"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "comunicaciones@caritaspereira.org")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "col-md-3 info"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
-  "class": "fas fa-mobile-alt"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "(+57)321 6467811 – (+57)3148962397 - Fijo 3154138")])])], -1
+}, " Enviar mensaje ")])])])])])])], -1
 /* HOISTED */
 );
 
@@ -21375,13 +21406,13 @@ var _hoisted_3 = {
 
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "intro-info"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h2", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" We provide"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("span", null, "solutions"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("for your business! ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h2", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Somos la labor "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("span", null, "social de la"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Iglesia Católica ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
   type: "button",
-  "class": "btn btn-primary mr-4"
-}, " Get Started "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+  "class": "btn btn-outline-dark mr-4"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("strong", null, "¿Quieres ser voluntario?")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
   type: "button",
-  "class": "btn btn-outline-primary mr-4"
-}, " Our Services ")])], -1
+  "class": "btn btn btn-outline-dark mr-4"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("strong", null, "Our Services")])])], -1
 /* HOISTED */
 );
 
@@ -21389,9 +21420,12 @@ var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 
 var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-    src: _ctx.asset('images/intro-img.svg'),
+    src: _ctx.asset('images/imagotipo-fundacion-caritas-1.png'),
     alt: "",
-    "class": "img-fluid"
+    "class": "img-fluid",
+    style: {
+      "max-width": "1000px"
+    }
   }, null, 8
   /* PROPS */
   , ["src"])]), _hoisted_4])])]);
@@ -21445,12 +21479,80 @@ var _withId = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.withScopeId)("dat
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-66bcffc2");
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section id=\"services\" class=\"section-bg\" data-v-66bcffc2><div class=\"container\" data-v-66bcffc2><header class=\"section-header\" data-v-66bcffc2><h3 data-v-66bcffc2>Programas</h3><p data-v-66bcffc2> Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus. </p></header><div data-aos=\"fade-up\" data-v-66bcffc2><div class=\"row\" data-v-66bcffc2><div class=\"col-md-6 col-lg-5 offset-lg-1 wow bounceInUp\" data-v-66bcffc2><div class=\"box\" data-v-66bcffc2><div class=\"icon\" data-v-66bcffc2><i class=\"ion-ios-analytics-outline\" data-v-66bcffc2></i></div><h4 class=\"title\" data-v-66bcffc2><a href=\"\" data-v-66bcffc2>PASTORAL RURAL Y DE LA TIERRA</a></h4><p class=\"description\" data-v-66bcffc2> La Pastoral Rural y de la tierra es un servicio de Iglesia, que busca acompañar y caminar al lado de los hombres y las mujeres del campo, asumiendo los ritmos y ciclos propios de su entorno, compartiendo el amor por la tierra, sembrando la semilla, nutriéndola y regándola en solidaridad con sus dificultades y esperanzas. </p><br data-v-66bcffc2><h4 class=\"criterios\" data-v-66bcffc2>Criterios de Acción</h4><p class=\"description\" data-v-66bcffc2><ul class=\"circle\" data-v-66bcffc2><li data-v-66bcffc2> Se enmarca en el ámbito de la Pastoral Social: Su misión es llevar la Buena Nueva de Jesús resucitado a los hombres y mujeres del campo </li><li data-v-66bcffc2> Tiene una profunda inspiración bíblica: La tierra es don de Dios y lugar del encuentro con “los otros” y con “el Otro”. </li><li data-v-66bcffc2> Está orientada por la Doctrina Social de la Iglesia: El trabajo, la propiedad y, la justa distribución de los bienes y la riqueza son temas centrales. </li></ul></p></div></div><div class=\"col-md-6 col-lg-5 wow bounceInUp\" data-v-66bcffc2><div class=\"box\" data-v-66bcffc2><div class=\"icon\" data-v-66bcffc2><i class=\"ion-ios-bookmarks-outline\" data-v-66bcffc2></i></div><h4 class=\"title\" data-v-66bcffc2><a href=\"\" data-v-66bcffc2>FORMACIÓN AGENTES DE PASTORAL SOCIAL</a></h4><p class=\"description\" data-v-66bcffc2> Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata </p></div></div></div></div><div data-aos=\"fade-up\" data-v-66bcffc2><div class=\"row\" data-v-66bcffc2><div class=\"col-md-6 col-lg-5 offset-lg-1 wow bounceInUp\" data-v-66bcffc2><div class=\"box\" data-v-66bcffc2><div class=\"icon\" data-v-66bcffc2><i class=\"ion-ios-paper-outline\" data-v-66bcffc2></i></div><h4 class=\"title\" data-v-66bcffc2><a href=\"\" data-v-66bcffc2>RESPONSABILIDAD SOCIAL EMPRESARIAL</a></h4><p class=\"description\" data-v-66bcffc2> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur </p></div></div><div class=\"col-md-6 col-lg-5 wow bounceInUp\" data-v-66bcffc2><div class=\"box\" data-v-66bcffc2><div class=\"icon\" data-v-66bcffc2><i class=\"ion-ios-speedometer-outline\" data-v-66bcffc2></i></div><h4 class=\"title\" data-v-66bcffc2><a href=\"\" data-v-66bcffc2>ACCIÓN VOLUNTARIA</a></h4><p class=\"description\" data-v-66bcffc2> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p></div></div></div></div><div data-aos=\"fade-up\" data-v-66bcffc2><div class=\"row\" data-v-66bcffc2><div class=\"col-md-6 col-lg-5 offset-lg-1 wow bounceInUp\" data-v-66bcffc2><div class=\"box\" data-v-66bcffc2><div class=\"icon\" data-v-66bcffc2><i class=\"ion-ios-world-outline\" data-v-66bcffc2></i></div><h4 class=\"title\" data-v-66bcffc2><a href=\"\" data-v-66bcffc2>BANCO DE ALIMENTOS</a></h4><p class=\"description\" data-v-66bcffc2> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque </p></div></div></div></div></div></section>", 1);
+var _hoisted_1 = {
+  id: "services",
+  "class": "section-bg"
+};
+var _hoisted_2 = {
+  "class": "container"
+};
+
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("header", {
+  "class": "section-header"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Programas"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, " Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus. ")], -1
+/* HOISTED */
+);
+
+var _hoisted_4 = {
+  "data-aos": "fade-up"
+};
+var _hoisted_5 = {
+  "class": "row"
+};
+
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"col-md-6 col-lg-5 offset-lg-1 wow bounceInUp\" data-v-66bcffc2><div class=\"box\" data-v-66bcffc2><div class=\"img\" data-v-66bcffc2><img src=\"images/logo-cp.png\" alt=\"\" data-v-66bcffc2></div><br data-v-66bcffc2><div class=\"icon\" data-v-66bcffc2><i class=\"ion-ios-analytics-outline\" data-v-66bcffc2></i></div><h4 class=\"title\" data-v-66bcffc2><a href=\"\" data-v-66bcffc2>PASTORAL RURAL Y DE LA TIERRA</a></h4><p class=\"description\" data-v-66bcffc2> La Pastoral Rural y de la tierra es un servicio de Iglesia, que busca acompañar y caminar al lado de los hombres y las mujeres del campo, asumiendo los ritmos y ciclos propios de su entorno, compartiendo el amor por la tierra, sembrando la semilla, nutriéndola y regándola en solidaridad con sus dificultades y esperanzas. </p><br data-v-66bcffc2><h4 class=\"criterios\" data-v-66bcffc2>Criterios de Acción</h4><ul type=\"circle\" data-v-66bcffc2><li data-v-66bcffc2> Se enmarca en el ámbito de la Pastoral Social: Su misión es llevar la Buena Nueva de Jesús resucitado a los hombres y mujeres del campo </li><li data-v-66bcffc2> Tiene una profunda inspiración bíblica: La tierra es don de Dios y lugar del encuentro con “los otros” y con “el Otro”. </li><li data-v-66bcffc2> Está orientada por la Doctrina Social de la Iglesia: El trabajo, la propiedad y, la justa distribución de los bienes y la riqueza son temas centrales. </li></ul></div></div>", 1);
+
+var _hoisted_7 = {
+  "class": "col-md-6 col-lg-5 wow bounceInUp"
+};
+var _hoisted_8 = {
+  "class": "box"
+};
+
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"img\" data-v-66bcffc2><img src=\"images/logo-cp.png\" alt=\"\" data-v-66bcffc2></div><br data-v-66bcffc2><div class=\"icon\" data-v-66bcffc2><i class=\"ion-ios-bookmarks-outline\" data-v-66bcffc2></i></div><h4 class=\"title\" data-v-66bcffc2><a href=\"\" data-v-66bcffc2>RESPONSABILIDAD SOCIAL EMPRESARIAL</a></h4><p class=\"description\" data-v-66bcffc2> Buscamos a través de esta iniciativa apoyar lideres emprendedores en la creación de empresas eficientes e integrales que aporten valor e implementen un modelo empresarial solido basado en le trabajo productivo, el esfuerzo y el liderazgo con principios y valores. </p>", 5);
+
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" En Cáritas buscamos hombres y mujeres con un proyecto empresarial innovador, y le ofrecemos los recursos formativos,económicos y estructurales necesarios para convertir sus sueños en realidad ");
+
+var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br", null, null, -1
+/* HOISTED */
+);
+
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "proyection"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("strong", null, "NUESTRA PROYECCIÓN")])], -1
+/* HOISTED */
+);
+
+var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "img"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: "images/logo-cp.png",
+  alt: ""
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br", null, null, -1
+/* HOISTED */
+);
+
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div data-aos=\"fade-up\" data-v-66bcffc2><div class=\"row\" data-v-66bcffc2><div class=\"col-md-6 col-lg-5 offset-lg-1 wow bounceInUp\" data-v-66bcffc2><div class=\"box\" data-v-66bcffc2><div class=\"icon\" data-v-66bcffc2><i class=\"ion-ios-paper-outline\" data-v-66bcffc2></i></div><h4 class=\"title\" data-v-66bcffc2><a href=\"\" data-v-66bcffc2>RESPONSABILIDAD SOCIAL EMPRESARIAL</a></h4><p data-v-66bcffc2> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur </p></div></div><div class=\"col-md-6 col-lg-5 wow bounceInUp\" data-v-66bcffc2><div class=\"box\" data-v-66bcffc2><div class=\"icon\" data-v-66bcffc2><i class=\"ion-ios-speedometer-outline\" data-v-66bcffc2></i></div><h4 class=\"title\" data-v-66bcffc2><a href=\"\" data-v-66bcffc2>ACCIÓN VOLUNTARIA</a></h4><p class=\"description\" data-v-66bcffc2> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p></div></div></div></div><div data-aos=\"fade-up\" data-v-66bcffc2><div class=\"row\" data-v-66bcffc2><div class=\"col-md-6 col-lg-5 offset-lg-1 wow bounceInUp\" data-v-66bcffc2><div class=\"box\" data-v-66bcffc2><div class=\"icon\" data-v-66bcffc2><i class=\"ion-ios-world-outline\" data-v-66bcffc2></i></div><h4 class=\"title\" data-v-66bcffc2><a href=\"\" data-v-66bcffc2>BANCO DE ALIMENTOS</a></h4><p class=\"description\" data-v-66bcffc2> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque </p></div></div></div></div>", 2);
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
 var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [_hoisted_1]);
+  var _component_P = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("P");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_5, [_hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_P, {
+    "class": "description"
+  }, {
+    "default": _withId(function () {
+      return [_hoisted_14];
+    }),
+    _: 1
+    /* STABLE */
+
+  }), _hoisted_15, _hoisted_16, _hoisted_17, _hoisted_18])])])]), _hoisted_19])])]);
 });
 
 /***/ }),
@@ -27503,7 +27605,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#footer[data-v-202534c2] {\r\n    background:  #ffffff;\r\n    padding: 0 0 30px 0;\r\n    color: #eee;\r\n    font-size: 14px;\n}\n#footer .footer-top[data-v-202534c2] {\r\n    background: #028341;\r\n    padding: 60px 0 30px 0;\n}\n.row[data-v-202534c2] {\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    margin-right: -15px;\r\n    margin-left: -15px;\n}\n#footer .footer-top .footer-info[data-v-202534c2] {\r\n    margin-bottom: 30px;\n}\n#footer .footer-top .footer-links[data-v-202534c2] {\r\n    margin-bottom: 30px;\n}\n#footer .footer-top .footer-contact[data-v-202534c2] {\r\n    margin-bottom: 30px;\n}\n#footer .footer-top .footer-info h3[data-v-202534c2] {\r\n    font-size: 34px;\r\n    margin: 0 0 20px 0;\r\n    padding: 2px 0 2px 0;\r\n    line-height: 1;\r\n    font-family: 'Arial Narrow';\r\n    color: #fff;\r\n    font-weight: 400;\r\n    letter-spacing: 3px;\r\n    text-transform: uppercase;\n}\n#footer .footer-top .footer-info p[data-v-202534c2] {\r\n    font-size: 13px;\r\n    line-height: 24px;\r\n    margin-bottom: 0;\r\n    font-family: 'Arial Narrow';\r\n    color: #ecf5ff;\n}\n#footer .footer-top h4[data-v-202534c2] {\r\n    font-size: 14px;\r\n    font-weight: bold;\r\n    color: #fff;\r\n    text-transform: uppercase;\r\n    position: relative;\r\n    padding-bottom: 10px;\n}\n#footer .footer-top .footer-links ul[data-v-202534c2] {\r\n    list-style: none;\r\n    padding: 0;\r\n    margin: 0;\n}\n#footer .footer-top .footer-links ul li[data-v-202534c2]:first-child {\r\n    padding-top: 0;\n}\n#footer .footer-top .footer-links ul li[data-v-202534c2] {\r\n    padding: 8px 0;\n}\n#footer .footer-top .footer-links ul a[data-v-202534c2] {\r\n    color: #ecf5ff;\n}\n#footer .footer-top .footer-contact p[data-v-202534c2] {\r\n    line-height: 26px;\n}\n#footer .footer-top .social-links a[data-v-202534c2] {\r\n    font-size: 18px;\r\n    display: inline-block;\r\n    background: #ffffff;\r\n    color: #028341;\r\n    line-height: 1;\r\n    padding: 8px 0;\r\n    margin-right: 4px;\r\n    border-radius: 50%;\r\n    text-align: center;\r\n    width: 36px;\r\n    height: 36px;\r\n    transition: 0.3s;\n}\n.fa[data-v-202534c2] {\r\n    display: inline-block;\r\n    font: normal normal normal 14px/1 FontAwesome;\r\n    font-size: inherit;\r\n    text-rendering: auto;\r\n    -webkit-font-smoothing: antialiased;\n}\nb[data-v-202534c2], strong[data-v-202534c2] {\r\n    font-weight: bolder;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#footer[data-v-202534c2] {\r\n  background: #ffffff;\r\n  padding: 0 0 30px 0;\r\n  color: #eee;\r\n  font-size: 14px;\n}\n#footer .footer-top[data-v-202534c2] {\r\n  background: #028341;\r\n  padding: 60px 0 30px 0;\n}\n.row[data-v-202534c2] {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  margin-right: -15px;\r\n  margin-left: -15px;\n}\n#footer .footer-top .footer-info[data-v-202534c2] {\r\n  margin-bottom: 30px;\n}\n#footer .footer-top .footer-links[data-v-202534c2] {\r\n  margin-bottom: 30px;\n}\n#footer .footer-top .footer-contact[data-v-202534c2] {\r\n  margin-bottom: 30px;\n}\n#footer .footer-top .footer-info h3[data-v-202534c2] {\r\n  font-size: 34px;\r\n  margin: 0 0 20px 0;\r\n  padding: 2px 0 2px 0;\r\n  line-height: 1;\r\n  font-family: \"Arial Narrow\";\r\n  color: #fff;\r\n  font-weight: 400;\r\n  letter-spacing: 3px;\r\n  text-transform: uppercase;\n}\n#footer .footer-top .footer-info p[data-v-202534c2] {\r\n  font-size: 20px;\r\n  line-height: 24px;\r\n  margin-bottom: 0;\r\n  font-family: \"Arial Narrow\";\r\n  color: #ecf5ff;\r\n  text-align: justify;\n}\n#footer .footer-top h4[data-v-202534c2] {\r\n  font-size: 14px;\r\n  font-weight: bold;\r\n  color: #fff;\r\n  text-transform: uppercase;\r\n  position: relative;\r\n  padding-bottom: 10px;\n}\n#footer .footer-top .footer-links ul[data-v-202534c2] {\r\n  list-style: none;\r\n  padding: 0;\r\n  margin: 0;\n}\n#footer .footer-top .footer-links ul li[data-v-202534c2]:first-child {\r\n  padding-top: 0;\n}\n#footer .footer-top .footer-links ul li[data-v-202534c2] {\r\n  padding: 8px 0;\n}\n#footer .footer-top .footer-links ul a[data-v-202534c2] {\r\n  color: #ecf5ff;\n}\n#footer .footer-top .footer-contact p[data-v-202534c2] {\r\n  line-height: 26px;\n}\n#footer .footer-top .social-links a[data-v-202534c2] {\r\n  font-size: 18px;\r\n  display: inline-block;\r\n  background: #ffffff;\r\n  color: #028341;\r\n  line-height: 1;\r\n  padding: 8px 0;\r\n  margin-right: 4px;\r\n  border-radius: 50%;\r\n  text-align: center;\r\n  width: 36px;\r\n  height: 36px;\r\n  transition: 0.3s;\n}\n.fa[data-v-202534c2] {\r\n  display: inline-block;\r\n  font: normal normal normal 14px/1 FontAwesome;\r\n  font-size: inherit;\r\n  text-rendering: auto;\r\n  -webkit-font-smoothing: antialiased;\n}\nb[data-v-202534c2],\r\nstrong[data-v-202534c2] {\r\n  font-weight: bolder;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -27527,7 +27629,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#brand[data-v-e2c0ecd8] {\r\n  padding: 0;\r\n  margin: 7px 0;\r\n  max-width: 200px;\n}\n.navbar-nav .nav-item a[data-v-e2c0ecd8],\r\n.navbar-nav .nav-item button[data-v-e2c0ecd8] {\r\n  display: block;\r\n  position: relative;\r\n  color: #0c0c0c;\r\n  padding: 10px 15px;\r\n  transition: 0.3s;\r\n  font-size: 16px;\r\n  font-family: \"Montserrat\", sans-serif;\r\n  font-weight: 500;\n}\n.btn-light[data-v-e2c0ecd8]{\r\n  background-color: #028341 !important;\n}\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#brand[data-v-e2c0ecd8] {\r\n  padding: 0;\r\n  margin: 7px 0;\r\n  max-width: 200px;\n}\n.navbar-nav .nav-item a[data-v-e2c0ecd8],\r\n.navbar-nav .nav-item button[data-v-e2c0ecd8] {\r\n  display: block;\r\n  position: relative;\r\n  color: #0c0c0c;\r\n  padding: 10px 15px;\r\n  transition: 0.3s;\r\n  font-size: 16px;\r\n  font-family: \"Montserrat\", sans-serif;\r\n  font-weight: 500;\n}\n.btn[data-v-e2c0ecd8]:hover{\r\n  background-color: #799b9173 !important;\n}\n.nav-link[data-v-e2c0ecd8]:hover{\r\n  background-color: #799b9173 !important;\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -27623,7 +27725,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#intro[data-v-3937010a] {\r\n  width: 100%;\r\n  position: relative;\r\n  background: url(\"/images/caritas1.png\") center bottom no-repeat;\r\n  background-size: cover;\r\n  padding: 200px 0 120px 0;\n}\n#intro .intro-img[data-v-3937010a] {\r\n  width: 50%;\r\n  float: right;\n}\n#intro .intro-info[data-v-3937010a] {\r\n  width: 50%;\r\n  float: left;\n}\n#intro .intro-info h2[data-v-3937010a] {\r\n  color: #fff;\r\n  margin-bottom: 40px;\r\n  font-size: 48px;\r\n  font-weight: 700;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#intro[data-v-3937010a] {\r\n  width: 100%;\r\n  position: relative;\r\n  background: url(\"/images/caritas1.png\") center bottom no-repeat;\r\n  background-size: cover;\r\n  padding: 200px 0 120px 0;\n}\n#intro .intro-img[data-v-3937010a] {\r\n  width: 50%;\r\n  float: right;\n}\n#intro .intro-info[data-v-3937010a] {\r\n  width: 50%;\r\n  float: left;\n}\n#intro .intro-info h2[data-v-3937010a] {\r\n  color: #fff;\r\n  margin-bottom: 40px;\r\n  font-size: 48px;\r\n  font-weight: 700;\n}\n#intro .btn[data-v-3937010a]{\r\n  font-size: 16px;\r\n  color: rgb(224, 209, 209); \r\n  border-width: 1.5px;\n}\n#intro .btn-outline-dark[data-v-3937010a]:hover{\r\n  background: #799b9173;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -27671,7 +27773,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#services[data-v-66bcffc2] {\r\n  padding: 60px 0 40px 0;\r\n  box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);\n}\n#services .section-header h3[data-v-66bcffc2] {\r\n  font-size: 36px;\r\n  color: #0c0c0c;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#services .section-header p[data-v-66bcffc2] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #556877;\r\n  width: 50%;\n}\n#services .row[data-v-66bcffc2] {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  margin-right: -15px;\r\n  margin-left: -15px;\n}\n#services .box[data-v-66bcffc2] {\r\n  padding: 30px;\r\n  position: relative;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n  margin: 0 10px 40px 10px;\r\n  background: #fff;\r\n  box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);\r\n  transition: all 0.3s ease-in-out;\n}\n#services .icon[data-v-66bcffc2] {\r\n  position: absolute;\r\n  left: -10px;\r\n  top: calc(50% - 32px);\n}\n#services .icon i[data-v-66bcffc2] {\r\n  font-size: 64px;\r\n  line-height: 1;\r\n  transition: 0.5s;\n}\n#services .title[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\n}\n#services .title a[data-v-66bcffc2] {\r\n  color: #111;\n}\n#services .description[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  margin-left: 40px;\r\n  line-height: 24px;\r\n  margin-bottom: 0;\r\n  text-align: justify;\n}\n#services .criterios[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\r\n  color: #111;\n}\n#services ul[data-v-66bcffc2]{\r\n  list-style: none;\r\n  font-size: 16px;\r\n  text-align: justify;\n}\n.section-bg[data-v-66bcffc2] {\r\n  background: #ecf5ff;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#services[data-v-66bcffc2] {\r\n  padding: 60px 0 40px 0;\r\n  box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);\n}\n#services .section-header h3[data-v-66bcffc2] {\r\n  font-size: 36px;\r\n  color: #0c0c0c;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#services .section-header p[data-v-66bcffc2] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #556877;\r\n  width: 50%;\n}\n#services .row[data-v-66bcffc2] {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  margin-right: -15px;\r\n  margin-left: -15px;\n}\n#services .box[data-v-66bcffc2] {\r\n  padding: 30px;\r\n  position: relative;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n  margin: 0 10px 40px 10px;\r\n  background: #f4f7f673;\r\n  box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);\r\n  transition: all 0.3s ease-in-out;\n}\n#services .img[data-v-66bcffc2] {\r\n  margin-left: 2.5rem;\r\n  box-shadow: 3px 3px black;\n}\n#services .icon[data-v-66bcffc2] {\r\n  position: absolute;\r\n  left: -10px;\r\n  top: calc(50% - 32px);\n}\n#services .icon i[data-v-66bcffc2] {\r\n  font-size: 64px;\r\n  line-height: 1;\r\n  transition: 0.5s;\n}\n#services .title[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\n}\n#services .title a[data-v-66bcffc2] {\r\n  color: #111;\n}\n#services .description[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  margin-left: 40px;\r\n  line-height: 24px;\r\n  margin-bottom: 0;\r\n  text-align: justify;\n}\n#services .criterios[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\r\n  color: #111;\n}\n#services .proyection[data-v-66bcffc2]{\r\n  background: #028341;\r\n  margin-left: 2.5em;\r\n  text-align: center;\n}\n#services ul[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  text-align: justify;\n}\n.section-bg[data-v-66bcffc2] {\r\n  background: #799b9173;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

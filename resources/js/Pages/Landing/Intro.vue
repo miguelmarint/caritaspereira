@@ -17,11 +17,11 @@
             ><br />Iglesia Católica
           </h2>
           <div>
-            <button type="button" class="btn btn-primary mr-4">
-              Get Started
+            <button type="button" class="btn btn-outline-dark mr-4" >
+              <strong>¿Quieres ser voluntario?</strong>
             </button>
-            <button type="button" class="btn btn-outline-primary mr-4">
-              Our Services
+            <button type="button" class="btn btn btn-outline-dark mr-4">
+              <strong>Our Services</strong>
             </button>
           </div>
         </div>
@@ -58,5 +58,15 @@ export default {};
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
+}
+
+#intro .btn{
+  font-size: 16px;
+  color: rgb(224, 209, 209); 
+  border-width: 1.5px;
+}
+
+#intro .btn-outline-dark:hover{
+  background: #799b9173;
 }
 </style>
