@@ -70,7 +70,7 @@ export default {};
   font-size: 14px;
 }
 #footer .footer-top {
-  background: #028341;
+  background: #025228;
   padding: 60px 0 30px 0;
 }
 .row {

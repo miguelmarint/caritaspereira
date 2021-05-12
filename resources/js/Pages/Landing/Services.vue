@@ -12,7 +12,7 @@
 
         <div data-aos="fade-up">
           <div class="row">
-            <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp">
+            <div class="col-md-6 col-lg-6">
               <div class="box">
                 <div class="img">
                   <img src="images/logo-cp.png" alt="" />
@@ -33,26 +33,40 @@
                   dificultades y esperanzas.
                 </p>
                 <br />
-                <h4 class="criterios">Criterios de Acción</h4>
-                <ul type="circle">
-                  <li>
-                    Se enmarca en el ámbito de la Pastoral Social: Su misión es
-                    llevar la Buena Nueva de Jesús resucitado a los hombres y
-                    mujeres del campo
-                  </li>
-                  <li>
-                    Tiene una profunda inspiración bíblica: La tierra es don de
-                    Dios y lugar del encuentro con “los otros” y con “el Otro”.
-                  </li>
-                  <li>
-                    Está orientada por la Doctrina Social de la Iglesia: El
-                    trabajo, la propiedad y, la justa distribución de los bienes
-                    y la riqueza son temas centrales.
-                  </li>
-                </ul>
+                <p>
+                  <a
+                    class="btn btn-success"
+                    data-toggle="collapse"
+                    href="#collapseCriterios"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseCriterios"
+                    ><i class="fas fa-sign-in-alt"></i> Leer más</a
+                  >
+                </p>
+                <div id="collapseCriterios" class="collapse">
+                  <h4 class="criterios">Criterios de Acción</h4>
+                  <ul type="circle">
+                    <li>
+                      Se enmarca en el ámbito de la Pastoral Social: Su misión
+                      es llevar la Buena Nueva de Jesús resucitado a los hombres
+                      y mujeres del campo
+                    </li>
+                    <li>
+                      Tiene una profunda inspiración bíblica: La tierra es don
+                      de Dios y lugar del encuentro con “los otros” y con “el
+                      Otro”.
+                    </li>
+                    <li>
+                      Está orientada por la Doctrina Social de la Iglesia: El
+                      trabajo, la propiedad y, la justa distribución de los
+                      bienes y la riqueza son temas centrales.
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-5 wow bounceInUp">
+            <div class="col-md-6 col-lg-6">
               <div class="box">
                 <div class="img">
                   <img src="images/logo-cp.png" alt="" />
@@ -69,19 +83,34 @@
                   emprendedores en la creación de empresas eficientes e
                   integrales que aporten valor e implementen un modelo
                   empresarial solido basado en le trabajo productivo, el
-                  esfuerzo y el liderazgo con principios y valores. 
+                  esfuerzo y el liderazgo con principios y valores.
                 </p>
-                <P class="description">
-                  En Cáritas buscamos hombres y mujeres con un proyecto empresarial
-                  innovador, y le ofrecemos los recursos formativos,económicos y
-                  estructurales necesarios para convertir sus sueños en realidad
-                </P>
-                <br>
-                <div class="proyection">
-                  <p><strong>NUESTRA PROYECCIÓN</strong></p>
-                </div>
-                <div class="img">
-                  <img src="images/logo-cp.png" alt="" />
+                <br />
+                <p>
+                  <a
+                    class="btn btn-success"
+                    data-toggle="collapse"
+                    href="#collapseDescription"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseDescription"
+                    ><i class="fas fa-sign-in-alt"></i> Leer más</a
+                  >
+                </p>
+                <div id="collapseDescription" class="collapse">
+                  <P class="description">
+                    En Cáritas buscamos hombres y mujeres con un proyecto
+                    empresarial innovador, y le ofrecemos los recursos
+                    formativos,económicos y estructurales necesarios para
+                    convertir sus sueños en realidad
+                  </P>
+                  <br />
+                  <div class="proyection">
+                    <p><strong>NUESTRA PROYECCIÓN</strong></p>
+                  </div>
+                  <div class="img">
+                    <img src="images/logo-cp.png" alt="" />
+                  </div>
                 </div>
                 <br />
               </div>
@@ -91,30 +120,78 @@
 
         <div data-aos="fade-up">
           <div class="row">
-            <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp">
+            <div class="col-md-6 col-lg-6">
               <div class="box">
+                <div class="img">
+                  <img src="images/logo-cp.png" alt="" />
+                </div>
+                <br>
                 <div class="icon">
                   <i class="ion-ios-paper-outline"></i>
                 </div>
                 <h4 class="title">
-                  <a href="">RESPONSABILIDAD SOCIAL EMPRESARIAL</a>
+                  <a href="">BANCO DE ALIMENTOS</a>
                 </h4>
+                <p class="description">
+                  El Banco de Alimentos, de la Fundación Cáritas Diocesana de
+                  Pereira, ubicada en La Calle Las Aromas, en La Badea,
+                  Dosquebradas, Risaralda, es una fundación encargada de
+                  recolectar, seleccionar y aprovechar alimentos sobre madurados
+                  o con una pronta fecha de caducidad para mitigar el
+                  desperdicio en pro de beneficiar distintas fundaciones u
+                  organizaciones de Pereira y Risaralda. 
+                  </p>
+                   <br>
                 <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur
+                  <a
+                    class="btn btn-success"
+                    data-toggle="collapse"
+                    href="#collapseBanco"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseBanco"
+                    ><i class="fas fa-sign-in-alt"></i> Leer más</a
+                  >
                 </p>
+                <div id="collapseBanco" class="collapse">
+                  <p class="description">
+                    Todo esto, a través de
+                    campañas y programas que fomentan la seguridad alimentaria,
+                    que son una realidad gracias a los voluntarios y a la pastoral
+                    social que ofrecen su trabajo al servicio de las comunidades.
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-5 wow bounceInUp">
+            <div class="col-md-6 col-lg-6">
               <div class="box">
+                <div class="img">
+                  <img src="images/logo-cp.png" alt="" />
+                </div>
+                <br>
                 <div class="icon">
                   <i class="ion-ios-speedometer-outline"></i>
                 </div>
-                <h4 class="title"><a href="">ACCIÓN VOLUNTARIA</a></h4>
+                <h4 class="title">
+                  <a href="">FORMACIÓN AGENTES DE PASTORAL SOCIAL</a>
+                </h4>
                 <p class="description">
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum
+                  EHemos contado con 71 personas que han dado su SI a esta
+                  propuesta de ir al más necesitado de una manera integral,
+                  impactando directamente en sus personas y comunidades.
                 </p>
+                <br>
+                <h4 class="title">En alianza con Ministerio de Incidencia Política y Opinión Pública</h4>
+                <p>
+                  <a
+                    class="btn btn-success"
+                    data-toggle="collapse"
+                    href="#collapseTransform"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseTransform"
+                    ><i class="fas fa-sign-in-alt"></i> Leer más</a>
+                  </p>
               </div>
             </div>
           </div>
@@ -122,16 +199,47 @@
 
         <div data-aos="fade-up">
           <div class="row">
-            <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp">
+            <div class="col-md-6 col-lg-6">
               <div class="box">
+                <div class="img">
+                  <img src="images/logo-cp.png" alt="" />
+                </div>
+                <br>
                 <div class="icon">
                   <i class="ion-ios-world-outline"></i>
                 </div>
-                <h4 class="title"><a href="">BANCO DE ALIMENTOS</a></h4>
-                <p class="description">
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum deleniti atque
-                </p>
+                <h4 class="title"><a href="">ACCIÓN VOLUNTARIA</a></h4>
+                <div class="acción">
+                  <p class="description">
+                    UNA PROPUESTA PARA CONSTRUIR CONOCIMIENTO Y DAR OPORTUNIDADES
+                  </p>
+                  <br>
+                   <p>
+                  <a
+                    class="btn btn-success"
+                    data-toggle="collapse"
+                    href="#collapseTransform"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseTransform"
+                    ><i class="fas fa-sign-in-alt"></i> Leer más</a>
+                  </p>
+                <div id="collapseTransform" class="collapse">
+                    <h4 class="title">Transformación al Voluntariado</h4>
+                  <p>Personas</p>
+                    <ul>
+                      <li>hombres y 37 mujeres donaron 16.680 horas de Voluntariado.</li>
+                    </ul>
+                  <p>Esfuerzos</p>
+                    <ul>
+                      <li>Compartir saberes engrandecen una labor.</li>
+                    </ul>
+                  <p>Resultado</p>
+                    <ul>
+                      <li>6 meses de pequeños esfuerzos con grandes resultados.</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -167,10 +275,8 @@ export default {};
 }
 
 #services .row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  border-radius: 10px;
+  background: #799b9173;
 }
 
 #services .box {
@@ -179,7 +285,7 @@ export default {};
   overflow: hidden;
   border-radius: 10px;
   margin: 0 10px 40px 10px;
-  background: #f4f7f673;
+  background: #799b9173;
   box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
   transition: all 0.3s ease-in-out;
 }
@@ -214,6 +320,13 @@ export default {};
   margin-bottom: 0;
   text-align: justify;
 }
+
+#services .btn {
+  margin-inline: 10px;
+  margin-left: 3em;
+  background: #028341;
+}
+
 #services .criterios {
   margin-left: 40px;
   font-weight: 700;
@@ -222,7 +335,7 @@ export default {};
   color: #111;
 }
 
-#services .proyection{
+#services .proyection {
   background: #028341;
   margin-left: 2.5em;
   text-align: center;
@@ -232,8 +345,11 @@ export default {};
   font-size: 16px;
   text-align: justify;
 }
+.accion{
+  background: greenyellow;
+}
 
 .section-bg {
-  background: #799b9173;
+  background: #e7eeec73;
 }
 </style>
