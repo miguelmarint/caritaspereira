@@ -15,7 +15,7 @@
             <div class="col-md-6 col-lg-6">
               <div class="box">
                 <div class="img">
-                  <img src="images/logo-cp.png" alt="" />
+                  <img src="images/pastoral.jpg" alt="" />
                 </div>
                 <br />
                 <div class="icon">
@@ -69,7 +69,7 @@
             <div class="col-md-6 col-lg-6">
               <div class="box">
                 <div class="img">
-                  <img src="images/logo-cp.png" alt="" />
+                  <img src="images/responsabilidad-caritas.jpg" alt="" />
                 </div>
                 <br />
                 <div class="icon">
@@ -166,7 +166,7 @@
             <div class="col-md-6 col-lg-6">
               <div class="box">
                 <div class="img">
-                  <img src="images/logo-cp.png" alt="" />
+                  <img src="images/formacion-ag.jpg" alt="" />
                 </div>
                 <br>
                 <div class="icon">
@@ -276,7 +276,7 @@ export default {};
 
 #services .row {
   border-radius: 10px;
-  background: #799b9173;
+  background: #ffffff;
 }
 
 #services .box {
@@ -285,14 +285,13 @@ export default {};
   overflow: hidden;
   border-radius: 10px;
   margin: 0 10px 40px 10px;
-  background: #799b9173;
+  background: #ffffff;
   box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
   transition: all 0.3s ease-in-out;
 }
 
 #services .img {
   margin-left: 2.5rem;
-  box-shadow: 3px 3px black;
 }
 #services .icon {
   position: absolute;
@@ -324,7 +323,7 @@ export default {};
 #services .btn {
   margin-inline: 10px;
   margin-left: 3em;
-  background: #028341;
+  background: #025228;
 }
 
 #services .criterios {
@@ -350,6 +349,6 @@ export default {};
 }
 
 .section-bg {
-  background: #e7eeec73;
+  background: #799b9173;
 }
 </style>

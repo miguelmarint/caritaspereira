@@ -97,7 +97,7 @@
           <div class="row about-extra">
             <div class="col-lg-6 wow order-1 order-lg-2">
               <img
-                :src="asset('images/about-extra-2.svg')"
+                :src="asset('images/nosotros-caritas.jpg')"
                 class="img-fluid"
                 alt=""
               />

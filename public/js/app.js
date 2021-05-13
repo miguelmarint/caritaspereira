@@ -17841,6 +17841,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Portfolio__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Portfolio */ "./resources/js/Pages/Landing/Portfolio.vue");
 /* harmony import */ var _ContactUs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ContactUs */ "./resources/js/Pages/Landing/ContactUs.vue");
 /* harmony import */ var _Layouts_Footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @/Layouts/Footer */ "./resources/js/Layouts/Footer.vue");
+/* harmony import */ var _Companies__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Companies */ "./resources/js/Pages/Landing/Companies.vue");
+
 
 
 
@@ -17857,6 +17859,7 @@ __webpack_require__.r(__webpack_exports__);
     Services: _Services__WEBPACK_IMPORTED_MODULE_3__.default,
     WhyUs: _WhyUs__WEBPACK_IMPORTED_MODULE_4__.default,
     Portfolio: _Portfolio__WEBPACK_IMPORTED_MODULE_5__.default,
+    Companies: _Companies__WEBPACK_IMPORTED_MODULE_8__.default,
     ContactUs: _ContactUs__WEBPACK_IMPORTED_MODULE_6__.default,
     Footer: _Layouts_Footer__WEBPACK_IMPORTED_MODULE_7__.default
   }
@@ -19586,7 +19589,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
     onClick: _cache[2] || (_cache[2] = function ($event) {
       return $options.scrollMeTo('about');
     }),
-    "class": "btn shadow-none nav-link"
+    "class": "btn btn-light nav-link"
   }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__("nav.about")), 1
   /* TEXT */
   )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
@@ -19594,7 +19597,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
     onClick: _cache[3] || (_cache[3] = function ($event) {
       return $options.scrollMeTo('services');
     }),
-    "class": "btn shadow-none nav-link"
+    "class": "btn btn-light nav-link"
   }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__("nav.services")), 1
   /* TEXT */
   )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
@@ -19602,7 +19605,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
     onClick: _cache[4] || (_cache[4] = function ($event) {
       return $options.scrollMeTo('why-us');
     }),
-    "class": "btn shadow-none nav-link"
+    "class": "btn btn-light nav-link"
   }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__("nav.why")), 1
   /* TEXT */
   )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
@@ -19610,7 +19613,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
     onClick: _cache[5] || (_cache[5] = function ($event) {
       return $options.scrollMeTo('portfolio');
     }),
-    "class": "btn shadow-none nav-link"
+    "class": "btn btn-light nav-link"
   }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__("nav.portfolio")), 1
   /* TEXT */
   )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_inertia_link, {
@@ -21197,7 +21200,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
   }, null, 8
   /* PROPS */
   , ["src"])]), _hoisted_11])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-    src: _ctx.asset('images/about-extra-2.svg'),
+    src: _ctx.asset('images/nosotros-caritas.jpg'),
     "class": "img-fluid",
     alt: ""
   }, null, 8
@@ -21560,11 +21563,13 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
 
   var _component_Portfolio = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Portfolio");
 
+  var _component_Companies = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Companies");
+
   var _component_ContactUs = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("ContactUs");
 
   var _component_Footer = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Footer");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Navbar), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Intro), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_AboutUs), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Services), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_WhyUs), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Portfolio), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ContactUs), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Navbar), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Intro), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_AboutUs), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Services), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_WhyUs), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Portfolio), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Companies), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ContactUs), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)]);
 });
 
 /***/ }),
@@ -21701,7 +21706,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "img"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-  src: "images/logo-cp.png",
+  src: "images/pastoral.jpg",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "icon"
@@ -21740,7 +21745,7 @@ var _hoisted_8 = {
   "class": "box"
 };
 
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"img\" data-v-66bcffc2><img src=\"images/logo-cp.png\" alt=\"\" data-v-66bcffc2></div><br data-v-66bcffc2><div class=\"icon\" data-v-66bcffc2><i class=\"ion-ios-bookmarks-outline\" data-v-66bcffc2></i></div><h4 class=\"title\" data-v-66bcffc2><a href=\"\" data-v-66bcffc2>RESPONSABILIDAD SOCIAL EMPRESARIAL</a></h4><p class=\"description\" data-v-66bcffc2> Buscamos a través de esta iniciativa apoyar lideres emprendedores en la creación de empresas eficientes e integrales que aporten valor e implementen un modelo empresarial solido basado en le trabajo productivo, el esfuerzo y el liderazgo con principios y valores. </p><br data-v-66bcffc2>", 6);
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"img\" data-v-66bcffc2><img src=\"images/responsabilidad-caritas.jpg\" alt=\"\" data-v-66bcffc2></div><br data-v-66bcffc2><div class=\"icon\" data-v-66bcffc2><i class=\"ion-ios-bookmarks-outline\" data-v-66bcffc2></i></div><h4 class=\"title\" data-v-66bcffc2><a href=\"\" data-v-66bcffc2>RESPONSABILIDAD SOCIAL EMPRESARIAL</a></h4><p class=\"description\" data-v-66bcffc2> Buscamos a través de esta iniciativa apoyar lideres emprendedores en la creación de empresas eficientes e integrales que aporten valor e implementen un modelo empresarial solido basado en le trabajo productivo, el esfuerzo y el liderazgo con principios y valores. </p><br data-v-66bcffc2>", 6);
 
 var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
   "class": "btn btn-success",
@@ -21829,7 +21834,7 @@ var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "img"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-  src: "images/logo-cp.png",
+  src: "images/formacion-ag.jpg",
   alt: ""
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "icon"
@@ -27990,7 +27995,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#brand[data-v-e2c0ecd8] {\r\n  padding: 0;\r\n  margin: 7px 0;\r\n  max-width: 200px;\n}\n.navbar-nav .nav-item a[data-v-e2c0ecd8],\r\n.navbar-nav .nav-item button[data-v-e2c0ecd8] {\r\n  display: block;\r\n  position: relative;\r\n  color: #0c0c0c;\r\n  padding: 10px 15px;\r\n  transition: 0.3s;\r\n  font-size: 16px;\r\n  font-family: \"Montserrat\", sans-serif;\r\n  font-weight: 500;\n}\n.btn[data-v-e2c0ecd8]:hover{\r\n  background-color: #799b9173 !important;\n}\n.nav-link[data-v-e2c0ecd8]:hover{\r\n  background-color: #799b9173 !important;\n}\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#brand[data-v-e2c0ecd8] {\r\n  padding: 0;\r\n  margin: 7px 0;\r\n  max-width: 200px;\n}\n.navbar-nav .nav-item a[data-v-e2c0ecd8],\r\n.navbar-nav .nav-item button[data-v-e2c0ecd8] {\r\n  display: block;\r\n  position: relative;\r\n  color: #0c0c0c;\r\n  padding: 10px 15px;\r\n  transition: 0.3s;\r\n  font-size: 16px;\r\n  font-family: \"Montserrat\", sans-serif;\r\n  font-weight: 500;\n}\n.nav-link[data-v-e2c0ecd8]:hover{\r\n  background-color: #13d69c73;\n}\r\n\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28158,7 +28163,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#services[data-v-66bcffc2] {\r\n  padding: 60px 0 40px 0;\r\n  box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);\n}\n#services .section-header h3[data-v-66bcffc2] {\r\n  font-size: 36px;\r\n  color: #0c0c0c;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#services .section-header p[data-v-66bcffc2] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #556877;\r\n  width: 50%;\n}\n#services .row[data-v-66bcffc2] {\r\n  border-radius: 10px;\r\n  background: #799b9173;\n}\n#services .box[data-v-66bcffc2] {\r\n  padding: 30px;\r\n  position: relative;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n  margin: 0 10px 40px 10px;\r\n  background: #799b9173;\r\n  box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);\r\n  transition: all 0.3s ease-in-out;\n}\n#services .img[data-v-66bcffc2] {\r\n  margin-left: 2.5rem;\r\n  box-shadow: 3px 3px black;\n}\n#services .icon[data-v-66bcffc2] {\r\n  position: absolute;\r\n  left: -10px;\r\n  top: calc(50% - 32px);\n}\n#services .icon i[data-v-66bcffc2] {\r\n  font-size: 64px;\r\n  line-height: 1;\r\n  transition: 0.5s;\n}\n#services .title[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\n}\n#services .title a[data-v-66bcffc2] {\r\n  color: #111;\n}\n#services .description[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  margin-left: 40px;\r\n  line-height: 24px;\r\n  margin-bottom: 0;\r\n  text-align: justify;\n}\n#services .btn[data-v-66bcffc2] {\r\n  margin-inline: 10px;\r\n  margin-left: 3em;\r\n  background: #028341;\n}\n#services .criterios[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\r\n  color: #111;\n}\n#services .proyection[data-v-66bcffc2] {\r\n  background: #028341;\r\n  margin-left: 2.5em;\r\n  text-align: center;\n}\n#services ul[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  text-align: justify;\n}\n.accion[data-v-66bcffc2]{\r\n  background: greenyellow;\n}\n.section-bg[data-v-66bcffc2] {\r\n  background: #e7eeec73;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#services[data-v-66bcffc2] {\r\n  padding: 60px 0 40px 0;\r\n  box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);\n}\n#services .section-header h3[data-v-66bcffc2] {\r\n  font-size: 36px;\r\n  color: #0c0c0c;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#services .section-header p[data-v-66bcffc2] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #556877;\r\n  width: 50%;\n}\n#services .row[data-v-66bcffc2] {\r\n  border-radius: 10px;\r\n  background: #ffffff;\n}\n#services .box[data-v-66bcffc2] {\r\n  padding: 30px;\r\n  position: relative;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n  margin: 0 10px 40px 10px;\r\n  background: #ffffff;\r\n  box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);\r\n  transition: all 0.3s ease-in-out;\n}\n#services .img[data-v-66bcffc2] {\r\n  margin-left: 2.5rem;\n}\n#services .icon[data-v-66bcffc2] {\r\n  position: absolute;\r\n  left: -10px;\r\n  top: calc(50% - 32px);\n}\n#services .icon i[data-v-66bcffc2] {\r\n  font-size: 64px;\r\n  line-height: 1;\r\n  transition: 0.5s;\n}\n#services .title[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\n}\n#services .title a[data-v-66bcffc2] {\r\n  color: #111;\n}\n#services .description[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  margin-left: 40px;\r\n  line-height: 24px;\r\n  margin-bottom: 0;\r\n  text-align: justify;\n}\n#services .btn[data-v-66bcffc2] {\r\n  margin-inline: 10px;\r\n  margin-left: 3em;\r\n  background: #025228;\n}\n#services .criterios[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\r\n  color: #111;\n}\n#services .proyection[data-v-66bcffc2] {\r\n  background: #028341;\r\n  margin-left: 2.5em;\r\n  text-align: center;\n}\n#services ul[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  text-align: justify;\n}\n.accion[data-v-66bcffc2]{\r\n  background: greenyellow;\n}\n.section-bg[data-v-66bcffc2] {\r\n  background: #799b9173;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

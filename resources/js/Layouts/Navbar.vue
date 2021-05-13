@@ -40,7 +40,7 @@
             <button
               type="button"
               @click="scrollMeTo('about')"
-              class="btn shadow-none nav-link"
+              class="btn btn-light nav-link"
             >
               {{ __("nav.about") }}
             </button>
@@ -49,7 +49,7 @@
             <button
               type="button"
               @click="scrollMeTo('services')"
-              class="btn shadow-none nav-link"
+              class="btn btn-light nav-link"
             >
               {{ __("nav.services") }}
             </button>
@@ -58,7 +58,7 @@
             <button
               type="button"
               @click="scrollMeTo('why-us')"
-              class="btn shadow-none nav-link"
+              class="btn btn-light nav-link"
             >
               {{ __("nav.why") }}
             </button>
@@ -67,7 +67,7 @@
             <button
               type="button"
               @click="scrollMeTo('portfolio')"
-              class="btn shadow-none nav-link"
+              class="btn btn-light nav-link"
             >
               {{ __("nav.portfolio") }}
             </button>
@@ -182,11 +182,9 @@ export default {
   font-weight: 500;
 }
 
-.btn:hover{
-  background-color: #799b9173 !important;
-}
 .nav-link:hover{
-  background-color: #799b9173 !important;
+  background-color: #13d69c73;
 }
+
 
 </style>
