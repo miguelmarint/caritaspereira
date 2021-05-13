@@ -14,23 +14,25 @@
           <div class="row">
             <div class="col-md-6 col-lg-6">
               <div class="box">
-                <div class="img">
-                  <img src="images/pastoral.jpg" alt="" />
-                </div>
+                <img src="images/corazon-contento.png" alt="" />
                 <br />
                 <div class="icon">
                   <i class="ion-ios-analytics-outline"></i>
                 </div>
                 <h4 class="title">
-                  <a href="">PASTORAL RURAL Y DE LA TIERRA</a>
+                  <a href=""
+                    >BARRIGA LLENA, CORAZÓN CONTENTO. PONLE STOP AL HANBRE</a
+                  >
                 </h4>
                 <p class="description">
-                  La Pastoral Rural y de la tierra es un servicio de Iglesia,
-                  que busca acompañar y caminar al lado de los hombres y las
-                  mujeres del campo, asumiendo los ritmos y ciclos propios de su
-                  entorno, compartiendo el amor por la tierra, sembrando la
-                  semilla, nutriéndola y regándola en solidaridad con sus
-                  dificultades y esperanzas.
+                  Barriga llena, corazón contento. Pone stop al hambre, fue el
+                  lema utilizado en los planes de acción de comunicación y
+                  productos finales para la Alimentatón 2019 realizado por
+                  estudiantes de sexto semestre del programa de Comunicación
+                  Social-Periodismo de la Universidad Católica de Pereira, en la
+                  asignatura de Comunicación de Gobierno y Tercer Sector dictada
+                  por la Ph. D. Elva Mónica García Bustamante, docente de planta
+                  del Álma Mater.
                 </p>
                 <br />
                 <p>
@@ -45,74 +47,76 @@
                   >
                 </p>
                 <div id="collapseCriterios" class="collapse">
-                  <h4 class="criterios">Criterios de Acción</h4>
-                  <ul type="circle">
-                    <li>
-                      Se enmarca en el ámbito de la Pastoral Social: Su misión
-                      es llevar la Buena Nueva de Jesús resucitado a los hombres
-                      y mujeres del campo
-                    </li>
-                    <li>
-                      Tiene una profunda inspiración bíblica: La tierra es don
-                      de Dios y lugar del encuentro con “los otros” y con “el
-                      Otro”.
-                    </li>
-                    <li>
-                      Está orientada por la Doctrina Social de la Iglesia: El
-                      trabajo, la propiedad y, la justa distribución de los
-                      bienes y la riqueza son temas centrales.
-                    </li>
-                  </ul>
+                  <h4 class="criterios">ALIMENTATÓN – CIUDADELA VILLAVERDE</h4>
+                  <iframe
+                    class="description"
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/sRvp-_lILQ4"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
                 </div>
               </div>
             </div>
             <div class="col-md-6 col-lg-6">
               <div class="box">
-                <div class="img">
-                  <img src="images/responsabilidad-caritas.jpg" alt="" />
-                </div>
+                <img src="images/responsabilidad-caritas.jpg" alt="" />
                 <br />
                 <div class="icon">
                   <i class="ion-ios-bookmarks-outline"></i>
                 </div>
                 <h4 class="title">
-                  <a href="">RESPONSABILIDAD SOCIAL EMPRESARIAL</a>
+                  <a href=""
+                    >INTÉGRATE CON CÁRITAS - BANCO DE ALIMENTOS Y MERCASA</a
+                  >
                 </h4>
                 <p class="description">
-                  Buscamos a través de esta iniciativa apoyar lideres
-                  emprendedores en la creación de empresas eficientes e
-                  integrales que aporten valor e implementen un modelo
-                  empresarial solido basado en le trabajo productivo, el
-                  esfuerzo y el liderazgo con principios y valores.
+                  A partir del proceso con la materia de Comunicación de
+                  gobierno y tercer sector y el trabajo realizado en Mercasa en
+                  búsqueda de dar a conocer la Fundación Cáritas, mejorar la
+                  confianza e imagen con la que esta cuenta en algunas partes de
+                  este sector y con la misión de conseguir un porcentaje más
+                  alto en las donaciones de alimentos. Gracias a esto se
+                  desarrollaron tres estrategias para lograr cumplir con los
+                  objetivos planteados:
                 </p>
                 <br />
                 <p>
                   <a
                     class="btn btn-success"
                     data-toggle="collapse"
-                    href="#collapseDescription"
+                    href="#collapsebtnMerc"
                     role="button"
                     aria-expanded="false"
-                    aria-controls="collapseDescription"
+                    aria-controls="collapsebtnMerc"
                     ><i class="fas fa-sign-in-alt"></i> Leer más</a
                   >
                 </p>
-                <div id="collapseDescription" class="collapse">
+                <div id="collapsebtnMerc" class="collapse">
+                  <ul type="number">
+                    <li>Sensibilización: Base de datos.</li>
+                    <li>Boletín de registro “Top de máximos donantes”</li>
+                    <li>
+                      Video del proceso desde la recolección en Mercasa, hasta
+                      la entrega en las fundaciones.
+                    </li>
+                  </ul>
                   <P class="description">
-                    En Cáritas buscamos hombres y mujeres con un proyecto
-                    empresarial innovador, y le ofrecemos los recursos
-                    formativos,económicos y estructurales necesarios para
-                    convertir sus sueños en realidad
+                    <h4 class="criterios">ALIMENTATÓN – MERCASA</h4>
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/iFfQMiZI_8A"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
                   </P>
-                  <br />
-                  <div class="proyection">
-                    <p><strong>NUESTRA PROYECCIÓN</strong></p>
-                  </div>
-                  <div class="img">
-                    <img src="images/logo-cp.png" alt="" />
-                  </div>
                 </div>
-                <br />
               </div>
             </div>
           </div>
@@ -122,26 +126,29 @@
           <div class="row">
             <div class="col-md-6 col-lg-6">
               <div class="box">
-                <div class="img">
-                  <img src="images/logo-cp.png" alt="" />
-                </div>
-                <br>
+                <img src="images/logo-cp.png" alt="" />
+                <br />
                 <div class="icon">
                   <i class="ion-ios-paper-outline"></i>
                 </div>
                 <h4 class="title">
-                  <a href="">BANCO DE ALIMENTOS</a>
+                  <a href="">INTÉGRATE CON CÁRITAS - FUNDACIONES</a>
                 </h4>
                 <p class="description">
-                  El Banco de Alimentos, de la Fundación Cáritas Diocesana de
-                  Pereira, ubicada en La Calle Las Aromas, en La Badea,
-                  Dosquebradas, Risaralda, es una fundación encargada de
-                  recolectar, seleccionar y aprovechar alimentos sobre madurados
-                  o con una pronta fecha de caducidad para mitigar el
-                  desperdicio en pro de beneficiar distintas fundaciones u
-                  organizaciones de Pereira y Risaralda. 
-                  </p>
-                   <br>
+                  Intégrate con Cáritas, en esta entrega se hizo un trabajo en
+                  compañía de las fundaciones con el objetivo de visibilizarlas
+                  por medio de la conexión que tienen con el banco de alimentos.
+                  Se realizaron distintas visitas a las 6 fundaciones
+                  determinadas para luego realizar un perfil escrito de cada
+                  una. En este perfil se puede encontrar la historia de dicha
+                  fundación y como se encuentra en la actualidad. También se
+                  hizo una galería fotográfica de 10 imágenes que permitan al
+                  lector entender más cómo es la fundación. Dichos perfiles
+                  fueron aprobados por los dueños o responsables de la fundación
+                  y las fotos fueron tomadas con el permiso de ellos durante la
+                  visita.
+                </p>
+                <br />
                 <p>
                   <a
                     class="btn btn-success"
@@ -153,93 +160,24 @@
                     ><i class="fas fa-sign-in-alt"></i> Leer más</a
                   >
                 </p>
-                <div id="collapseBanco" class="collapse">
-                  <p class="description">
-                    Todo esto, a través de
-                    campañas y programas que fomentan la seguridad alimentaria,
-                    que son una realidad gracias a los voluntarios y a la pastoral
-                    social que ofrecen su trabajo al servicio de las comunidades.
-                  </p>
-                </div>
+                <div id="collapseBanco" class="collapse"></div>
               </div>
             </div>
             <div class="col-md-6 col-lg-6">
               <div class="box">
-                <div class="img">
-                  <img src="images/formacion-ag.jpg" alt="" />
-                </div>
-                <br>
+                <br />
                 <div class="icon">
                   <i class="ion-ios-speedometer-outline"></i>
                 </div>
                 <h4 class="title">
-                  <a href="">FORMACIÓN AGENTES DE PASTORAL SOCIAL</a>
+                  <a href="">BAZAR DE INTERCAMBIO</a>
                 </h4>
                 <p class="description">
-                  EHemos contado con 71 personas que han dado su SI a esta
-                  propuesta de ir al más necesitado de una manera integral,
-                  impactando directamente en sus personas y comunidades.
+                  Acompañamiento a Batallón San Mateo en jornadas de Apoyo al
+                  Desarrollo. Esta se realizó en Santa Cecilia, corregimiento de
+                  Pueblo Rico (Risaralda)
                 </p>
-                <br>
-                <h4 class="title">En alianza con Ministerio de Incidencia Política y Opinión Pública</h4>
-                <p>
-                  <a
-                    class="btn btn-success"
-                    data-toggle="collapse"
-                    href="#collapseTransform"
-                    role="button"
-                    aria-expanded="false"
-                    aria-controls="collapseTransform"
-                    ><i class="fas fa-sign-in-alt"></i> Leer más</a>
-                  </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div data-aos="fade-up">
-          <div class="row">
-            <div class="col-md-6 col-lg-6">
-              <div class="box">
-                <div class="img">
-                  <img src="images/logo-cp.png" alt="" />
-                </div>
-                <br>
-                <div class="icon">
-                  <i class="ion-ios-world-outline"></i>
-                </div>
-                <h4 class="title"><a href="">ACCIÓN VOLUNTARIA</a></h4>
-                <div class="acción">
-                  <p class="description">
-                    UNA PROPUESTA PARA CONSTRUIR CONOCIMIENTO Y DAR OPORTUNIDADES
-                  </p>
-                  <br>
-                   <p>
-                  <a
-                    class="btn btn-success"
-                    data-toggle="collapse"
-                    href="#collapseTransform"
-                    role="button"
-                    aria-expanded="false"
-                    aria-controls="collapseTransform"
-                    ><i class="fas fa-sign-in-alt"></i> Leer más</a>
-                  </p>
-                <div id="collapseTransform" class="collapse">
-                    <h4 class="title">Transformación al Voluntariado</h4>
-                  <p>Personas</p>
-                    <ul>
-                      <li>hombres y 37 mujeres donaron 16.680 horas de Voluntariado.</li>
-                    </ul>
-                  <p>Esfuerzos</p>
-                    <ul>
-                      <li>Compartir saberes engrandecen una labor.</li>
-                    </ul>
-                  <p>Resultado</p>
-                    <ul>
-                      <li>6 meses de pequeños esfuerzos con grandes resultados.</li>
-                    </ul>
-                  </div>
-                </div>
+                <img src="images/bazar-inter.jpg" alt=""/>
               </div>
             </div>
           </div>
@@ -260,7 +198,7 @@ export default {};
 
 #services .section-header h3 {
   font-size: 36px;
-  color: #0c0c0c;
+  color: #ffffff;
   text-align: center;
   font-weight: 500;
   position: relative;
@@ -270,13 +208,13 @@ export default {};
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
-  color: #556877;
+  color: #ffffff;
   width: 50%;
 }
 
 #services .row {
   border-radius: 10px;
-  background: #ffffff;
+  background: #025228;
 }
 
 #services .box {
@@ -290,9 +228,13 @@ export default {};
   transition: all 0.3s ease-in-out;
 }
 
-#services .img {
-  margin-left: 2.5rem;
+#services img {
+  margin: 10px 5px 15px 20px;
+  width: 100%;
+  height: 100%;
 }
+
+
 #services .icon {
   position: absolute;
   left: -10px;
@@ -344,11 +286,11 @@ export default {};
   font-size: 16px;
   text-align: justify;
 }
-.accion{
+.accion {
   background: greenyellow;
 }
 
 .section-bg {
-  background: #799b9173;
+  background: #025228;
 }
 </style>

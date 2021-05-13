@@ -14,9 +14,7 @@
           <div class="row">
             <div class="col-md-6 col-lg-6">
               <div class="box">
-                <div class="img">
-                  <img src="images/pastoral.jpg" alt="" />
-                </div>
+                <img src="images/pastoral.jpg" alt="" />
                 <br />
                 <div class="icon">
                   <i class="ion-ios-analytics-outline"></i>
@@ -68,9 +66,7 @@
             </div>
             <div class="col-md-6 col-lg-6">
               <div class="box">
-                <div class="img">
-                  <img src="images/responsabilidad-caritas.jpg" alt="" />
-                </div>
+                <img src="images/responsabilidad-caritas.jpg" alt="" />
                 <br />
                 <div class="icon">
                   <i class="ion-ios-bookmarks-outline"></i>
@@ -108,9 +104,7 @@
                   <div class="proyection">
                     <p><strong>NUESTRA PROYECCIÓN</strong></p>
                   </div>
-                  <div class="img">
-                    <img src="images/logo-cp.png" alt="" />
-                  </div>
+                  <img src="images/logo-cp.png" alt="" />
                 </div>
                 <br />
               </div>
@@ -122,9 +116,7 @@
           <div class="row">
             <div class="col-md-6 col-lg-6">
               <div class="box">
-                <div class="img">
-                  <img src="images/logo-cp.png" alt="" />
-                </div>
+                <img src="images/banco-alimentos.jpg" alt="" />
                 <br>
                 <div class="icon">
                   <i class="ion-ios-paper-outline"></i>
@@ -165,9 +157,7 @@
             </div>
             <div class="col-md-6 col-lg-6">
               <div class="box">
-                <div class="img">
-                  <img src="images/formacion-ag.jpg" alt="" />
-                </div>
+                <img src="images/formacion-ag.jpg" alt="" />
                 <br>
                 <div class="icon">
                   <i class="ion-ios-speedometer-outline"></i>
@@ -201,9 +191,7 @@
           <div class="row">
             <div class="col-md-6 col-lg-6">
               <div class="box">
-                <div class="img">
-                  <img src="images/logo-cp.png" alt="" />
-                </div>
+                <img src="images/colaboradores.jpg" alt="" />
                 <br>
                 <div class="icon">
                   <i class="ion-ios-world-outline"></i>
@@ -260,7 +248,7 @@ export default {};
 
 #services .section-header h3 {
   font-size: 36px;
-  color: #0c0c0c;
+  color: #000000;
   text-align: center;
   font-weight: 500;
   position: relative;
@@ -270,13 +258,17 @@ export default {};
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
-  color: #556877;
+  color: #000000;
   width: 50%;
+}
+
+h4{
+  color: #ffffff;
 }
 
 #services .row {
   border-radius: 10px;
-  background: #ffffff;
+  background: #025228;
 }
 
 #services .box {
@@ -285,14 +277,17 @@ export default {};
   overflow: hidden;
   border-radius: 10px;
   margin: 0 10px 40px 10px;
-  background: #ffffff;
+  background: #025228;
   box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
   transition: all 0.3s ease-in-out;
 }
 
-#services .img {
-  margin-left: 2.5rem;
+#services img {
+  margin: 10px 5px 15px 20px;
+  width: 100%;
+  height: 100%;
 }
+
 #services .icon {
   position: absolute;
   left: -10px;
@@ -310,7 +305,7 @@ export default {};
   font-size: 19px;
 }
 #services .title a {
-  color: #111;
+  color: #ffffff;
 }
 #services .description {
   font-size: 16px;
@@ -318,6 +313,7 @@ export default {};
   line-height: 24px;
   margin-bottom: 0;
   text-align: justify;
+  color: #ffffff;
 }
 
 #services .btn {
@@ -331,7 +327,7 @@ export default {};
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 19px;
-  color: #111;
+  color: #ffffff;
 }
 
 #services .proyection {
