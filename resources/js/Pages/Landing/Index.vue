@@ -5,7 +5,8 @@
     <AboutUs />
     <Services />
     <WhyUs />
-    <Portfolio />
+    <VoluntaryForm />
+    <Companies />
     <ContactUs />
     <Footer />
   </div>
@@ -17,11 +18,12 @@ import Intro from "./Intro";
 import AboutUs from "./AboutUs";
 import Services from "./Services";
 import WhyUs from "./WhyUs";
-import Portfolio from "./Portfolio";
+import VoluntaryForm from "./VoluntaryForm";
 import ContactUs from "./ContactUs";
 import Footer from "@/Layouts/Footer";
+import Companies from "./Companies";
 export default {
-  components: { Navbar, Intro, AboutUs, Services, WhyUs, Portfolio, ContactUs, Footer },
+  components: { Navbar, Intro, AboutUs, Services, WhyUs, VoluntaryForm, Companies, ContactUs, Footer },
 };
 </script>
 
