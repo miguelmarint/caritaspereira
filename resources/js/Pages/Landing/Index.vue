@@ -4,6 +4,7 @@
     <Intro />
     <AboutUs />
     <Services />
+    <Activities />
     <WhyUs />
     <VoluntaryForm />
     <Companies />
@@ -17,6 +18,7 @@ import Navbar from "@/Layouts/Navbar";
 import Intro from "./Intro";
 import AboutUs from "./AboutUs";
 import Services from "./Services";
+import Activities from "./Activities";
 import WhyUs from "./WhyUs";
 import VoluntaryForm from "./VoluntaryForm";
 import ContactUs from "./ContactUs";
