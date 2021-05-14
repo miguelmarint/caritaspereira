@@ -26,12 +26,10 @@
                   La Pastoral Rural y de la tierra es un servicio de Iglesia,
                   que busca acompañar y caminar al lado de los hombres y las
                   mujeres del campo, asumiendo los ritmos y ciclos propios de su
-                  entorno, compartiendo el amor por la tierra, sembrando la
-                  semilla, nutriéndola y regándola en solidaridad con sus
-                  dificultades y esperanzas.
-                </p>
-                <br />
-                <p>
+                  entorno,
+                  </p>
+                  <br>
+                  <p>
                   <a
                     class="btn btn-success"
                     data-toggle="collapse"
@@ -43,6 +41,12 @@
                   >
                 </p>
                 <div id="collapseCriterios" class="collapse">
+                <P class="description">
+                  compartiendo el amor por la tierra, sembrando la
+                  semilla, nutriéndola y regándola en solidaridad con sus
+                  dificultades y esperanzas.
+                </p>
+                <br />
                   <h4 class="criterios">Criterios de Acción</h4>
                   <ul type="circle">
                     <li>
@@ -78,10 +82,9 @@
                   Buscamos a través de esta iniciativa apoyar lideres
                   emprendedores en la creación de empresas eficientes e
                   integrales que aporten valor e implementen un modelo
-                  empresarial solido basado en le trabajo productivo, el
-                  esfuerzo y el liderazgo con principios y valores.
+                  empresarial solido 
                 </p>
-                <br />
+                <br>
                 <p>
                   <a
                     class="btn btn-success"
@@ -94,6 +97,11 @@
                   >
                 </p>
                 <div id="collapseDescription" class="collapse">
+                <p>
+                  basado en le trabajo productivo, el
+                  esfuerzo y el liderazgo con principios y valores.
+                </p>
+                <br />
                   <P class="description">
                     En Cáritas buscamos hombres y mujeres con un proyecto
                     empresarial innovador, y le ofrecemos los recursos
@@ -128,24 +136,25 @@
                   El Banco de Alimentos, de la Fundación Cáritas Diocesana de
                   Pereira, ubicada en La Calle Las Aromas, en La Badea,
                   Dosquebradas, Risaralda, es una fundación encargada de
+                </p>
+                <br>
+                <p>
+                  <a class="btn btn-success"
+                    data-toggle="collapse"
+                    href="#collapseDescription"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseDescription"
+                    ><i class="fas fa-sign-in-alt"></i> Leer más</a>
+                </p>
+                <div id="collapseDescription" class="collapse">
+                <p class="description">
                   recolectar, seleccionar y aprovechar alimentos sobre madurados
                   o con una pronta fecha de caducidad para mitigar el
                   desperdicio en pro de beneficiar distintas fundaciones u
                   organizaciones de Pereira y Risaralda. 
                   </p>
                    <br>
-                <p>
-                  <a
-                    class="btn btn-success"
-                    data-toggle="collapse"
-                    href="#collapseBanco"
-                    role="button"
-                    aria-expanded="false"
-                    aria-controls="collapseBanco"
-                    ><i class="fas fa-sign-in-alt"></i> Leer más</a
-                  >
-                </p>
-                <div id="collapseBanco" class="collapse">
                   <p class="description">
                     Todo esto, a través de
                     campañas y programas que fomentan la seguridad alimentaria,
@@ -166,22 +175,25 @@
                   <a href="">FORMACIÓN AGENTES DE PASTORAL SOCIAL</a>
                 </h4>
                 <p class="description">
-                  EHemos contado con 71 personas que han dado su SI a esta
+                  Hemos contado con 71 personas que han dado su SI a esta
                   propuesta de ir al más necesitado de una manera integral,
                   impactando directamente en sus personas y comunidades.
                 </p>
                 <br>
-                <h4 class="title">En alianza con Ministerio de Incidencia Política y Opinión Pública</h4>
                 <p>
-                  <a
-                    class="btn btn-success"
+                  <a class="btn btn-success"
                     data-toggle="collapse"
-                    href="#collapseTransform"
+                    href="#collapseAlianza"
                     role="button"
                     aria-expanded="false"
-                    aria-controls="collapseTransform"
+                    aria-controls="collapseAlianza"
                     ><i class="fas fa-sign-in-alt"></i> Leer más</a>
+                </p>
+                <div id="collapseAlianza" class="collapse">
+                  <p class="description">
+                    <strong>En alianza con Ministerio de Incidencia Política y Opinión Pública</strong>
                   </p>
+                </div>
               </div>
             </div>
           </div>
@@ -199,7 +211,7 @@
                 <h4 class="title"><a href="">ACCIÓN VOLUNTARIA</a></h4>
                 <div class="acción">
                   <p class="description">
-                    UNA PROPUESTA PARA CONSTRUIR CONOCIMIENTO Y DAR OPORTUNIDADES
+                    Una prouesta para construir conocimiento y daroportunidades.
                   </p>
                   <br>
                    <p>
@@ -214,17 +226,17 @@
                   </p>
                 <div id="collapseTransform" class="collapse">
                     <h4 class="title">Transformación al Voluntariado</h4>
-                  <p>Personas</p>
+                  <p class="description">Personas</p>
                     <ul>
-                      <li>Hombres y 37 mujeres donaron 16.680 horas de Voluntariado.</li>
+                      <li class="description">Tres hombres y treinta y siete mujeres donaron 16.680 horas de Voluntariado.</li>
                     </ul>
-                  <p>Esfuerzos</p>
+                  <p class="description">Esfuerzos</p>
                     <ul>
-                      <li>Compartir saberes engrandecen una labor.</li>
+                      <li class="description">Compartir saberes engrandecen una labor.</li>
                     </ul>
-                  <p>Resultado</p>
+                  <p class="description">Resultado</p>
                     <ul>
-                      <li>Seis meses de pequeños esfuerzos con grandes resultados.</li>
+                      <li class="description">Seis meses de pequeños esfuerzos con grandes resultados.</li>
                     </ul>
                   </div>
                 </div>
@@ -285,7 +297,7 @@ h4{
 #services img {
   margin: 10px 5px 15px 20px;
   width: 100%;
-  height: 100%;
+  height: 120%;
 }
 
 #services .icon {

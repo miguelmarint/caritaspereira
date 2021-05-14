@@ -28,14 +28,10 @@
                   Barriga llena, corazón contento. Pone stop al hambre, fue el
                   lema utilizado en los planes de acción de comunicación y
                   productos finales para la Alimentatón 2019 realizado por
-                  estudiantes de sexto semestre del programa de Comunicación
-                  Social-Periodismo de la Universidad Católica de Pereira, en la
-                  asignatura de Comunicación de Gobierno y Tercer Sector dictada
-                  por la Ph. D. Elva Mónica García Bustamante, docente de planta
-                  del Álma Mater.
+                  estudiantes de 
                 </p>
-                <br />
-                <p>
+                <br>
+                 <p>
                   <a
                     class="btn btn-success"
                     data-toggle="collapse"
@@ -47,6 +43,15 @@
                   >
                 </p>
                 <div id="collapseCriterios" class="collapse">
+                  <p class="description">
+                  sexto semestre del programa de Comunicación
+                  Social-Periodismo de la Universidad Católica de Pereira, en la
+                  asignatura de Comunicación de Gobierno y Tercer Sector dictada
+                  por la Ph. D. Elva Mónica García Bustamante, docente de planta
+                  del Álma Mater.
+                </p>
+                <br />
+
                   <h4 class="criterios">ALIMENTATÓN – CIUDADELA VILLAVERDE</h4>
                   <iframe
                     class="description"
@@ -77,13 +82,8 @@
                   A partir del proceso con la materia de Comunicación de
                   gobierno y tercer sector y el trabajo realizado en Mercasa en
                   búsqueda de dar a conocer la Fundación Cáritas, mejorar la
-                  confianza e imagen con la que esta cuenta en algunas partes de
-                  este sector y con la misión de conseguir un porcentaje más
-                  alto en las donaciones de alimentos. Gracias a esto se
-                  desarrollaron tres estrategias para lograr cumplir con los
-                  objetivos planteados:
+                  confianza e imagen con 
                 </p>
-                <br />
                 <p>
                   <a
                     class="btn btn-success"
@@ -96,6 +96,15 @@
                   >
                 </p>
                 <div id="collapsebtnMerc" class="collapse">
+                <p>
+                  la que esta cuenta en algunas partes de
+                  este sector y con  la misión de conseguir un porcentaje más
+                  alto en las donaciones de alimentos. Gracias a esto se
+                  desarrollaron tres estrategias para lograr cumplir con los
+                  objetivos planteados:
+                </p>
+                <br />
+
                   <ul type="number">
                     <li>Sensibilización: Base de datos.</li>
                     <li>Boletín de registro “Top de máximos donantes”</li>
@@ -126,7 +135,7 @@
           <div class="row">
             <div class="col-md-6 col-lg-6">
               <div class="box">
-                <img src="images/logo-cp.png" alt="" />
+                <img src="images/integrate-caritas.jpg" alt="" />
                 <br />
                 <div class="icon">
                   <i class="ion-ios-paper-outline"></i>
@@ -138,17 +147,8 @@
                   Intégrate con Cáritas, en esta entrega se hizo un trabajo en
                   compañía de las fundaciones con el objetivo de visibilizarlas
                   por medio de la conexión que tienen con el banco de alimentos.
-                  Se realizaron distintas visitas a las 6 fundaciones
-                  determinadas para luego realizar un perfil escrito de cada
-                  una. En este perfil se puede encontrar la historia de dicha
-                  fundación y como se encuentra en la actualidad. También se
-                  hizo una galería fotográfica de 10 imágenes que permitan al
-                  lector entender más cómo es la fundación. Dichos perfiles
-                  fueron aprobados por los dueños o responsables de la fundación
-                  y las fotos fueron tomadas con el permiso de ellos durante la
-                  visita.
                 </p>
-                <br />
+                <br>
                 <p>
                   <a
                     class="btn btn-success"
@@ -160,11 +160,25 @@
                     ><i class="fas fa-sign-in-alt"></i> Leer más</a
                   >
                 </p>
-                <div id="collapseBanco" class="collapse"></div>
+                <div id="collapseBanco" class="collapse">
+                  <p class="description"> 
+                    Se realizaron distintas visitas a las 6 fundaciones
+                    determinadas para luego realizar un perfil escrito de cada
+                    una. En este perfil se puede encontrar la historia de dicha
+                    fundación y como se encuentra en la actualidad. También se
+                    hizo una galería fotográfica de 10 imágenes que permitan al
+                    lector entender más cómo es la fundación. Dichos perfiles
+                    fueron aprobados por los dueños o responsables de la fundación
+                    y las fotos fueron tomadas con el permiso de ellos durante la
+                    visita.
+                  </p>
+                </div>
+                <br />
               </div>
             </div>
             <div class="col-md-6 col-lg-6">
               <div class="box">
+                <img src="images/bazar-inter.jpg" alt=""/>
                 <br />
                 <div class="icon">
                   <i class="ion-ios-speedometer-outline"></i>
@@ -177,7 +191,6 @@
                   Desarrollo. Esta se realizó en Santa Cecilia, corregimiento de
                   Pueblo Rico (Risaralda)
                 </p>
-                <img src="images/bazar-inter.jpg" alt=""/>
               </div>
             </div>
           </div>
