@@ -5,8 +5,6 @@
         <header class="section-header">
           <h3>Programas</h3>
           <p>
-            Laudem latine persequeris id sed, ex fabulas delectus quo. No vel
-            partiendo abhorreant vituperatoribus.
           </p>
         </header>
 
@@ -45,19 +43,19 @@
                 <div id="collapseCriterios" class="collapse">
                   <h4 class="criterios">Criterios de Acción</h4>
                   <ul type="circle">
-                    <li>
+                    <li style="color:#ffff;">
                       Se enmarca en el ámbito de la Pastoral Social: Su misión
                       es llevar la Buena Nueva de Jesús resucitado a los hombres
                       y mujeres del campo
                     </li>
-                    <li>
+                    <li style="color:#ffff;">
                       Tiene una profunda inspiración bíblica: La tierra es don
                       de Dios y lugar del encuentro con “los otros” y con “el
                       Otro”.
                     </li>
-                    <li>
+                    <li style="color:#ffff;">
                       Está orientada por la Doctrina Social de la Iglesia: El
-                      trabajo, la propiedad y, la justa distribución de los
+                      trabajo, la propiedad y la justa distribución de los
                       bienes y la riqueza son temas centrales.
                     </li>
                   </ul>
@@ -166,22 +164,12 @@
                   <a href="">FORMACIÓN AGENTES DE PASTORAL SOCIAL</a>
                 </h4>
                 <p class="description">
-                  EHemos contado con 71 personas que han dado su SI a esta
+                  emos contado con 71 personas que han dado su "SI" a esta
                   propuesta de ir al más necesitado de una manera integral,
                   impactando directamente en sus personas y comunidades.
                 </p>
                 <br>
-                <h4 class="title">En alianza con Ministerio de Incidencia Política y Opinión Pública</h4>
-                <p>
-                  <a
-                    class="btn btn-success"
-                    data-toggle="collapse"
-                    href="#collapseTransform"
-                    role="button"
-                    aria-expanded="false"
-                    aria-controls="collapseTransform"
-                    ><i class="fas fa-sign-in-alt"></i> Leer más</a>
-                  </p>
+                
               </div>
             </div>
           </div>
@@ -196,7 +184,7 @@
                 <div class="icon">
                   <i class="ion-ios-world-outline"></i>
                 </div>
-                <h4 class="title"><a href="">ACCIÓN VOLUNTARIA</a></h4>
+                <h4 class="title">ACCIÓN VOLUNTARIA</h4>
                 <div class="acción">
                   <p class="description">
                     UNA PROPUESTA PARA CONSTRUIR CONOCIMIENTO Y DAR OPORTUNIDADES
@@ -214,17 +202,17 @@
                   </p>
                 <div id="collapseTransform" class="collapse">
                     <h4 class="title">Transformación al Voluntariado</h4>
-                  <p>Personas</p>
+                  <p style="color:#ffff; font-size: 17px;"><strong>Personas</strong></p>
                     <ul>
-                      <li>Hombres y 37 mujeres donaron 16.680 horas de Voluntariado.</li>
+                      <li style="color:#ffff;">Hombres y 37 mujeres donaron 16.680 horas de Voluntariado.</li>
                     </ul>
-                  <p>Esfuerzos</p>
+                  <p style="color:#ffff; font-size: 17px;"><strong>Esfuerzos</strong></p>
                     <ul>
-                      <li>Compartir saberes engrandecen una labor.</li>
+                      <li style="color:#ffff;">Compartir saberes engrandecen una labor.</li>
                     </ul>
-                  <p>Resultado</p>
+                  <p style="color:#ffff; font-size: 17px;"><strong>Resultado</strong></p>
                     <ul>
-                      <li>Seis meses de pequeños esfuerzos con grandes resultados.</li>
+                      <li style="color:#ffff;">Seis meses de pequeños esfuerzos con grandes resultados.</li>
                     </ul>
                   </div>
                 </div>
@@ -282,6 +270,7 @@ h4{
   transition: all 0.3s ease-in-out;
 }
 
+
 #services img {
   margin: 10px 5px 15px 20px;
   width: 100%;
@@ -330,6 +319,7 @@ h4{
   color: #ffffff;
 }
 
+
 #services .proyection {
   background: #028341;
   margin-left: 2.5em;
@@ -347,4 +337,6 @@ h4{
 .section-bg {
   background: #799b9173;
 }
+
+
 </style>

@@ -1,11 +1,11 @@
 {
     "nav": {
         "home": "Inicio",
-        "about": "Sobre nosotros",
-        "services": "Servicios",
-        "why": "¿Por qué nosotros?",
+        "about": "Nosotros",
+        "services": "Programas",
+        "why": "Voluntariado",
         "portfolio": "Catalogo",
-        "contact": "Contacta con nosotros",
+        "contact": "Contáctanos",
         "login": "Iniciar",
         "dashboard": "Portal",
         "profile": "Perfil",

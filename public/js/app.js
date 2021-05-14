@@ -19649,19 +19649,15 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
     "class": "btn btn-light nav-link"
   }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__("nav.portfolio")), 1
   /* TEXT */
-  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_inertia_link, {
-    "class": "nav-link",
-    href: "#"
-  }, {
-    "default": _withId(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__("nav.contact")), 1
-      /* TEXT */
-      )];
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+    type: "button",
+    onClick: _cache[6] || (_cache[6] = function ($event) {
+      return $options.scrollMeTo('contact');
     }),
-    _: 1
-    /* STABLE */
-
-  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_language_selector), !_ctx.$page.props.user ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("li", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_inertia_link, {
+    "class": "btn btn-light nav-link"
+  }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__("nav.contact")), 1
+  /* TEXT */
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_language_selector), !_ctx.$page.props.user ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("li", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_inertia_link, {
     "class": "nav-link",
     href: _ctx.route('login')
   }, {
@@ -19706,7 +19702,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
   }, 8
   /* PROPS */
   , ["href"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("form", {
-    onSubmit: _cache[6] || (_cache[6] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
+    onSubmit: _cache[7] || (_cache[7] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
       return $options.logout && $options.logout.apply($options, arguments);
     }, ["prevent"]))
   }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_dropdown_link, {
@@ -20386,7 +20382,7 @@ var _hoisted_3 = {
 
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h2", {
   "class": "text-center mb-3"
-}, "init on serviso", -1
+}, "Inicio de sesión", -1
 /* HOISTED */
 );
 
@@ -21116,15 +21112,11 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h1", {
   "class": "mt-4"
-}, "Simple Sidebar", -1
+}, "Fundación Cáritas Admin", -1
 /* HOISTED */
 );
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, " The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change. ", -1
-/* HOISTED */
-);
-
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Make sure to keep all page content within the "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("code", null, "#page-content-wrapper"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(". The top navbar is optional, and just for demonstration. Just create an element with the "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("code", null, "#menu-toggle"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" ID which will toggle the menu when clicked. ")], -1
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, " Panel de administración. ", -1
 /* HOISTED */
 );
 
@@ -21136,7 +21128,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       return [_hoisted_1];
     }),
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_2, _hoisted_3, _hoisted_4];
+      return [_hoisted_2, _hoisted_3];
     }),
     _: 1
     /* STABLE */
@@ -21221,13 +21213,13 @@ var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
 
 var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_5, [_hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-    src: _ctx.asset('images/tenequipo.jpg'),
+    src: _ctx.asset('images/inicio.jpg'),
     "class": "img-fluid",
     alt: ""
   }, null, 8
   /* PROPS */
   , ["src"])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-    src: _ctx.asset('images/about-extra-1.svg'),
+    src: _ctx.asset('images/tenequipo.jpg'),
     "class": "img-fluid",
     alt: ""
   }, null, 8
@@ -21271,7 +21263,7 @@ var _hoisted_2 = {
 
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("header", {
   "class": "section-header"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Actividades"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, " Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus. ")], -1
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Actividades"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p")], -1
 /* HOISTED */
 );
 
@@ -21312,17 +21304,24 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
   id: "collapseCriterios",
   "class": "collapse"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h4", {
-  "class": "criterios"
-}, "ALIMENTATÓN – CIUDADELA VILLAVERDE"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("iframe", {
+  "class": "criterios",
+  style: {
+    "text-align": "center"
+  }
+}, " ALIMENTATÓN – CIUDADELA VILLAVERDE "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  style: {
+    "text-align": "center"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("iframe", {
   "class": "description",
-  width: "560",
+  width: "430",
   height: "315",
   src: "https://www.youtube.com/embed/sRvp-_lILQ4",
   title: "YouTube video player",
   frameborder: "0",
   allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
   allowfullscreen: ""
-})])])], -1
+})])])])], -1
 /* HOISTED */
 );
 
@@ -21360,20 +21359,27 @@ var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
 );
 
 var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h4", {
-  "class": "criterios"
-}, "ALIMENTATÓN – MERCASA", -1
+  "class": "criterios",
+  style: {
+    "text-align": "center"
+  }
+}, " ALIMENTATÓN – MERCASA ", -1
 /* HOISTED */
 );
 
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("iframe", {
-  width: "560",
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  style: {
+    "text-align": "center"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("iframe", {
+  width: "435",
   height: "315",
   src: "https://www.youtube.com/embed/iFfQMiZI_8A",
   title: "YouTube video player",
   frameborder: "0",
   allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
   allowfullscreen: ""
-}, null, -1
+})], -1
 /* HOISTED */
 );
 
@@ -21386,7 +21392,7 @@ var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "box"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-  src: "images/logo-cp.png",
+  src: "images/integrate-caritas.jpg",
   alt: ""
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "icon"
@@ -21398,7 +21404,7 @@ var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
   href: ""
 }, "INTÉGRATE CON CÁRITAS - FUNDACIONES")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "description"
-}, " Intégrate con Cáritas, en esta entrega se hizo un trabajo en compañía de las fundaciones con el objetivo de visibilizarlas por medio de la conexión que tienen con el banco de alimentos. Se realizaron distintas visitas a las 6 fundaciones determinadas para luego realizar un perfil escrito de cada una. En este perfil se puede encontrar la historia de dicha fundación y como se encuentra en la actualidad. También se hizo una galería fotográfica de 10 imágenes que permitan al lector entender más cómo es la fundación. Dichos perfiles fueron aprobados por los dueños o responsables de la fundación y las fotos fueron tomadas con el permiso de ellos durante la visita. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+}, " Intégrate con Cáritas, en esta entrega se hizo un trabajo en compañía de las fundaciones con el objetivo de visibilizarlas por medio de la conexión que tienen con el banco de alimentos. Se realizaron distintas visitas a las 6 fundaciones determinadas para luego realizar un perfil escrito de cada una. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
   "class": "btn btn-success",
   "data-toggle": "collapse",
   href: "#collapseBanco",
@@ -21410,7 +21416,17 @@ var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Leer más")])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   id: "collapseBanco",
   "class": "collapse"
-})])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "description"
+}, " En este perfil se puede encontrar la historia de dicha fundación y como se encuentra en la actualidad. También se hizo una galería fotográfica de 10 imágenes que permitan al lector entender más cómo es la fundación. Dichos perfiles fueron aprobados por los dueños o responsables de la fundación y las fotos fueron tomadas con el permiso de ellos durante la visita. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h4", {
+  "class": "title"
+}, "Visítalo dando click en la imagen:"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  href: "https://caritasfundaciones.wixsite.com/integrateconcaritas",
+  target: "_blank"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: "images/integrate-caritas.jpg",
+  alt: ""
+})])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "col-md-6 col-lg-6"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "box"
@@ -21930,7 +21946,7 @@ var _hoisted_2 = {
 
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("header", {
   "class": "section-header"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Programas"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, " Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus. ")], -1
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Programas"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p")], -1
 /* HOISTED */
 );
 
@@ -21974,7 +21990,19 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
   "class": "criterios"
 }, "Criterios de Acción"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", {
   type: "circle"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, " Se enmarca en el ámbito de la Pastoral Social: Su misión es llevar la Buena Nueva de Jesús resucitado a los hombres y mujeres del campo "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, " Tiene una profunda inspiración bíblica: La tierra es don de Dios y lugar del encuentro con “los otros” y con “el Otro”. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, " Está orientada por la Doctrina Social de la Iglesia: El trabajo, la propiedad y, la justa distribución de los bienes y la riqueza son temas centrales. ")])])])], -1
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
+  style: {
+    "color": "#ffff"
+  }
+}, " Se enmarca en el ámbito de la Pastoral Social: Su misión es llevar la Buena Nueva de Jesús resucitado a los hombres y mujeres del campo "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
+  style: {
+    "color": "#ffff"
+  }
+}, " Tiene una profunda inspiración bíblica: La tierra es don de Dios y lugar del encuentro con “los otros” y con “el Otro”. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
+  style: {
+    "color": "#ffff"
+  }
+}, " Está orientada por la Doctrina Social de la Iglesia: El trabajo, la propiedad y la justa distribución de los bienes y la riqueza son temas centrales. ")])])])], -1
 /* HOISTED */
 );
 
@@ -22080,18 +22108,7 @@ var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
   href: ""
 }, "FORMACIÓN AGENTES DE PASTORAL SOCIAL")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "description"
-}, " EHemos contado con 71 personas que han dado su SI a esta propuesta de ir al más necesitado de una manera integral, impactando directamente en sus personas y comunidades. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h4", {
-  "class": "title"
-}, "En alianza con Ministerio de Incidencia Política y Opinión Pública"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  "class": "btn btn-success",
-  "data-toggle": "collapse",
-  href: "#collapseTransform",
-  role: "button",
-  "aria-expanded": "false",
-  "aria-controls": "collapseTransform"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
-  "class": "fas fa-sign-in-alt"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Leer más")])])])])])], -1
+}, " emos contado con 71 personas que han dado su \"SI\" a esta propuesta de ir al más necesitado de una manera integral, impactando directamente en sus personas y comunidades. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br")])])])], -1
 /* HOISTED */
 );
 
@@ -22112,9 +22129,7 @@ var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
   "class": "ion-ios-world-outline"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h4", {
   "class": "title"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: ""
-}, "ACCIÓN VOLUNTARIA")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+}, "ACCIÓN VOLUNTARIA"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "acción"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "description"
@@ -22132,7 +22147,34 @@ var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
   "class": "collapse"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h4", {
   "class": "title"
-}, "Transformación al Voluntariado"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Personas"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, "Hombres y 37 mujeres donaron 16.680 horas de Voluntariado.")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Esfuerzos"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, "Compartir saberes engrandecen una labor.")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, "Resultado"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, "Seis meses de pequeños esfuerzos con grandes resultados.")])])])])])])], -1
+}, "Transformación al Voluntariado"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  style: {
+    "color": "#ffff",
+    "font-size": "17px"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("strong", null, "Personas")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
+  style: {
+    "color": "#ffff"
+  }
+}, "Hombres y 37 mujeres donaron 16.680 horas de Voluntariado.")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  style: {
+    "color": "#ffff",
+    "font-size": "17px"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("strong", null, "Esfuerzos")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
+  style: {
+    "color": "#ffff"
+  }
+}, "Compartir saberes engrandecen una labor.")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  style: {
+    "color": "#ffff",
+    "font-size": "17px"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("strong", null, "Resultado")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
+  style: {
+    "color": "#ffff"
+  }
+}, "Seis meses de pequeños esfuerzos con grandes resultados.")])])])])])])], -1
 /* HOISTED */
 );
 
@@ -28522,7 +28564,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#services[data-v-66bcffc2] {\r\n  padding: 60px 0 40px 0;\r\n  box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);\n}\n#services .section-header h3[data-v-66bcffc2] {\r\n  font-size: 36px;\r\n  color: #000000;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#services .section-header p[data-v-66bcffc2] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #000000;\r\n  width: 50%;\n}\nh4[data-v-66bcffc2]{\r\n  color: #ffffff;\n}\n#services .row[data-v-66bcffc2] {\r\n  border-radius: 10px;\r\n  background: #025228;\n}\n#services .box[data-v-66bcffc2] {\r\n  padding: 30px;\r\n  position: relative;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n  margin: 0 10px 40px 10px;\r\n  background: #025228;\r\n  box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);\r\n  transition: all 0.3s ease-in-out;\n}\n#services img[data-v-66bcffc2] {\r\n  margin: 10px 5px 15px 20px;\r\n  width: 100%;\r\n  height: 100%;\n}\n#services .icon[data-v-66bcffc2] {\r\n  position: absolute;\r\n  left: -10px;\r\n  top: calc(50% - 32px);\n}\n#services .icon i[data-v-66bcffc2] {\r\n  font-size: 64px;\r\n  line-height: 1;\r\n  transition: 0.5s;\n}\n#services .title[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\n}\n#services .title a[data-v-66bcffc2] {\r\n  color: #ffffff;\n}\n#services .description[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  margin-left: 40px;\r\n  line-height: 24px;\r\n  margin-bottom: 0;\r\n  text-align: justify;\r\n  color: #ffffff;\n}\n#services .btn[data-v-66bcffc2] {\r\n  margin-inline: 10px;\r\n  margin-left: 3em;\r\n  background: #025228;\n}\n#services .criterios[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\r\n  color: #ffffff;\n}\n#services .proyection[data-v-66bcffc2] {\r\n  background: #028341;\r\n  margin-left: 2.5em;\r\n  text-align: center;\n}\n#services ul[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  text-align: justify;\n}\n.accion[data-v-66bcffc2]{\r\n  background: greenyellow;\n}\n.section-bg[data-v-66bcffc2] {\r\n  background: #799b9173;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#services[data-v-66bcffc2] {\r\n  padding: 60px 0 40px 0;\r\n  box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);\n}\n#services .section-header h3[data-v-66bcffc2] {\r\n  font-size: 36px;\r\n  color: #000000;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#services .section-header p[data-v-66bcffc2] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #000000;\r\n  width: 50%;\n}\nh4[data-v-66bcffc2]{\r\n  color: #ffffff;\n}\n#services .row[data-v-66bcffc2] {\r\n  border-radius: 10px;\r\n  background: #025228;\n}\n#services .box[data-v-66bcffc2] {\r\n  padding: 30px;\r\n  position: relative;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n  margin: 0 10px 40px 10px;\r\n  background: #025228;\r\n  box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);\r\n  transition: all 0.3s ease-in-out;\n}\n#services img[data-v-66bcffc2] {\r\n  margin: 10px 5px 15px 20px;\r\n  width: 100%;\r\n  height: 100%;\n}\n#services .icon[data-v-66bcffc2] {\r\n  position: absolute;\r\n  left: -10px;\r\n  top: calc(50% - 32px);\n}\n#services .icon i[data-v-66bcffc2] {\r\n  font-size: 64px;\r\n  line-height: 1;\r\n  transition: 0.5s;\n}\n#services .title[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\n}\n#services .title a[data-v-66bcffc2] {\r\n  color: #ffffff;\n}\n#services .description[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  margin-left: 40px;\r\n  line-height: 24px;\r\n  margin-bottom: 0;\r\n  text-align: justify;\r\n  color: #ffffff;\n}\n#services .btn[data-v-66bcffc2] {\r\n  margin-inline: 10px;\r\n  margin-left: 3em;\r\n  background: #025228;\n}\n#services .criterios[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\r\n  color: #ffffff;\n}\n#services .proyection[data-v-66bcffc2] {\r\n  background: #028341;\r\n  margin-left: 2.5em;\r\n  text-align: center;\n}\n#services ul[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  text-align: justify;\n}\n.accion[data-v-66bcffc2]{\r\n  background: greenyellow;\n}\n.section-bg[data-v-66bcffc2] {\r\n  background: #799b9173;\n}\r\n\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

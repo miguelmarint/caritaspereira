@@ -4,10 +4,7 @@
       <div class="container">
         <header class="section-header">
           <h3>Actividades</h3>
-          <p>
-            Laudem latine persequeris id sed, ex fabulas delectus quo. No vel
-            partiendo abhorreant vituperatoribus.
-          </p>
+          <p></p>
         </header>
 
         <div data-aos="fade-up">
@@ -47,17 +44,21 @@
                   >
                 </p>
                 <div id="collapseCriterios" class="collapse">
-                  <h4 class="criterios">ALIMENTATÓN – CIUDADELA VILLAVERDE</h4>
-                  <iframe
-                    class="description"
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/sRvp-_lILQ4"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
+                  <h4 class="criterios" style="text-align: center">
+                    ALIMENTATÓN – CIUDADELA VILLAVERDE
+                  </h4>
+                  <div style="text-align: center">
+                    <iframe
+                      class="description"
+                      width="430"
+                      height="315"
+                      src="https://www.youtube.com/embed/sRvp-_lILQ4"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
                 </div>
               </div>
             </div>
@@ -105,16 +106,20 @@
                     </li>
                   </ul>
                   <P class="description">
-                    <h4 class="criterios">ALIMENTATÓN – MERCASA</h4>
-                    <iframe
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/iFfQMiZI_8A"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
-                    ></iframe>
+                    <h4 class="criterios" style="text-align: center">
+                      ALIMENTATÓN – MERCASA
+                    </h4>
+                    <div style="text-align: center">
+                      <iframe
+                        width="435"
+                        height="315"
+                        src="https://www.youtube.com/embed/iFfQMiZI_8A"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
                   </P>
                 </div>
               </div>
@@ -126,7 +131,7 @@
           <div class="row">
             <div class="col-md-6 col-lg-6">
               <div class="box">
-                <img src="images/logo-cp.png" alt="" />
+                <img src="images/integrate-caritas.jpg" alt="" />
                 <br />
                 <div class="icon">
                   <i class="ion-ios-paper-outline"></i>
@@ -140,13 +145,7 @@
                   por medio de la conexión que tienen con el banco de alimentos.
                   Se realizaron distintas visitas a las 6 fundaciones
                   determinadas para luego realizar un perfil escrito de cada
-                  una. En este perfil se puede encontrar la historia de dicha
-                  fundación y como se encuentra en la actualidad. También se
-                  hizo una galería fotográfica de 10 imágenes que permitan al
-                  lector entender más cómo es la fundación. Dichos perfiles
-                  fueron aprobados por los dueños o responsables de la fundación
-                  y las fotos fueron tomadas con el permiso de ellos durante la
-                  visita.
+                  una. 
                 </p>
                 <br />
                 <p>
@@ -160,7 +159,25 @@
                     ><i class="fas fa-sign-in-alt"></i> Leer más</a
                   >
                 </p>
-                <div id="collapseBanco" class="collapse"></div>
+                <div id="collapseBanco" class="collapse">
+                  <p class="description">
+                    En este perfil se puede encontrar la historia de dicha
+                    fundación y como se encuentra en la actualidad. También se
+                    hizo una galería fotográfica de 10 imágenes que permitan al
+                    lector entender más cómo es la fundación. Dichos perfiles
+                    fueron aprobados por los dueños o responsables de la
+                    fundación y las fotos fueron tomadas con el permiso de ellos
+                    durante la visita.
+                  </p>
+                  <br/>
+                  <h4 class="title">Visítalo dando click en la imagen:</h4>
+                  <a
+                    href="https://caritasfundaciones.wixsite.com/integrateconcaritas"
+                    target="_blank"
+                  >
+                    <img src="images/integrate-caritas.jpg" alt="" />
+                  </a>
+                </div>
               </div>
             </div>
             <div class="col-md-6 col-lg-6">
@@ -177,7 +194,7 @@
                   Desarrollo. Esta se realizó en Santa Cecilia, corregimiento de
                   Pueblo Rico (Risaralda)
                 </p>
-                <img src="images/bazar-inter.jpg" alt=""/>
+                <img src="images/bazar-inter.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -233,7 +250,6 @@ export default {};
   width: 100%;
   height: 100%;
 }
-
 
 #services .icon {
   position: absolute;
