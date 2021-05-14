@@ -5,8 +5,6 @@
         <header class="section-header">
           <h3>Programas</h3>
           <p>
-            Laudem latine persequeris id sed, ex fabulas delectus quo. No vel
-            partiendo abhorreant vituperatoribus.
           </p>
         </header>
 
@@ -49,19 +47,19 @@
                 <br />
                   <h4 class="criterios">Criterios de Acción</h4>
                   <ul type="circle">
-                    <li>
+                    <li style="color:#ffff;">
                       Se enmarca en el ámbito de la Pastoral Social: Su misión
                       es llevar la Buena Nueva de Jesús resucitado a los hombres
                       y mujeres del campo
                     </li>
-                    <li>
+                    <li style="color:#ffff;">
                       Tiene una profunda inspiración bíblica: La tierra es don
                       de Dios y lugar del encuentro con “los otros” y con “el
                       Otro”.
                     </li>
-                    <li>
+                    <li style="color:#ffff;">
                       Está orientada por la Doctrina Social de la Iglesia: El
-                      trabajo, la propiedad y, la justa distribución de los
+                      trabajo, la propiedad y la justa distribución de los
                       bienes y la riqueza son temas centrales.
                     </li>
                   </ul>
@@ -208,10 +206,10 @@
                 <div class="icon">
                   <i class="ion-ios-world-outline"></i>
                 </div>
-                <h4 class="title"><a href="">ACCIÓN VOLUNTARIA</a></h4>
+                <h4 class="title">ACCIÓN VOLUNTARIA</h4>
                 <div class="acción">
                   <p class="description">
-                    Una prouesta para construir conocimiento y daroportunidades.
+                    Una prouesta para construir conocimiento y dar oportunidades.
                   </p>
                   <br>
                    <p>
@@ -294,6 +292,7 @@ h4{
   transition: all 0.3s ease-in-out;
 }
 
+
 #services img {
   margin: 10px 5px 15px 20px;
   width: 100%;
@@ -342,6 +341,7 @@ h4{
   color: #ffffff;
 }
 
+
 #services .proyection {
   background: #028341;
   margin-left: 2.5em;
@@ -359,4 +359,6 @@ h4{
 .section-bg {
   background: #799b9173;
 }
+
+
 </style>

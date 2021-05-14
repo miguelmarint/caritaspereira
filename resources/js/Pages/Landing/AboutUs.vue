@@ -61,7 +61,7 @@
 
             <div class="col-lg-6 background order-lg-2 order-1 wow">
               <img
-                :src="asset('images/tenequipo.jpg')"
+                :src="asset('images/inicio.jpg')"
                 class="img-fluid"
                 alt=""
               />
@@ -73,7 +73,7 @@
           <div class="row about-extra">
             <div class="col-lg-6 wow">
               <img
-                :src="asset('images/about-extra-1.svg')"
+                :src="asset('images/tenequipo.jpg')"
                 class="img-fluid"
                 alt=""
               />

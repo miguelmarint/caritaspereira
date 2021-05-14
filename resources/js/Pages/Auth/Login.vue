@@ -6,7 +6,7 @@
         <jet-authentication-card>
           <div class="card-body">
             <form @submit.prevent="submit">
-              <h2 class="text-center mb-3">init on serviso</h2>
+              <h2 class="text-center mb-3">Inicio de sesión</h2>
               <hr />
 
               <div class="form-group row">

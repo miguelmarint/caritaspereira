@@ -57,6 +57,15 @@
           <li class="nav-item">
             <button
               type="button"
+              @click="scrollMeTo('activities')"
+              class="btn btn-light nav-link"
+            >
+              {{ __("Activities") }}
+            </button>
+          </li>
+          <li class="nav-item">
+            <button
+              type="button"
               @click="scrollMeTo('why-us')"
               class="btn btn-light nav-link"
             >
@@ -73,9 +82,13 @@
             </button>
           </li>
           <li class="nav-item">
-            <inertia-link class="nav-link" href="#">{{
-              __("nav.contact")
-            }}</inertia-link>
+            <button
+              type="button"
+              @click="scrollMeTo('contact')"
+              class="btn btn-light nav-link"
+            >
+              {{ __("nav.contact") }}
+            </button>
           </li>
 
           <language-selector></language-selector>

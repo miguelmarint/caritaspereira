@@ -19465,7 +19465,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 /* HOISTED */
 );
 
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"col-sm footer-links\" data-v-202534c2><h4 data-v-202534c2>Useful Links</h4><ul data-v-202534c2><li data-v-202534c2><a href=\"\" data-v-202534c2>Home</a></li><li data-v-202534c2><a href=\"\" data-v-202534c2>About us</a></li><li data-v-202534c2><a href=\"\" data-v-202534c2>Services</a></li><li data-v-202534c2><a href=\"\" data-v-202534c2>Terms of service</a></li><li data-v-202534c2><a href=\"\" data-v-202534c2>Privacy policy</a></li></ul></div><div class=\"col-sm footer-contact\" data-v-202534c2><h4 data-v-202534c2>Contáctanos</h4><p data-v-202534c2> Cra 20 # 4-47 <br data-v-202534c2> Pereira y Sede Banco de Alimentos :<br data-v-202534c2> Transversal 5 # 6-30 Calle de las Aromas la Badea Dosquebradas <br data-v-202534c2><strong data-v-202534c2>Teléfono:</strong> (+57)321 6467811 – (+57)3148962397 - Fijo 3154138<br data-v-202534c2><strong data-v-202534c2>Correo electrónico:</strong> comunicaciones@caritaspereira.org<br data-v-202534c2></p><div class=\"social-links\" data-v-202534c2><a href=\"\" class=\"twitter\" data-v-202534c2><i class=\"fab fa-twitter\" data-v-202534c2></i></a><a href=\"\" class=\"facebook\" data-v-202534c2><i class=\"fab fa-facebook-f\" data-v-202534c2></i></a><a href=\"\" class=\"instagram\" data-v-202534c2><i class=\"fab fa-instagram\" data-v-202534c2></i></a><a href=\"\" class=\"google-plus\" data-v-202534c2><i class=\"fab fa-google-plus-g\" data-v-202534c2></i></a><a href=\"\" class=\"linkedin\" data-v-202534c2><i class=\"fab fa-linkedin-in\" data-v-202534c2></i></a></div></div>", 2);
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"col-sm footer-links\" data-v-202534c2><h4 data-v-202534c2>Useful Links</h4><ul data-v-202534c2><li data-v-202534c2><a href=\"\" data-v-202534c2>Home</a></li><li data-v-202534c2><a href=\"\" data-v-202534c2>About us</a></li><li data-v-202534c2><a href=\"\" data-v-202534c2>Services</a></li><li data-v-202534c2><a href=\"\" data-v-202534c2>Terms of service</a></li><li data-v-202534c2><a href=\"\" data-v-202534c2>Privacy policy</a></li></ul></div><div class=\"col-sm footer-contact\" data-v-202534c2><h4 data-v-202534c2>Contáctanos</h4><p data-v-202534c2> Cra 20 # 4-47 <br data-v-202534c2> Pereira y Sede Banco de Alimentos :<br data-v-202534c2> Transversal 5 # 6-30 Calle de las Aromas la Badea Dosquebradas <br data-v-202534c2><strong data-v-202534c2>Teléfono:</strong> (+57)321 6467811 – (+57)3148962397 - Fijo 3154138<br data-v-202534c2><strong data-v-202534c2>Correo electrónico:</strong> comunicaciones@caritaspereira.org<br data-v-202534c2></p><div class=\"social-links\" data-v-202534c2><a href=\"https://twitter.com/CaritasPereira\" target=\"_blank\" class=\"twitter\" data-v-202534c2><i class=\"fab fa-twitter\" data-v-202534c2></i></a><a href=\"https://www.facebook.com/comunicacionescaritaspereira.org/\" target=\"_blank\" class=\"facebook\" data-v-202534c2><i class=\"fab fa-facebook-f\" data-v-202534c2></i></a><a href=\"https://www.instagram.com/caritas_pereira/\" target=\"_blank\" class=\"instagram\" data-v-202534c2><i class=\"fab fa-instagram\" data-v-202534c2></i></a></div></div>", 2);
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
@@ -19541,15 +19541,18 @@ var _hoisted_10 = {
   "class": "nav-item"
 };
 var _hoisted_11 = {
-  key: 0,
   "class": "nav-item"
 };
 var _hoisted_12 = {
+  key: 0,
+  "class": "nav-item"
+};
+var _hoisted_13 = {
   key: 1,
   "class": "nav-item dropdown"
 };
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
   id: "navbarDropdown",
   "class": "nav-link dropdown-toggle",
   href: "#",
@@ -19563,15 +19566,15 @@ var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
 /* HOISTED */
 );
 
-var _hoisted_14 = {
+var _hoisted_15 = {
   "class": "dropdown-menu dropdown-menu-right",
   "aria-labelledby": "navbarDropdown"
 };
-var _hoisted_15 = {
+var _hoisted_16 = {
   "class": "dropdown-header"
 };
 
-var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "dropdown-divider"
 }, null, -1
 /* HOISTED */
@@ -19636,32 +19639,36 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
   )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
     type: "button",
     onClick: _cache[4] || (_cache[4] = function ($event) {
+      return $options.scrollMeTo('activities');
+    }),
+    "class": "btn btn-light nav-link"
+  }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__("Activities")), 1
+  /* TEXT */
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+    type: "button",
+    onClick: _cache[5] || (_cache[5] = function ($event) {
       return $options.scrollMeTo('why-us');
     }),
     "class": "btn btn-light nav-link"
   }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__("nav.why")), 1
   /* TEXT */
-  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
     type: "button",
-    onClick: _cache[5] || (_cache[5] = function ($event) {
+    onClick: _cache[6] || (_cache[6] = function ($event) {
       return $options.scrollMeTo('portfolio');
     }),
     "class": "btn btn-light nav-link"
   }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__("nav.portfolio")), 1
   /* TEXT */
-  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_inertia_link, {
-    "class": "nav-link",
-    href: "#"
-  }, {
-    "default": _withId(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__("nav.contact")), 1
-      /* TEXT */
-      )];
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+    type: "button",
+    onClick: _cache[7] || (_cache[7] = function ($event) {
+      return $options.scrollMeTo('contact');
     }),
-    _: 1
-    /* STABLE */
-
-  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_language_selector), !_ctx.$page.props.user ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("li", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_inertia_link, {
+    "class": "btn btn-light nav-link"
+  }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__("nav.contact")), 1
+  /* TEXT */
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_language_selector), !_ctx.$page.props.user ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("li", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_inertia_link, {
     "class": "nav-link",
     href: _ctx.route('login')
   }, {
@@ -19675,9 +19682,9 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
 
   }, 8
   /* PROPS */
-  , ["href"])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.$page.props.user ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("li", _hoisted_12, [_hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h6", _hoisted_15, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.$page.props.user.name), 1
+  , ["href"])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.$page.props.user ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("li", _hoisted_13, [_hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h6", _hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.$page.props.user.name), 1
   /* TEXT */
-  ), _hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_dropdown_link, {
+  ), _hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_dropdown_link, {
     "class": "dropdown-item",
     href: _ctx.route('dashboard')
   }, {
@@ -19706,7 +19713,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
   }, 8
   /* PROPS */
   , ["href"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("form", {
-    onSubmit: _cache[6] || (_cache[6] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
+    onSubmit: _cache[8] || (_cache[8] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
       return $options.logout && $options.logout.apply($options, arguments);
     }, ["prevent"]))
   }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_dropdown_link, {
@@ -20386,7 +20393,7 @@ var _hoisted_3 = {
 
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h2", {
   "class": "text-center mb-3"
-}, "init on serviso", -1
+}, "Inicio de sesión", -1
 /* HOISTED */
 );
 
@@ -21116,15 +21123,11 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h1", {
   "class": "mt-4"
-}, "Simple Sidebar", -1
+}, "Fundación Cáritas Admin", -1
 /* HOISTED */
 );
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, " The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change. ", -1
-/* HOISTED */
-);
-
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Make sure to keep all page content within the "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("code", null, "#page-content-wrapper"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(". The top navbar is optional, and just for demonstration. Just create an element with the "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("code", null, "#menu-toggle"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" ID which will toggle the menu when clicked. ")], -1
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, " Panel de administración. ", -1
 /* HOISTED */
 );
 
@@ -21136,7 +21139,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       return [_hoisted_1];
     }),
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_2, _hoisted_3, _hoisted_4];
+      return [_hoisted_2, _hoisted_3];
     }),
     _: 1
     /* STABLE */
@@ -21221,13 +21224,13 @@ var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
 
 var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_5, [_hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-    src: _ctx.asset('images/tenequipo.jpg'),
+    src: _ctx.asset('images/inicio.jpg'),
     "class": "img-fluid",
     alt: ""
   }, null, 8
   /* PROPS */
   , ["src"])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-    src: _ctx.asset('images/about-extra-1.svg'),
+    src: _ctx.asset('images/tenequipo.jpg'),
     "class": "img-fluid",
     alt: ""
   }, null, 8
@@ -21262,7 +21265,7 @@ var _withId = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.withScopeId)("dat
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-2f82e5ee");
 
 var _hoisted_1 = {
-  id: "services",
+  id: "activities",
   "class": "section-bg"
 };
 var _hoisted_2 = {
@@ -21271,7 +21274,7 @@ var _hoisted_2 = {
 
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("header", {
   "class": "section-header"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Actividades"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, " Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus. ")], -1
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Actividades"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p")], -1
 /* HOISTED */
 );
 
@@ -21370,20 +21373,27 @@ var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
 );
 
 var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h4", {
-  "class": "criterios"
-}, "ALIMENTATÓN – MERCASA", -1
+  "class": "criterios",
+  style: {
+    "text-align": "center"
+  }
+}, " ALIMENTATÓN – MERCASA ", -1
 /* HOISTED */
 );
 
-var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("iframe", {
-  width: "560",
+var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  style: {
+    "text-align": "center"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("iframe", {
+  width: "435",
   height: "315",
   src: "https://www.youtube.com/embed/iFfQMiZI_8A",
   title: "YouTube video player",
   frameborder: "0",
   allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
   allowfullscreen: ""
-}, null, -1
+})], -1
 /* HOISTED */
 );
 
@@ -21942,7 +21952,7 @@ var _hoisted_2 = {
 
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("header", {
   "class": "section-header"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Programas"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, " Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus. ")], -1
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Programas"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p")], -1
 /* HOISTED */
 );
 
@@ -21981,21 +21991,7 @@ var _hoisted_15 = {
 
 var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" compartiendo el amor por la tierra, sembrando la semilla, nutriéndola y regándola en solidaridad con sus dificultades y esperanzas. ");
 
-var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br", null, null, -1
-/* HOISTED */
-);
-
-var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h4", {
-  "class": "criterios"
-}, "Criterios de Acción", -1
-/* HOISTED */
-);
-
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", {
-  type: "circle"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, " Se enmarca en el ámbito de la Pastoral Social: Su misión es llevar la Buena Nueva de Jesús resucitado a los hombres y mujeres del campo "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, " Tiene una profunda inspiración bíblica: La tierra es don de Dios y lugar del encuentro con “los otros” y con “el Otro”. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, " Está orientada por la Doctrina Social de la Iglesia: El trabajo, la propiedad y, la justa distribución de los bienes y la riqueza son temas centrales. ")], -1
-/* HOISTED */
-);
+var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<br data-v-66bcffc2><h4 class=\"criterios\" data-v-66bcffc2>Criterios de Acción</h4><ul type=\"circle\" data-v-66bcffc2><li style=\"color:#ffff;\" data-v-66bcffc2> Se enmarca en el ámbito de la Pastoral Social: Su misión es llevar la Buena Nueva de Jesús resucitado a los hombres y mujeres del campo </li><li style=\"color:#ffff;\" data-v-66bcffc2> Tiene una profunda inspiración bíblica: La tierra es don de Dios y lugar del encuentro con “los otros” y con “el Otro”. </li><li style=\"color:#ffff;\" data-v-66bcffc2> Está orientada por la Doctrina Social de la Iglesia: El trabajo, la propiedad y la justa distribución de los bienes y la riqueza son temas centrales. </li></ul>", 3);
 
 var _hoisted_20 = {
   "class": "col-md-6 col-lg-6"
@@ -22144,13 +22140,11 @@ var _hoisted_38 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
   "class": "ion-ios-world-outline"
 })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h4", {
   "class": "title"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
-  href: ""
-}, "ACCIÓN VOLUNTARIA")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+}, "ACCIÓN VOLUNTARIA"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "acción"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "description"
-}, " Una prouesta para construir conocimiento y daroportunidades. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+}, " Una prouesta para construir conocimiento y dar oportunidades. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
   "class": "btn btn-success",
   "data-toggle": "collapse",
   href: "#collapseTransform",
@@ -22194,7 +22188,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
     _: 1
     /* STABLE */
 
-  }), _hoisted_17, _hoisted_18, _hoisted_19])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_21, [_hoisted_22, _hoisted_28, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_29, [_hoisted_30, _hoisted_31, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_P, {
+  }), _hoisted_17])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_21, [_hoisted_22, _hoisted_28, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_29, [_hoisted_30, _hoisted_31, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_P, {
     "class": "description"
   }, {
     "default": _withId(function () {
@@ -28431,7 +28425,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#services[data-v-2f82e5ee] {\r\n  padding: 60px 0 40px 0;\r\n  box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);\n}\n#services .section-header h3[data-v-2f82e5ee] {\r\n  font-size: 36px;\r\n  color: #ffffff;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#services .section-header p[data-v-2f82e5ee] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #ffffff;\r\n  width: 50%;\n}\n#services .row[data-v-2f82e5ee] {\r\n  border-radius: 10px;\r\n  background: #025228;\n}\n#services .box[data-v-2f82e5ee] {\r\n  padding: 30px;\r\n  position: relative;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n  margin: 0 10px 40px 10px;\r\n  background: #ffffff;\r\n  box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);\r\n  transition: all 0.3s ease-in-out;\n}\n#services img[data-v-2f82e5ee] {\r\n  margin: 10px 5px 15px 20px;\r\n  width: 100%;\r\n  height: 100%;\n}\n#services .icon[data-v-2f82e5ee] {\r\n  position: absolute;\r\n  left: -10px;\r\n  top: calc(50% - 32px);\n}\n#services .icon i[data-v-2f82e5ee] {\r\n  font-size: 64px;\r\n  line-height: 1;\r\n  transition: 0.5s;\n}\n#services .title[data-v-2f82e5ee] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\n}\n#services .title a[data-v-2f82e5ee] {\r\n  color: #111;\n}\n#services .description[data-v-2f82e5ee] {\r\n  font-size: 16px;\r\n  margin-left: 40px;\r\n  line-height: 24px;\r\n  margin-bottom: 0;\r\n  text-align: justify;\n}\n#services .btn[data-v-2f82e5ee] {\r\n  margin-inline: 10px;\r\n  margin-left: 3em;\r\n  background: #025228;\n}\n#services .criterios[data-v-2f82e5ee] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\r\n  color: #111;\n}\n#services .proyection[data-v-2f82e5ee] {\r\n  background: #028341;\r\n  margin-left: 2.5em;\r\n  text-align: center;\n}\n#services ul[data-v-2f82e5ee] {\r\n  font-size: 16px;\r\n  text-align: justify;\n}\n.accion[data-v-2f82e5ee] {\r\n  background: greenyellow;\n}\n.section-bg[data-v-2f82e5ee] {\r\n  background: #025228;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#activities[data-v-2f82e5ee] {\r\n  padding: 60px 0 40px 0;\r\n  box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);\n}\n#activities .section-header h3[data-v-2f82e5ee] {\r\n  font-size: 36px;\r\n  color: #ffffff;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#activities .section-header p[data-v-2f82e5ee] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #ffffff;\r\n  width: 50%;\n}\n#activities .row[data-v-2f82e5ee] {\r\n  border-radius: 10px;\r\n  background: #025228;\n}\n#activities .box[data-v-2f82e5ee] {\r\n  padding: 30px;\r\n  position: relative;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n  margin: 0 10px 40px 10px;\r\n  background: #ffffff;\r\n  box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);\r\n  transition: all 0.3s ease-in-out;\n}\n#activities img[data-v-2f82e5ee] {\r\n  margin: 10px 5px 15px 20px;\r\n  width: 100%;\r\n  height: 100%;\n}\n#activities .icon[data-v-2f82e5ee] {\r\n  position: absolute;\r\n  left: -10px;\r\n  top: calc(50% - 32px);\n}\n#activities .icon i[data-v-2f82e5ee] {\r\n  font-size: 64px;\r\n  line-height: 1;\r\n  transition: 0.5s;\n}\n#activities .title[data-v-2f82e5ee] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\n}\n#activities .title a[data-v-2f82e5ee] {\r\n  color: #111;\n}\n#activities .description[data-v-2f82e5ee] {\r\n  font-size: 16px;\r\n  margin-left: 40px;\r\n  line-height: 24px;\r\n  margin-bottom: 0;\r\n  text-align: justify;\n}\n#activities .btn[data-v-2f82e5ee] {\r\n  margin-inline: 10px;\r\n  margin-left: 3em;\r\n  background: #025228;\n}\n#activities .criterios[data-v-2f82e5ee] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\r\n  color: #111;\n}\n#activities .proyection[data-v-2f82e5ee] {\r\n  background: #028341;\r\n  margin-left: 2.5em;\r\n  text-align: center;\n}\n#activities ul[data-v-2f82e5ee] {\r\n  font-size: 16px;\r\n  text-align: justify;\n}\n.accion[data-v-2f82e5ee] {\r\n  background: greenyellow;\n}\n.section-bg[data-v-2f82e5ee] {\r\n  background: #025228;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28575,7 +28569,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#services[data-v-66bcffc2] {\r\n  padding: 60px 0 40px 0;\r\n  box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);\n}\n#services .section-header h3[data-v-66bcffc2] {\r\n  font-size: 36px;\r\n  color: #000000;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#services .section-header p[data-v-66bcffc2] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #000000;\r\n  width: 50%;\n}\nh4[data-v-66bcffc2]{\r\n  color: #ffffff;\n}\n#services .row[data-v-66bcffc2] {\r\n  border-radius: 10px;\r\n  background: #025228;\n}\n#services .box[data-v-66bcffc2] {\r\n  padding: 30px;\r\n  position: relative;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n  margin: 0 10px 40px 10px;\r\n  background: #025228;\r\n  box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);\r\n  transition: all 0.3s ease-in-out;\n}\n#services img[data-v-66bcffc2] {\r\n  margin: 10px 5px 15px 20px;\r\n  width: 100%;\r\n  height: 120%;\n}\n#services .icon[data-v-66bcffc2] {\r\n  position: absolute;\r\n  left: -10px;\r\n  top: calc(50% - 32px);\n}\n#services .icon i[data-v-66bcffc2] {\r\n  font-size: 64px;\r\n  line-height: 1;\r\n  transition: 0.5s;\n}\n#services .title[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\n}\n#services .title a[data-v-66bcffc2] {\r\n  color: #ffffff;\n}\n#services .description[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  margin-left: 40px;\r\n  line-height: 24px;\r\n  margin-bottom: 0;\r\n  text-align: justify;\r\n  color: #ffffff;\n}\n#services .btn[data-v-66bcffc2] {\r\n  margin-inline: 10px;\r\n  margin-left: 3em;\r\n  background: #025228;\n}\n#services .criterios[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\r\n  color: #ffffff;\n}\n#services .proyection[data-v-66bcffc2] {\r\n  background: #028341;\r\n  margin-left: 2.5em;\r\n  text-align: center;\n}\n#services ul[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  text-align: justify;\n}\n.accion[data-v-66bcffc2]{\r\n  background: greenyellow;\n}\n.section-bg[data-v-66bcffc2] {\r\n  background: #799b9173;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#services[data-v-66bcffc2] {\r\n  padding: 60px 0 40px 0;\r\n  box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);\n}\n#services .section-header h3[data-v-66bcffc2] {\r\n  font-size: 36px;\r\n  color: #000000;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#services .section-header p[data-v-66bcffc2] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #000000;\r\n  width: 50%;\n}\nh4[data-v-66bcffc2]{\r\n  color: #ffffff;\n}\n#services .row[data-v-66bcffc2] {\r\n  border-radius: 10px;\r\n  background: #025228;\n}\n#services .box[data-v-66bcffc2] {\r\n  padding: 30px;\r\n  position: relative;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n  margin: 0 10px 40px 10px;\r\n  background: #025228;\r\n  box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);\r\n  transition: all 0.3s ease-in-out;\n}\n#services img[data-v-66bcffc2] {\r\n  margin: 10px 5px 15px 20px;\r\n  width: 100%;\r\n  height: 120%;\n}\n#services .icon[data-v-66bcffc2] {\r\n  position: absolute;\r\n  left: -10px;\r\n  top: calc(50% - 32px);\n}\n#services .icon i[data-v-66bcffc2] {\r\n  font-size: 64px;\r\n  line-height: 1;\r\n  transition: 0.5s;\n}\n#services .title[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\n}\n#services .title a[data-v-66bcffc2] {\r\n  color: #ffffff;\n}\n#services .description[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  margin-left: 40px;\r\n  line-height: 24px;\r\n  margin-bottom: 0;\r\n  text-align: justify;\r\n  color: #ffffff;\n}\n#services .btn[data-v-66bcffc2] {\r\n  margin-inline: 10px;\r\n  margin-left: 3em;\r\n  background: #025228;\n}\n#services .criterios[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\r\n  color: #ffffff;\n}\n#services .proyection[data-v-66bcffc2] {\r\n  background: #028341;\r\n  margin-left: 2.5em;\r\n  text-align: center;\n}\n#services ul[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  text-align: justify;\n}\n.accion[data-v-66bcffc2]{\r\n  background: greenyellow;\n}\n.section-bg[data-v-66bcffc2] {\r\n  background: #799b9173;\n}\r\n\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

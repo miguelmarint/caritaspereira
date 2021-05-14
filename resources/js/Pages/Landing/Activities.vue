@@ -1,13 +1,10 @@
 <template>
   <div>
-    <section id="services" class="section-bg">
+    <section id="activities" class="section-bg">
       <div class="container">
         <header class="section-header">
           <h3>Actividades</h3>
-          <p>
-            Laudem latine persequeris id sed, ex fabulas delectus quo. No vel
-            partiendo abhorreant vituperatoribus.
-          </p>
+          <p></p>
         </header>
 
         <div data-aos="fade-up">
@@ -114,16 +111,20 @@
                     </li>
                   </ul>
                   <P class="description">
-                    <h4 class="criterios">ALIMENTATÓN – MERCASA</h4>
-                    <iframe
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/iFfQMiZI_8A"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
-                    ></iframe>
+                    <h4 class="criterios" style="text-align: center">
+                      ALIMENTATÓN – MERCASA
+                    </h4>
+                    <div style="text-align: center">
+                      <iframe
+                        width="435"
+                        height="315"
+                        src="https://www.youtube.com/embed/iFfQMiZI_8A"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
                   </P>
                 </div>
               </div>
@@ -204,19 +205,19 @@
 export default {};
 </script>
 <style scoped>
-#services {
+#activities {
   padding: 60px 0 40px 0;
   box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);
 }
 
-#services .section-header h3 {
+#activities .section-header h3 {
   font-size: 36px;
   color: #ffffff;
   text-align: center;
   font-weight: 500;
   position: relative;
 }
-#services .section-header p {
+#activities .section-header p {
   text-align: center;
   margin: auto;
   font-size: 15px;
@@ -225,12 +226,12 @@ export default {};
   width: 50%;
 }
 
-#services .row {
+#activities .row {
   border-radius: 10px;
   background: #025228;
 }
 
-#services .box {
+#activities .box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -241,33 +242,32 @@ export default {};
   transition: all 0.3s ease-in-out;
 }
 
-#services img {
+#activities img {
   margin: 10px 5px 15px 20px;
   width: 100%;
   height: 100%;
 }
 
-
-#services .icon {
+#activities .icon {
   position: absolute;
   left: -10px;
   top: calc(50% - 32px);
 }
-#services .icon i {
+#activities .icon i {
   font-size: 64px;
   line-height: 1;
   transition: 0.5s;
 }
-#services .title {
+#activities .title {
   margin-left: 40px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 19px;
 }
-#services .title a {
+#activities .title a {
   color: #111;
 }
-#services .description {
+#activities .description {
   font-size: 16px;
   margin-left: 40px;
   line-height: 24px;
@@ -275,13 +275,13 @@ export default {};
   text-align: justify;
 }
 
-#services .btn {
+#activities .btn {
   margin-inline: 10px;
   margin-left: 3em;
   background: #025228;
 }
 
-#services .criterios {
+#activities .criterios {
   margin-left: 40px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -289,13 +289,13 @@ export default {};
   color: #111;
 }
 
-#services .proyection {
+#activities .proyection {
   background: #028341;
   margin-left: 2.5em;
   text-align: center;
 }
 
-#services ul {
+#activities ul {
   font-size: 16px;
   text-align: justify;
 }

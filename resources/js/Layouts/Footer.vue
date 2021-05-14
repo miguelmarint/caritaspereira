@@ -38,18 +38,13 @@
               </p>
 
               <div class="social-links">
-                <a href="" class="twitter"><i class="fab fa-twitter"></i></a>
-                <a href="" class="facebook"
+                <a href="https://twitter.com/CaritasPereira" target="_blank" class="twitter"
+                  ><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/comunicacionescaritaspereira.org/" target="_blank" class="facebook"
                   ><i class="fab fa-facebook-f"></i
                 ></a>
-                <a href="" class="instagram"
+                <a href="https://www.instagram.com/caritas_pereira/" target="_blank" class="instagram"
                   ><i class="fab fa-instagram"></i
-                ></a>
-                <a href="" class="google-plus"
-                  ><i class="fab fa-google-plus-g"></i
-                ></a>
-                <a href="" class="linkedin"
-                  ><i class="fab fa-linkedin-in"></i
                 ></a>
               </div>
             </div>
