@@ -17874,6 +17874,7 @@ __webpack_require__.r(__webpack_exports__);
     Intro: _Intro__WEBPACK_IMPORTED_MODULE_1__.default,
     AboutUs: _AboutUs__WEBPACK_IMPORTED_MODULE_2__.default,
     Services: _Services__WEBPACK_IMPORTED_MODULE_3__.default,
+    Activities: _Activities__WEBPACK_IMPORTED_MODULE_4__.default,
     WhyUs: _WhyUs__WEBPACK_IMPORTED_MODULE_5__.default,
     VoluntaryForm: _VoluntaryForm__WEBPACK_IMPORTED_MODULE_6__.default,
     Companies: _Companies__WEBPACK_IMPORTED_MODULE_9__.default,

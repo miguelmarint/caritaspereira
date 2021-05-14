@@ -25,7 +25,7 @@ import ContactUs from "./ContactUs";
 import Footer from "@/Layouts/Footer";
 import Companies from "./Companies";
 export default {
-  components: { Navbar, Intro, AboutUs, Services, WhyUs, VoluntaryForm, Companies, ContactUs, Footer },
+  components: { Navbar, Intro, AboutUs, Services, Activities, WhyUs, VoluntaryForm, Companies, ContactUs, Footer },
 };
 </script>
 
