@@ -21282,7 +21282,7 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
   "class": "title"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
   href: ""
-}, "BARRIGA LLENA, CORAZÓN CONTENTO. PONLE STOP AL HANBRE")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+}, "BARRIGA LLENA, CORAZÓN CONTENTO. PONLE STOP AL HAMBRE")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "description"
 }, " Barriga llena, corazón contento. Pone stop al hambre, fue el lema utilizado en los planes de acción de comunicación y productos finales para la Alimentatón 2019 realizado por estudiantes de sexto semestre del programa de Comunicación Social-Periodismo de la Universidad Católica de Pereira, en la asignatura de Comunicación de Gobierno y Tercer Sector dictada por la Ph. D. Elva Mónica García Bustamante, docente de planta del Álma Mater. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
   "class": "btn btn-success",

@@ -216,7 +216,7 @@
                     <h4 class="title">Transformación al Voluntariado</h4>
                   <p>Personas</p>
                     <ul>
-                      <li>hombres y 37 mujeres donaron 16.680 horas de Voluntariado.</li>
+                      <li>Hombres y 37 mujeres donaron 16.680 horas de Voluntariado.</li>
                     </ul>
                   <p>Esfuerzos</p>
                     <ul>
@@ -224,7 +224,7 @@
                     </ul>
                   <p>Resultado</p>
                     <ul>
-                      <li>6 meses de pequeños esfuerzos con grandes resultados.</li>
+                      <li>Seis meses de pequeños esfuerzos con grandes resultados.</li>
                     </ul>
                   </div>
                 </div>
