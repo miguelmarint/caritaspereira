@@ -80,16 +80,22 @@
             </div>
             <div class="col-lg-6 wow pt-5 pt-lg-0">
               <h4>Valores Corporativos</h4>  
-                <div class="ready"><i class="fas fa-praying-hands"></i> Fe.</div>
-                <div class="ready"><i class="fas fa-cross"></i> Esperanza.</div> 
-                <div class="ready"><i class="fas fa-heart"></i> Caridad</div> 
-                <div class="ready"><i class="fas fa-balance-scale"></i> Justicia.</div> 
-                <div class="ready"><i class="far fa-hand-paper"></i> Dignidad humana.</div> 
-                <div class="ready"><i class="fas fa-recycle"></i> Compromiso ambiental.</div> 
-                <div class="ready"><i class="far fa-handshake"></i> Compromiso ético.</div>
-                <div class="ready"><i class="fas fa-hand-holding-medical"></i> Bien común.</div>
-                <div class="ready"><i class="far fa-building"></i> Responsabilidad</div>
-                <div class="ready"><i class="fas fa-hand-holding-medical"></i> La verdad.</div> 
+                <div class="ready">
+                  <div><i class="fas fa-praying-hands"></i>
+                  Fe.
+                </div>
+                <div><i class="fas fa-cross"></i> 
+                  Esperanza.
+                </div> 
+                <div><i class="fas fa-heart"></i> Caridad</div> 
+                <div><i class="fas fa-balance-scale"></i> Justicia.</div> 
+                <div><i class="far fa-hand-paper"></i> Dignidad humana.</div> 
+                <div><i class="fas fa-recycle"></i> Compromiso ambiental.</div> 
+                <div><i class="far fa-handshake"></i> Compromiso ético.</div>
+                <div><i class="fas fa-hand-holding-medical"></i> Bien común.</div>
+                <div><i class="far fa-building"></i> Responsabilidad</div>
+                <div><i class="fas fa-hand-holding-medical"></i> La verdad.</div> 
+              </div>
             </div>
           </div>
         </div>

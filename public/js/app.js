@@ -19600,7 +19600,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
     "default": _withId(function () {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
         id: "brand",
-        src: _ctx.asset('images/logo-cp.png'),
+        src: _ctx.asset('images/caritas-pereira.png'),
         "class": "img-fluid",
         alt: "Caritas Pereira"
       }, null, 8
@@ -19655,7 +19655,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
   )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
     type: "button",
     onClick: _cache[6] || (_cache[6] = function ($event) {
-      return $options.scrollMeTo('portfolio');
+      return $options.scrollMeTo('voluntary');
     }),
     "class": "btn btn-light nav-link"
   }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__("nav.portfolio")), 1
@@ -21202,7 +21202,7 @@ var _hoisted_10 = {
   "class": "col-lg-6 wow"
 };
 
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"col-lg-6 wow pt-5 pt-lg-0\" data-v-1ebaeeda><h4 data-v-1ebaeeda>Valores Corporativos</h4><div class=\"ready\" data-v-1ebaeeda><i class=\"fas fa-praying-hands\" data-v-1ebaeeda></i> Fe.</div><div class=\"ready\" data-v-1ebaeeda><i class=\"fas fa-cross\" data-v-1ebaeeda></i> Esperanza.</div><div class=\"ready\" data-v-1ebaeeda><i class=\"fas fa-heart\" data-v-1ebaeeda></i> Caridad</div><div class=\"ready\" data-v-1ebaeeda><i class=\"fas fa-balance-scale\" data-v-1ebaeeda></i> Justicia.</div><div class=\"ready\" data-v-1ebaeeda><i class=\"far fa-hand-paper\" data-v-1ebaeeda></i> Dignidad humana.</div><div class=\"ready\" data-v-1ebaeeda><i class=\"fas fa-recycle\" data-v-1ebaeeda></i> Compromiso ambiental.</div><div class=\"ready\" data-v-1ebaeeda><i class=\"far fa-handshake\" data-v-1ebaeeda></i> Compromiso ético.</div><div class=\"ready\" data-v-1ebaeeda><i class=\"fas fa-hand-holding-medical\" data-v-1ebaeeda></i> Bien común.</div><div class=\"ready\" data-v-1ebaeeda><i class=\"far fa-building\" data-v-1ebaeeda></i> Responsabilidad</div><div class=\"ready\" data-v-1ebaeeda><i class=\"fas fa-hand-holding-medical\" data-v-1ebaeeda></i> La verdad.</div></div>", 1);
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"col-lg-6 wow pt-5 pt-lg-0\" data-v-1ebaeeda><h4 data-v-1ebaeeda>Valores Corporativos</h4><div class=\"ready\" data-v-1ebaeeda><div data-v-1ebaeeda><i class=\"fas fa-praying-hands\" data-v-1ebaeeda></i> Fe. </div><div data-v-1ebaeeda><i class=\"fas fa-cross\" data-v-1ebaeeda></i> Esperanza. </div><div data-v-1ebaeeda><i class=\"fas fa-heart\" data-v-1ebaeeda></i> Caridad</div><div data-v-1ebaeeda><i class=\"fas fa-balance-scale\" data-v-1ebaeeda></i> Justicia.</div><div data-v-1ebaeeda><i class=\"far fa-hand-paper\" data-v-1ebaeeda></i> Dignidad humana.</div><div data-v-1ebaeeda><i class=\"fas fa-recycle\" data-v-1ebaeeda></i> Compromiso ambiental.</div><div data-v-1ebaeeda><i class=\"far fa-handshake\" data-v-1ebaeeda></i> Compromiso ético.</div><div data-v-1ebaeeda><i class=\"fas fa-hand-holding-medical\" data-v-1ebaeeda></i> Bien común.</div><div data-v-1ebaeeda><i class=\"far fa-building\" data-v-1ebaeeda></i> Responsabilidad</div><div data-v-1ebaeeda><i class=\"fas fa-hand-holding-medical\" data-v-1ebaeeda></i> La verdad.</div></div></div>", 1);
 
 var _hoisted_12 = {
   "data-aos": "fade-up"
@@ -21264,28 +21264,18 @@ var _withId = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.withScopeId)("dat
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-2f82e5ee");
 
-var _hoisted_1 = {
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("section", {
   id: "activities",
   "class": "section-bg"
-};
-var _hoisted_2 = {
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "container"
-};
-
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("header", {
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("header", {
   "class": "section-header"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Actividades"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p")], -1
-/* HOISTED */
-);
-
-var _hoisted_4 = {
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Actividades"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "data-aos": "fade-up"
-};
-var _hoisted_5 = {
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "row"
-};
-
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "col-md-6 col-lg-6"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "box"
@@ -21317,9 +21307,15 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "description"
 }, " sexto semestre del programa de Comunicación Social-Periodismo de la Universidad Católica de Pereira, en la asignatura de Comunicación de Gobierno y Tercer Sector dictada por la Ph. D. Elva Mónica García Bustamante, docente de planta del Álma Mater. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h4", {
-  "class": "criterios"
-}, "ALIMENTATÓN – CIUDADELA VILLAVERDE"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("iframe", {
-  "class": "description",
+  "class": "criterios",
+  style: {
+    "text-align": "center"
+  }
+}, " ALIMENTATÓN – CIUDADELA VILLAVERDE "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "youtube-wrapper"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "video-youtube"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("iframe", {
   width: "560",
   height: "315",
   src: "https://www.youtube.com/embed/sRvp-_lILQ4",
@@ -21327,20 +21323,24 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
   frameborder: "0",
   allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
   allowfullscreen: ""
-})])])], -1
-/* HOISTED */
-);
-
-var _hoisted_7 = {
+})])])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "col-md-6 col-lg-6"
-};
-var _hoisted_8 = {
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "box"
-};
-
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<img src=\"images/responsabilidad-caritas.jpg\" alt=\"\" data-v-2f82e5ee><br data-v-2f82e5ee><div class=\"icon\" data-v-2f82e5ee><i class=\"ion-ios-bookmarks-outline\" data-v-2f82e5ee></i></div><h4 class=\"title\" data-v-2f82e5ee><a href=\"\" data-v-2f82e5ee>INTÉGRATE CON CÁRITAS - BANCO DE ALIMENTOS Y MERCASA</a></h4><p class=\"description\" data-v-2f82e5ee> A partir del proceso con la materia de Comunicación de gobierno y tercer sector y el trabajo realizado en Mercasa en búsqueda de dar a conocer la Fundación Cáritas, mejorar la confianza e imagen con </p>", 5);
-
-var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: "images/responsabilidad-caritas.jpg",
+  alt: ""
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "icon"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
+  "class": "ion-ios-bookmarks-outline"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h4", {
+  "class": "title"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  href: ""
+}, "INTÉGRATE CON CÁRITAS - BANCO DE ALIMENTOS Y MERCASA")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "description"
+}, " A partir del proceso con la materia de Comunicación de gobierno y tercer sector y el trabajo realizado en Mercasa en búsqueda de dar a conocer la Fundación Cáritas, mejorar la confianza e imagen con "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
   "class": "btn btn-success",
   "data-toggle": "collapse",
   href: "#collapsebtnMerc",
@@ -21349,42 +21349,22 @@ var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
   "aria-controls": "collapsebtnMerc"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
   "class": "fas fa-sign-in-alt"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Leer más")])], -1
-/* HOISTED */
-);
-
-var _hoisted_15 = {
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Leer más")])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   id: "collapsebtnMerc",
   "class": "collapse"
-};
-
-var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, " la que esta cuenta en algunas partes de este sector y con la misión de conseguir un porcentaje más alto en las donaciones de alimentos. Gracias a esto se desarrollaron tres estrategias para lograr cumplir con los objetivos planteados: ", -1
-/* HOISTED */
-);
-
-var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br", null, null, -1
-/* HOISTED */
-);
-
-var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", {
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "description"
+}, " la que esta cuenta en algunas partes de este sector y con la misión de conseguir un porcentaje más alto en las donaciones de alimentos. Gracias a esto se desarrollaron tres estrategias para lograr cumplir con los objetivos planteados: "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", {
   type: "number"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, "Sensibilización: Base de datos."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, "Boletín de registro “Top de máximos donantes”"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, " Video del proceso desde la recolección en Mercasa, hasta la entrega en las fundaciones. ")], -1
-/* HOISTED */
-);
-
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h4", {
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, "Sensibilización: Base de datos."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, "Boletín de registro “Top de máximos donantes”"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, " Video del proceso desde la recolección en Mercasa, hasta la entrega en las fundaciones. ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h4", {
   "class": "criterios",
   style: {
     "text-align": "center"
   }
-}, " ALIMENTATÓN – MERCASA ", -1
-/* HOISTED */
-);
-
-var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  style: {
-    "text-align": "center"
-  }
+}, " ALIMENTATÓN – MERCASA "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "youtube-wrapper"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "video-youtube"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("iframe", {
   width: "435",
   height: "315",
@@ -21393,11 +21373,7 @@ var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
   frameborder: "0",
   allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
   allowfullscreen: ""
-})], -1
-/* HOISTED */
-);
-
-var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+})])])])])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "data-aos": "fade-up"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "row"
@@ -21449,25 +21425,14 @@ var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
   href: ""
 }, "BAZAR DE INTERCAMBIO")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "description"
-}, " Acompañamiento a Batallón San Mateo en jornadas de Apoyo al Desarrollo. Esta se realizó en Santa Cecilia, corregimiento de Pueblo Rico (Risaralda) ")])])])], -1
+}, " Acompañamiento a Batallón San Mateo en jornadas de Apoyo al Desarrollo. Esta se realizó en Santa Cecilia, corregimiento de Pueblo Rico (Risaralda) ")])])])])])], -1
 /* HOISTED */
 );
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
 var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data, $options) {
-  var _component_P = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("P");
-
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_5, [_hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_8, [_hoisted_9, _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_15, [_hoisted_16, _hoisted_17, _hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_P, {
-    "class": "description"
-  }, {
-    "default": _withId(function () {
-      return [_hoisted_19, _hoisted_20];
-    }),
-    _: 1
-    /* STABLE */
-
-  })])])])])]), _hoisted_21])])]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [_hoisted_1]);
 });
 
 /***/ }),
@@ -21869,13 +21834,13 @@ var _hoisted_3 = {
 
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "intro-info"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h2", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Somos la labor "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("span", null, "social de la"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Iglesia Católica ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h2", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Somos la labor "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("span", null, "social de la"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Iglesia Católica ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
   type: "button",
   "class": "btn btn-outline-dark mr-4"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("strong", null, "¿Quieres ser voluntario?")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
   type: "button",
   "class": "btn btn btn-outline-dark mr-4"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("strong", null, "Our Services")])])], -1
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("strong", null, "Our Services")])], -1
 /* HOISTED */
 );
 
@@ -22020,7 +21985,9 @@ var _hoisted_29 = {
   "class": "collapse"
 };
 
-var _hoisted_30 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, " basado en le trabajo productivo, el esfuerzo y el liderazgo con principios y valores. ", -1
+var _hoisted_30 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "description"
+}, " basado en le trabajo productivo, el esfuerzo y el liderazgo con principios y valores. ", -1
 /* HOISTED */
 );
 
@@ -22034,24 +22001,23 @@ var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
 /* HOISTED */
 );
 
-var _hoisted_34 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
-  "class": "proyection"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("strong", null, "NUESTRA PROYECCIÓN")])], -1
+var _hoisted_34 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+  "class": "description",
+  style: {
+    "text-align": "center"
+  }
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("strong", null, "NUESTRA PROYECCIÓN")], -1
 /* HOISTED */
 );
 
 var _hoisted_35 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
-  src: "images/logo-cp.png",
+  src: "images/crite-accion.jpg",
   alt: ""
 }, null, -1
 /* HOISTED */
 );
 
-var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br", null, null, -1
-/* HOISTED */
-);
-
-var _hoisted_37 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "data-aos": "fade-up"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "row"
@@ -22088,7 +22054,19 @@ var _hoisted_37 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
   "class": "description"
 }, " recolectar, seleccionar y aprovechar alimentos sobre madurados o con una pronta fecha de caducidad para mitigar el desperdicio en pro de beneficiar distintas fundaciones u organizaciones de Pereira y Risaralda. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "description"
-}, " Todo esto, a través de campañas y programas que fomentan la seguridad alimentaria, que son una realidad gracias a los voluntarios y a la pastoral social que ofrecen su trabajo al servicio de las comunidades. ")])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+}, " Todo esto, a través de campañas y programas que fomentan la seguridad alimentaria, que son una realidad gracias a los voluntarios y a la pastoral social que ofrecen su trabajo al servicio de las comunidades. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "youtube-wrapper"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "video-youtube"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("iframe", {
+  width: "560",
+  height: "315",
+  src: "https://www.youtube.com/embed/1DTjMBeBLaQ",
+  title: "YouTube video player",
+  frameborder: "0",
+  allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+  allowfullscreen: ""
+})])])])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "col-md-6 col-lg-6"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "box"
@@ -22123,7 +22101,7 @@ var _hoisted_37 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
 /* HOISTED */
 );
 
-var _hoisted_38 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+var _hoisted_37 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "data-aos": "fade-up"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "row"
@@ -22162,15 +22140,15 @@ var _hoisted_38 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
   "class": "description"
 }, "Personas"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
   "class": "description"
-}, "Tres hombres y treinta y siete mujeres donaron 16.680 horas de Voluntariado.")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+}, " Tres hombres y treinta y siete mujeres donaron 16.680 horas de Voluntariado. ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "description"
 }, "Esfuerzos"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
   "class": "description"
-}, "Compartir saberes engrandecen una labor.")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
+}, " Compartir saberes engrandecen una labor. ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "description"
 }, "Resultado"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
   "class": "description"
-}, "Seis meses de pequeños esfuerzos con grandes resultados.")])])])])])])], -1
+}, " Seis meses de pequeños esfuerzos con grandes resultados. ")])])])])])])], -1
 /* HOISTED */
 );
 
@@ -22197,7 +22175,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
     _: 1
     /* STABLE */
 
-  }), _hoisted_33, _hoisted_34, _hoisted_35]), _hoisted_36])])])]), _hoisted_37, _hoisted_38])])]);
+  }), _hoisted_33, _hoisted_34, _hoisted_35])])])])]), _hoisted_36, _hoisted_37])])]);
 });
 
 /***/ }),
@@ -22221,7 +22199,7 @@ var _withId = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.withScopeId)("dat
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-0e160513");
 
 var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("section", {
-  id: "contact"
+  id: "why-us"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "container-fluid"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
@@ -22323,7 +22301,7 @@ var _withId = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.withScopeId)("dat
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-67168095");
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section id=\"why-us\" class=\"wow\" data-v-67168095><div class=\"container\" data-v-67168095><header class=\"section-header\" data-v-67168095><h3 data-v-67168095>Voluntariado</h3><p data-v-67168095> Cualquier persona que desee realizar gratuitamente un trabajo voluntario apoyándonos en nuestras tareas operativas o administrativas, puede hacerlo con nosotros a través de los siguientes modelos: </p></header><div class=\"row row-eq-height justify-content-center\" data-v-67168095><div class=\"col-lg-4 mb-2\" data-v-67168095><div data-aos=\"zoom-in\" data-v-67168095><div class=\"card wow bounceInUp\" data-v-67168095><i class=\"fas fa-cogs\" data-v-67168095></i><div class=\"card-body\" data-v-67168095><h5 class=\"card-title\" data-v-67168095>Operativo</h5><p class=\"card-text\" data-v-67168095> Orientado a apoyar la realización de tareas operativas tales como: <ul data-v-67168095><li style=\"text-align:left;\" data-v-67168095>Clasificación de alimentos.</li><li style=\"text-align:left;\" data-v-67168095>Armar paquetes o kits.</li><li style=\"text-align:left;\" data-v-67168095>Re-empaque de productos y/o alimentos.</li></ul></p></div></div></div></div><div class=\"col-lg-4 mb-2\" data-v-67168095><div data-aos=\"zoom-in\" data-v-67168095><div class=\"card wow bounceInUp\" data-v-67168095><i class=\"fas fa-handshake\" data-v-67168095></i><div class=\"card-body\" data-v-67168095><h5 class=\"card-title\" data-v-67168095>Plan padrino</h5><p class=\"card-text\" data-v-67168095> Orientado a la consecución de recursos locales e internacionales que nos permita: <ul data-v-67168095><li style=\"text-align:left;\" data-v-67168095>Atender de manera completa la canasta básica a todas las organizaciones.</li><li style=\"text-align:left;\" data-v-67168095>Incrementar la cobertura para llegar a mas personas.</li><li style=\"text-align:left;\" data-v-67168095>Hacer inversiones para mejorar los procesos de recuperación de alimentos y prolongar la vida útil de los alimentos recuperados.</li></ul></p></div></div></div></div><div class=\"col-lg-4 mb-2\" data-v-67168095><div data-aos=\"zoom-in\" data-v-67168095><div class=\"card wow bounceInUp\" data-v-67168095><i class=\"fas fa-heart\" data-v-67168095></i><div class=\"card-body\" data-v-67168095><h5 class=\"card-title\" data-v-67168095>Talento</h5><p class=\"card-text\" data-v-67168095> Orientado a transferir conocimiento desde las diferentes profesiones o experiencia de los voluntarios formados en áreas tales como: <ul data-v-67168095><li style=\"text-align:justify;\" data-v-67168095>Nutrición, Ingenierías, Administración, Contabilidad, Mercadeo, Comunicaciones, Trabajo Social, logística, labores de oficina, etc.</li></ul></p></div></div></div></div></div></div></section>", 1);
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section id=\"why-us\" class=\"wow\" data-v-67168095><div class=\"container\" data-v-67168095><header class=\"section-header\" data-v-67168095><h3 data-v-67168095>Voluntariado</h3><p data-v-67168095> Cualquier persona que desee realizar gratuitamente un trabajo voluntario apoyándonos en nuestras tareas operativas o administrativas, puede hacerlo con nosotros a través de los siguientes modelos: </p></header><br data-v-67168095><div class=\"row row-eq-height justify-content-center\" data-v-67168095><div class=\"col-lg-4 mb-2\" data-v-67168095><div data-aos=\"zoom-in\" data-v-67168095><div class=\"card wow bounceInUp\" data-v-67168095><i class=\"fas fa-cogs\" data-v-67168095></i><div class=\"card-body\" data-v-67168095><h5 class=\"card-title\" data-v-67168095>Operativo</h5><p class=\"card-text\" data-v-67168095> Orientado a apoyar la realización de tareas operativas tales como: <ul data-v-67168095><li style=\"text-align:left;\" data-v-67168095>Clasificación de alimentos.</li><li style=\"text-align:left;\" data-v-67168095>Armar paquetes o kits.</li><li style=\"text-align:left;\" data-v-67168095>Re-empaque de productos y/o alimentos.</li></ul></p></div></div></div></div><div class=\"col-lg-4 mb-2\" data-v-67168095><div data-aos=\"zoom-in\" data-v-67168095><div class=\"card wow bounceInUp\" data-v-67168095><i class=\"fas fa-handshake\" data-v-67168095></i><div class=\"card-body\" data-v-67168095><h5 class=\"card-title\" data-v-67168095>Plan padrino</h5><p class=\"card-text\" data-v-67168095> Orientado a la consecución de recursos locales e internacionales que nos permita: <ul data-v-67168095><li style=\"text-align:left;\" data-v-67168095>Atender de manera completa la canasta básica a todas las organizaciones.</li><li style=\"text-align:left;\" data-v-67168095>Incrementar la cobertura para llegar a mas personas.</li><li style=\"text-align:left;\" data-v-67168095>Hacer inversiones para mejorar los procesos de recuperación de alimentos y prolongar la vida útil de los alimentos recuperados.</li></ul></p></div></div></div></div><div class=\"col-lg-4 mb-2\" data-v-67168095><div data-aos=\"zoom-in\" data-v-67168095><div class=\"card wow bounceInUp\" data-v-67168095><i class=\"fas fa-heart\" data-v-67168095></i><div class=\"card-body\" data-v-67168095><h5 class=\"card-title\" data-v-67168095>Talento</h5><p class=\"card-text\" data-v-67168095> Orientado a transferir conocimiento desde las diferentes profesiones o experiencia de los voluntarios formados en áreas tales como: <ul data-v-67168095><li style=\"text-align:justify;\" data-v-67168095>Nutrición, Ingenierías, Administración, Contabilidad, Mercadeo, Comunicaciones, Trabajo Social, logística, labores de oficina, etc.</li></ul></p></div></div></div></div></div><br data-v-67168095><div class=\"row row-eq-height justify-content-center\" data-v-67168095><div class=\"col-lg-4 mb-2\" data-v-67168095><div data-aos=\"zoom-in\" data-v-67168095><div class=\"card wow bounceInUp\" data-v-67168095><i class=\"far fa-object-ungroup\" data-v-67168095></i><div class=\"card-body\" data-v-67168095><h5 class=\"card-title\" data-v-67168095>Corporativo Empresarial</h5><p class=\"card-text\" data-v-67168095> Como parte de los programas de bienestar, gestión social empresarial o preparación para el retiro laboral. </p></div></div></div></div><div class=\"col-lg-4 mb-2\" data-v-67168095><div data-aos=\"zoom-in\" data-v-67168095><div class=\"card wow bounceInUp\" data-v-67168095><i class=\"fas fa-graduation-cap\" data-v-67168095></i><div class=\"card-body\" data-v-67168095><h5 class=\"card-title\" data-v-67168095>Corporativo académico.</h5><p class=\"card-text\" data-v-67168095> Incluido en los programas de práctica laboral, investigación o trabajo de grado. </p></div></div></div></div></div></div></section>", 1);
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
@@ -28377,7 +28355,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#brand[data-v-e2c0ecd8] {\r\n  padding: 0;\r\n  margin: 7px 0;\r\n  max-width: 200px;\n}\n.navbar-nav .nav-item a[data-v-e2c0ecd8],\r\n.navbar-nav .nav-item button[data-v-e2c0ecd8] {\r\n  display: block;\r\n  position: relative;\r\n  color: #0c0c0c;\r\n  padding: 10px 15px;\r\n  transition: 0.3s;\r\n  font-size: 16px;\r\n  font-family: \"Montserrat\", sans-serif;\r\n  font-weight: 500;\n}\n.nav-link[data-v-e2c0ecd8]:hover{\r\n  background-color: #13d69c73;\n}\r\n\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#brand[data-v-e2c0ecd8] {\r\n  padding: 0;\r\n  margin: 7px 0;\r\n  max-width: 200px;\n}\n.navbar-nav .nav-item a[data-v-e2c0ecd8],\r\n.navbar-nav .nav-item button[data-v-e2c0ecd8] {\r\n  display: block;\r\n  position: relative;\r\n  color: #0c0c0c;\r\n  padding: 10px 15px;\r\n  transition: 0.3s;\r\n  font-size: 16px;\r\n  font-family: \"Montserrat\", sans-serif;\r\n  font-weight: 500;\n}\n.nav-link[data-v-e2c0ecd8]:hover{\r\n  background-color: #025228;\n}\r\n\r\n\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28425,7 +28403,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#activities[data-v-2f82e5ee] {\r\n  padding: 60px 0 40px 0;\r\n  box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);\n}\n#activities .section-header h3[data-v-2f82e5ee] {\r\n  font-size: 36px;\r\n  color: #ffffff;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#activities .section-header p[data-v-2f82e5ee] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #ffffff;\r\n  width: 50%;\n}\n#activities .row[data-v-2f82e5ee] {\r\n  border-radius: 10px;\r\n  background: #025228;\n}\n#activities .box[data-v-2f82e5ee] {\r\n  padding: 30px;\r\n  position: relative;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n  margin: 0 10px 40px 10px;\r\n  background: #ffffff;\r\n  box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);\r\n  transition: all 0.3s ease-in-out;\n}\n#activities img[data-v-2f82e5ee] {\r\n  margin: 10px 5px 15px 20px;\r\n  width: 100%;\r\n  height: 100%;\n}\n#activities .icon[data-v-2f82e5ee] {\r\n  position: absolute;\r\n  left: -10px;\r\n  top: calc(50% - 32px);\n}\n#activities .icon i[data-v-2f82e5ee] {\r\n  font-size: 64px;\r\n  line-height: 1;\r\n  transition: 0.5s;\n}\n#activities .title[data-v-2f82e5ee] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\n}\n#activities .title a[data-v-2f82e5ee] {\r\n  color: #111;\n}\n#activities .description[data-v-2f82e5ee] {\r\n  font-size: 16px;\r\n  margin-left: 40px;\r\n  line-height: 24px;\r\n  margin-bottom: 0;\r\n  text-align: justify;\n}\n#activities .btn[data-v-2f82e5ee] {\r\n  margin-inline: 10px;\r\n  margin-left: 3em;\r\n  background: #025228;\n}\n#activities .criterios[data-v-2f82e5ee] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\r\n  color: #111;\n}\n#activities .proyection[data-v-2f82e5ee] {\r\n  background: #028341;\r\n  margin-left: 2.5em;\r\n  text-align: center;\n}\n#activities ul[data-v-2f82e5ee] {\r\n  font-size: 16px;\r\n  text-align: justify;\n}\n.accion[data-v-2f82e5ee] {\r\n  background: greenyellow;\n}\n.section-bg[data-v-2f82e5ee] {\r\n  background: #025228;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#activities[data-v-2f82e5ee] {\r\n  padding: 60px 0 40px 0;\r\n  box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);\n}\n#activities .section-header h3[data-v-2f82e5ee] {\r\n  font-size: 36px;\r\n  color: #ffffff;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#activities .section-header p[data-v-2f82e5ee] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #ffffff;\r\n  width: 50%;\n}\n#activities .row[data-v-2f82e5ee] {\r\n  border-radius: 10px;\r\n  background: #025228;\n}\n#activities .box[data-v-2f82e5ee] {\r\n  padding: 30px;\r\n  position: relative;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n  margin: 0 10px 40px 10px;\r\n  background: #ffffff;\r\n  box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);\r\n  transition: all 0.3s ease-in-out;\n}\n#activities img[data-v-2f82e5ee] {\r\n  margin: 10px 5px 15px 20px;\r\n  width: 100%;\r\n  height: 100%;\n}\n#activities .icon[data-v-2f82e5ee] {\r\n  position: absolute;\r\n  left: -10px;\r\n  top: calc(50% - 32px);\n}\n#activities .icon i[data-v-2f82e5ee] {\r\n  font-size: 64px;\r\n  line-height: 1;\r\n  transition: 0.5s;\n}\n#activities .title[data-v-2f82e5ee] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\n}\n#activities .title a[data-v-2f82e5ee] {\r\n  color: #111;\n}\n#activities .description[data-v-2f82e5ee] {\r\n  font-size: 16px;\r\n  margin-left: 40px;\r\n  line-height: 24px;\r\n  margin-bottom: 0;\r\n  text-align: justify;\n}\n#activities .btn[data-v-2f82e5ee] {\r\n  margin-inline: 10px;\r\n  margin-left: 3em;\r\n  background: #025228;\n}\n#activities .criterios[data-v-2f82e5ee] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\r\n  color: #111;\n}\n#activities .proyection[data-v-2f82e5ee] {\r\n  background: #028341;\r\n  margin-left: 2.5em;\r\n  text-align: center;\n}\n#activities ul[data-v-2f82e5ee] {\r\n  font-size: 16px;\r\n  text-align: justify;\n}\n#activities .video-youtube[data-v-2f82e5ee]{\r\n  border: 2px solid #028341;\r\n  height: 0px;\r\n  padding-bottom: 56.25%;\r\n  position: relative;\n}\n#activities .video-youtube iframe[data-v-2f82e5ee]{\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  height: 100%;\r\n  width: 100%;\n}\n.youtube-wrapper[data-v-2f82e5ee]{\r\n  width: 100%;\r\n  margin: auto;\n}\n.accion[data-v-2f82e5ee] {\r\n  background: greenyellow;\n}\n.section-bg[data-v-2f82e5ee] {\r\n  background: #025228;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28569,7 +28547,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#services[data-v-66bcffc2] {\r\n  padding: 60px 0 40px 0;\r\n  box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);\n}\n#services .section-header h3[data-v-66bcffc2] {\r\n  font-size: 36px;\r\n  color: #000000;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#services .section-header p[data-v-66bcffc2] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #000000;\r\n  width: 50%;\n}\nh4[data-v-66bcffc2]{\r\n  color: #ffffff;\n}\n#services .row[data-v-66bcffc2] {\r\n  border-radius: 10px;\r\n  background: #025228;\n}\n#services .box[data-v-66bcffc2] {\r\n  padding: 30px;\r\n  position: relative;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n  margin: 0 10px 40px 10px;\r\n  background: #025228;\r\n  box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);\r\n  transition: all 0.3s ease-in-out;\n}\n#services img[data-v-66bcffc2] {\r\n  margin: 10px 5px 15px 20px;\r\n  width: 100%;\r\n  height: 120%;\n}\n#services .icon[data-v-66bcffc2] {\r\n  position: absolute;\r\n  left: -10px;\r\n  top: calc(50% - 32px);\n}\n#services .icon i[data-v-66bcffc2] {\r\n  font-size: 64px;\r\n  line-height: 1;\r\n  transition: 0.5s;\n}\n#services .title[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\n}\n#services .title a[data-v-66bcffc2] {\r\n  color: #ffffff;\n}\n#services .description[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  margin-left: 40px;\r\n  line-height: 24px;\r\n  margin-bottom: 0;\r\n  text-align: justify;\r\n  color: #ffffff;\n}\n#services .btn[data-v-66bcffc2] {\r\n  margin-inline: 10px;\r\n  margin-left: 3em;\r\n  background: #025228;\n}\n#services .criterios[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\r\n  color: #ffffff;\n}\n#services .proyection[data-v-66bcffc2] {\r\n  background: #028341;\r\n  margin-left: 2.5em;\r\n  text-align: center;\n}\n#services ul[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  text-align: justify;\n}\n.accion[data-v-66bcffc2]{\r\n  background: greenyellow;\n}\n.section-bg[data-v-66bcffc2] {\r\n  background: #799b9173;\n}\r\n\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#services[data-v-66bcffc2] {\r\n  padding: 60px 0 40px 0;\r\n  box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);\n}\n#services .section-header h3[data-v-66bcffc2] {\r\n  font-size: 36px;\r\n  color: #000000;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#services .section-header p[data-v-66bcffc2] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #000000;\r\n  width: 50%;\n}\nh4[data-v-66bcffc2] {\r\n  color: #ffffff;\n}\n#services .row[data-v-66bcffc2] {\r\n  border-radius: 10px;\r\n  background: #025228;\n}\n#services .box[data-v-66bcffc2] {\r\n  padding: 30px;\r\n  position: relative;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n  margin: 0 10px 40px 10px;\r\n  background: #025228;\r\n  box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);\r\n  transition: all 0.3s ease-in-out;\n}\n#services img[data-v-66bcffc2] {\r\n  margin: 10px 5px 15px 20px;\r\n  width: 100%;\r\n  height: 120%;\n}\n#services .icon[data-v-66bcffc2] {\r\n  position: absolute;\r\n  left: -10px;\r\n  top: calc(50% - 32px);\n}\n#services .icon i[data-v-66bcffc2] {\r\n  font-size: 64px;\r\n  line-height: 1;\r\n  transition: 0.5s;\n}\n#services .title[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\n}\n#services .title a[data-v-66bcffc2] {\r\n  color: #ffffff;\n}\n#services .description[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  margin-left: 40px;\r\n  line-height: 24px;\r\n  margin-bottom: 0;\r\n  text-align: justify;\r\n  color: #ffffff;\n}\n#services .video-youtube[data-v-66bcffc2]{\r\n  border: 2px solid #028341;\r\n  height: 0px;\r\n  padding-bottom: 56.25%;\r\n  position: relative;\n}\n#services .video-youtube iframe[data-v-66bcffc2]{\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  height: 100%;\r\n  width: 100%;\n}\n.youtube-wrapper[data-v-66bcffc2]{\r\n  width: 100%;\r\n  margin: auto;\n}\n#services .btn[data-v-66bcffc2] {\r\n  margin-inline: 10px;\r\n  margin-left: 3em;\r\n  background: #025228;\n}\n#services .criterios[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\r\n  color: #ffffff;\n}\n#services .proyection[data-v-66bcffc2] {\r\n  background: #028341;\r\n  margin-left: 2.5em;\r\n  text-align: center;\n}\n#services ul[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  text-align: justify;\n}\n.accion[data-v-66bcffc2] {\r\n  background: greenyellow;\n}\n.section-bg[data-v-66bcffc2] {\r\n  background: #799b9173;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28593,7 +28571,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#contact[data-v-0e160513] {\r\n  box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 10%);\r\n  padding: 60px 0;\r\n  overflow: hidden;\r\n  background: #799b9173;\n}\ncontainer-fluid[data-v-0e160513] {\r\n  width: 100%;\r\n  padding-right: 15px;\r\n  padding-left: 15px;\r\n  margin-right: auto;\r\n  margin-left: auto;\n}\n#contact .section-header[data-v-0e160513] {\r\n  padding-bottom: 30px;\n}\n.section-header h3[data-v-0e160513] {\r\n  font-size: 40px;\r\n  color: #000000;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n.row[data-v-0e160513] {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  margin-right: -15px;\r\n  margin-left: -15px;\n}\n#contact .info[data-v-0e160513] {\r\n  color: #283d50;\n}\n#contact .info i[data-v-0e160513] {\r\n  font-size: 32px;\r\n  color: #025228;\r\n  float: left;\r\n  line-height: 1;\n}\n#contact .info p[data-v-0e160513] {\r\n  padding: 0 0 10px 36px;\r\n  line-height: 28px;\r\n  font-size: 17px;\r\n  font-family: \"Arial Narrow\";\n}\n#contact .form #sendmessage[data-v-0e160513] {\r\n  color: #007bff;\r\n  border: 1px solid #007bff;\r\n  display: none;\r\n  text-align: center;\r\n  padding: 15px;\r\n  font-weight: 600;\r\n  margin-bottom: 15px;\n}\n#contact .form #errormessage[data-v-0e160513] {\r\n  color: red;\r\n  display: none;\r\n  border: 1px solid red;\r\n  text-align: center;\r\n  padding: 15px;\r\n  font-weight: 600;\r\n  margin-bottom: 15px;\n}\n.form-row[data-v-0e160513] {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  margin-right: -5px;\r\n  margin-left: -5px;\n}\n.form-row > .col[data-v-0e160513],\r\n.form-row > [class*=\"col-\"][data-v-0e160513] {\r\n  padding-right: 5px;\r\n  padding-left: 5px;\n}\n#contact .form input[data-v-0e160513],\r\n#contact .form textarea[data-v-0e160513] {\r\n  border-radius: 0;\r\n  box-shadow: none;\r\n  font-size: 14px;\n}\n#contact .form .validation[data-v-0e160513] {\r\n  color: red;\r\n  display: none;\r\n  margin: 0 0 20px;\r\n  font-weight: 400;\r\n  font-size: 13px;\n}\n.form-group[data-v-0e160513] {\r\n  margin-bottom: 1rem;\n}\n.text-center[data-v-0e160513] {\r\n  text-align: center !important;\n}\n#contact .form button[type=\"submit\"][data-v-0e160513] {\r\n  background: #025228;\r\n  border: 0;\r\n  border-radius: 20px;\r\n  padding: 8px 30px;\r\n  color: #fff;\r\n  transition: 0.3s;\n}\n.section-header p[data-v-0e160513] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #ffffff;\r\n  width: 50%;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#why-us[data-v-0e160513] {\r\n  box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 10%);\r\n  padding: 60px 0;\r\n  overflow: hidden;\r\n  background: #799b9173;\n}\ncontainer-fluid[data-v-0e160513] {\r\n  width: 100%;\r\n  padding-right: 15px;\r\n  padding-left: 15px;\r\n  margin-right: auto;\r\n  margin-left: auto;\n}\n#why-us .section-header[data-v-0e160513] {\r\n  padding-bottom: 30px;\n}\n.section-header h3[data-v-0e160513] {\r\n  font-size: 40px;\r\n  color: #000000;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n.row[data-v-0e160513] {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  margin-right: -15px;\r\n  margin-left: -15px;\n}\n#why-us .info[data-v-0e160513] {\r\n  color: #283d50;\n}\n#why-us .info i[data-v-0e160513] {\r\n  font-size: 32px;\r\n  color: #025228;\r\n  float: left;\r\n  line-height: 1;\n}\n#why-us .info p[data-v-0e160513] {\r\n  padding: 0 0 10px 36px;\r\n  line-height: 28px;\r\n  font-size: 17px;\r\n  font-family: \"Arial Narrow\";\n}\n#why-us .form #sendmessage[data-v-0e160513] {\r\n  color: #007bff;\r\n  border: 1px solid #007bff;\r\n  display: none;\r\n  text-align: center;\r\n  padding: 15px;\r\n  font-weight: 600;\r\n  margin-bottom: 15px;\n}\n#why-us .form #errormessage[data-v-0e160513] {\r\n  color: red;\r\n  display: none;\r\n  border: 1px solid red;\r\n  text-align: center;\r\n  padding: 15px;\r\n  font-weight: 600;\r\n  margin-bottom: 15px;\n}\n.form-row[data-v-0e160513] {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  margin-right: -5px;\r\n  margin-left: -5px;\n}\n.form-row > .col[data-v-0e160513],\r\n.form-row > [class*=\"col-\"][data-v-0e160513] {\r\n  padding-right: 5px;\r\n  padding-left: 5px;\n}\n#why-us .form input[data-v-0e160513],\r\n#why-us .form textarea[data-v-0e160513] {\r\n  border-radius: 0;\r\n  box-shadow: none;\r\n  font-size: 14px;\n}\n#why-us .form .validation[data-v-0e160513] {\r\n  color: red;\r\n  display: none;\r\n  margin: 0 0 20px;\r\n  font-weight: 400;\r\n  font-size: 13px;\n}\n.form-group[data-v-0e160513] {\r\n  margin-bottom: 1rem;\n}\n.text-center[data-v-0e160513] {\r\n  text-align: center !important;\n}\n#why-us .form button[type=\"submit\"][data-v-0e160513] {\r\n  background: #025228;\r\n  border: 0;\r\n  border-radius: 20px;\r\n  padding: 8px 30px;\r\n  color: #fff;\r\n  transition: 0.3s;\n}\n.section-header p[data-v-0e160513] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #ffffff;\r\n  width: 50%;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

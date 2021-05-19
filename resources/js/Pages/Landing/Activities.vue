@@ -49,17 +49,22 @@
                 </p>
                 <br />
 
-                  <h4 class="criterios">ALIMENTATÓN – CIUDADELA VILLAVERDE</h4>
-                  <iframe
-                    class="description"
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/sRvp-_lILQ4"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
+                  <h4 class="criterios" style="text-align: center">
+                    ALIMENTATÓN – CIUDADELA VILLAVERDE
+                  </h4>
+                  <div class="youtube-wrapper">
+                    <div class="video-youtube">
+                      <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/sRvp-_lILQ4"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -93,7 +98,7 @@
                   >
                 </p>
                 <div id="collapsebtnMerc" class="collapse">
-                <p>
+                <p class="description">
                   la que esta cuenta en algunas partes de
                   este sector y con  la misión de conseguir un porcentaje más
                   alto en las donaciones de alimentos. Gracias a esto se
@@ -110,11 +115,11 @@
                       la entrega en las fundaciones.
                     </li>
                   </ul>
-                  <P class="description">
-                    <h4 class="criterios" style="text-align: center">
-                      ALIMENTATÓN – MERCASA
-                    </h4>
-                    <div style="text-align: center">
+                  <h4 class="criterios" style="text-align: center">
+                    ALIMENTATÓN – MERCASA
+                  </h4>
+                  <div class="youtube-wrapper">
+                    <div class="video-youtube">
                       <iframe
                         width="435"
                         height="315"
@@ -124,8 +129,8 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen
                       ></iframe>
-                    </div>
-                  </P>
+                     </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -298,6 +303,26 @@ export default {};
 #activities ul {
   font-size: 16px;
   text-align: justify;
+}
+
+#activities .video-youtube{
+  border: 2px solid #028341;
+  height: 0px;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+#activities .video-youtube iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.youtube-wrapper{
+  width: 100%;
+  margin: auto;
 }
 .accion {
   background: greenyellow;

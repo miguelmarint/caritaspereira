@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section id="contact">
+    <section id="why-us">
       <div class="container-fluid">
         <div class="section-header">
           <h3>¿Quieres ser voluntario?</h3>
@@ -77,7 +77,7 @@
 export default {};
 </script>
 <style  scoped>
-#contact {
+#why-us {
   box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 10%);
   padding: 60px 0;
   overflow: hidden;
@@ -90,7 +90,7 @@ container-fluid {
   margin-right: auto;
   margin-left: auto;
 }
-#contact .section-header {
+#why-us .section-header {
   padding-bottom: 30px;
 }
 .section-header h3 {
@@ -106,22 +106,22 @@ container-fluid {
   margin-right: -15px;
   margin-left: -15px;
 }
-#contact .info {
+#why-us .info {
   color: #283d50;
 }
-#contact .info i {
+#why-us .info i {
   font-size: 32px;
   color: #025228;
   float: left;
   line-height: 1;
 }
-#contact .info p {
+#why-us .info p {
   padding: 0 0 10px 36px;
   line-height: 28px;
   font-size: 17px;
   font-family: "Arial Narrow";
 }
-#contact .form #sendmessage {
+#why-us .form #sendmessage {
   color: #007bff;
   border: 1px solid #007bff;
   display: none;
@@ -130,7 +130,7 @@ container-fluid {
   font-weight: 600;
   margin-bottom: 15px;
 }
-#contact .form #errormessage {
+#why-us .form #errormessage {
   color: red;
   display: none;
   border: 1px solid red;
@@ -150,13 +150,13 @@ container-fluid {
   padding-right: 5px;
   padding-left: 5px;
 }
-#contact .form input,
-#contact .form textarea {
+#why-us .form input,
+#why-us .form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
-#contact .form .validation {
+#why-us .form .validation {
   color: red;
   display: none;
   margin: 0 0 20px;
@@ -169,7 +169,7 @@ container-fluid {
 .text-center {
   text-align: center !important;
 }
-#contact .form button[type="submit"] {
+#why-us .form button[type="submit"] {
   background: #025228;
   border: 0;
   border-radius: 20px;

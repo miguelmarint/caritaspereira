@@ -7,7 +7,7 @@
       <inertia-link class="navbar-brand" :href="route('landing')">
         <img
           id="brand"
-          :src="asset('images/logo-cp.png')"
+          :src="asset('images/caritas-pereira.png')"
           class="img-fluid"
           alt="Caritas Pereira"
         />
@@ -75,7 +75,7 @@
           <li class="nav-item">
             <button
               type="button"
-              @click="scrollMeTo('portfolio')"
+              @click="scrollMeTo('voluntary')"
               class="btn btn-light nav-link"
             >
               {{ __("nav.portfolio") }}
@@ -196,8 +196,10 @@ export default {
 }
 
 .nav-link:hover{
-  background-color: #13d69c73;
+  background-color: #025228;
+  
 }
+
 
 
 </style>

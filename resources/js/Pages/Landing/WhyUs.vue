@@ -11,6 +11,7 @@
             siguientes modelos:
           </p>
         </header>
+        <br>
 
         <div class="row row-eq-height justify-content-center">
           <div class="col-lg-4 mb-2">
@@ -75,6 +76,38 @@
             </div>
           </div>
         </div>
+        <br>
+
+        <div class="row row-eq-height justify-content-center">
+          <div class="col-lg-4 mb-2">
+            <div data-aos="zoom-in">
+              <div class="card wow bounceInUp">
+                <i class="far fa-object-ungroup"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Corporativo Empresarial</h5>
+                  <p class="card-text">
+                    Como parte de los programas de bienestar, gestión social empresarial o preparación para el retiro laboral.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-2">
+            <div data-aos="zoom-in">
+              <div class="card wow bounceInUp">
+                <i class="fas fa-graduation-cap"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Corporativo académico.</h5>
+                  <p class="card-text">
+                    Incluido en los programas de práctica laboral, investigación o trabajo de grado.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </div>
     </section>
   </div>

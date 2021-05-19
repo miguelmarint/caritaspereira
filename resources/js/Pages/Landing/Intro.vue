@@ -16,14 +16,12 @@
               >social de la</span
             ><br />Iglesia Católica
           </h2>
-          <div>
-            <button type="button" class="btn btn-outline-dark mr-4" >
-              <strong>¿Quieres ser voluntario?</strong>
-            </button>
-            <button type="button" class="btn btn btn-outline-dark mr-4">
-              <strong>Our Services</strong>
-            </button>
-          </div>
+          <button type="button" class="btn btn-outline-dark mr-4" >
+            <strong>¿Quieres ser voluntario?</strong>
+          </button>
+          <button type="button" class="btn btn btn-outline-dark mr-4">
+            <strong>Our Services</strong>
+          </button>
         </div>
       </div>
     </section>
