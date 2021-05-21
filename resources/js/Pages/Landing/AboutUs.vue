@@ -81,20 +81,64 @@
             <div class="col-lg-6 wow pt-5 pt-lg-0">
               <h4>Valores Corporativos</h4>  
                 <div class="ready">
-                  <div><i class="fas fa-praying-hands"></i>
-                  Fe.
-                </div>
-                <div><i class="fas fa-cross"></i> 
-                  Esperanza.
-                </div> 
-                <div><i class="fas fa-heart"></i> Caridad</div> 
-                <div><i class="fas fa-balance-scale"></i> Justicia.</div> 
-                <div><i class="far fa-hand-paper"></i> Dignidad humana.</div> 
-                <div><i class="fas fa-recycle"></i> Compromiso ambiental.</div> 
-                <div><i class="far fa-handshake"></i> Compromiso ético.</div>
-                <div><i class="fas fa-hand-holding-medical"></i> Bien común.</div>
-                <div><i class="far fa-building"></i> Responsabilidad</div>
-                <div><i class="fas fa-hand-holding-medical"></i> La verdad.</div> 
+                  <span class='fa-stack fa-lg'>
+                    <i class='fas fa-circle fa-stack-2x' style="color:#028341"></i>
+                    <i class='fas fa-praying-hands fa-stack-1x fa-inverse'></i>
+                  </span>
+                    Fe.<br>
+                  <span class='fa-stack fa-lg'>
+                      <i class='fas fa-circle fa-stack-2x'></i>
+                      <i class='fas fa-cross fa-stack-1x fa-inverse'></i>
+                  </span>
+                    Esperanza.<br>
+
+                  <span class='fa-stack fa-lg'>
+                      <i class='fas fa-circle fa-stack-2x'></i>
+                      <i class='fas fa-heart fa-stack-1x fa-inverse'></i>
+                  </span>
+                    Caridad.<br>
+                  
+                  <span class='fa-stack fa-lg'>
+                      <i class='fas fa-circle fa-stack-2x'></i>
+                      <i class='fas fa-balance-scale fa-stack-1x fa-inverse'></i>
+                  </span>
+                    Justicia.<br>
+
+                  <span class='fa-stack fa-lg'>
+                      <i class='fas fa-circle fa-stack-2x'></i>
+                      <i class='far fa-hand-paper fa-stack-1x fa-inverse'></i>
+                  </span>
+                    Dignidad humana.<br>
+
+                  <span class='fa-stack fa-lg'>
+                      <i class='fas fa-circle fa-stack-2x'></i>
+                      <i class='fas fa-recycle fa-stack-1x fa-inverse'></i>
+                  </span>
+                    Compromiso ambiental.<br>
+
+                  <span class='fa-stack fa-lg'>
+                      <i class='fas fa-circle fa-stack-2x'></i>
+                      <i class='far fa-handshake fa-stack-1x fa-inverse'></i>
+                  </span>
+                    Compromiso ético.<br>
+
+                  <span class='fa-stack fa-lg'>
+                      <i class='fas fa-circle fa-stack-2x'></i>
+                      <i class='fas fa-hand-holding-medical fa-stack-1x fa-inverse'></i>
+                  </span>
+                    Bien común.<br>
+
+                  <span class='fa-stack fa-lg'>
+                      <i class='fas fa-circle fa-stack-2x'></i>
+                      <i class='far fa-building fa-stack-1x fa-inverse'></i>
+                  </span>
+                    Responsabilidad.<br>
+
+                  <span class='fa-stack fa-lg'>
+                      <i class='fas fa-circle fa-stack-2x'></i>
+                      <i class='fas fa-hand-holding-medical fa-stack-1x fa-inverse'></i>
+                  </span>
+                    La verdad.<br>
               </div>
             </div>
           </div>
@@ -259,6 +303,10 @@ export default {};
   margin-left: 2rem;
   font-size: 16px;
   
+}
+
+.fa-circle{
+  color: #028341;
 }
 
 #about .about-extra ul {

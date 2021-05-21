@@ -75,7 +75,7 @@
           <li class="nav-item">
             <button
               type="button"
-              @click="scrollMeTo('voluntary')"
+              @click="scrollMeTo('portafolio')"
               class="btn btn-light nav-link"
             >
               {{ __("nav.portfolio") }}
@@ -196,10 +196,8 @@ export default {
 }
 
 .nav-link:hover{
-  background-color: #025228;
+  background-color: #ffffff;
+  border-bottom-color: #025228;
   
 }
-
-
-
 </style>
