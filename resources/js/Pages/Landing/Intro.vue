@@ -2,24 +2,28 @@
   <div>
     <section id="intro" class="clearfix">
       <div class="container">
-        <div class="intro-img">
-          <img
-            :src="asset('images/imagotipo-fundacion-caritas-1.png')"
-            alt=""
-            class="img-fluid"
-            style="max-width: 1000px"
-          />
+        <div class="slider">
+          <button @click="prev" type="button" class="boton btn-left">
+            <img src="/images/flecha-left.jpg" class="icone">
+          </button>
+            <div class="container-slides" :style="{transform: `translateX(${index}%)`, 
+            transition: `${transition}` }">
+              <img src="/images/tenequipo.jpg" class="img-slider">
+              <img src="/images/responsabilidad-caritas.jpg" class="img-slider">
+              <img src="/images/Pastoral.jpg" class="img-slider">
+            </div>
+          <button @click="next" type="button" class="boton btn-right">
+            <img src="/images/flecha-right.jpg" class="icone">
+          </button>
         </div>
         <div class="intro-info">
           <h2>
-            Somos la labor <br /><span
-              >social de la</span
-            ><br />Iglesia Católica
+            Somos la labor <br /><span>social de la</span><br />Iglesia Católica
           </h2>
-          <button type="button" class="btn btn-outline-dark mr-4" >
-            <strong>¿Quieres ser voluntario?</strong>
+          <button @click="llamar" type="button" class=" btn btn btn-outline-dark mr-4">
+            <strong>¿Quiere ser voluntario?</strong>
           </button>
-          <button type="button" class="btn btn btn-outline-dark mr-4">
+          <button type="button" class="btn btn-outline-dark mr-4">
             <strong>Our Services</strong>
           </button>
         </div>
@@ -29,7 +33,43 @@
 </template>
 
 <script>
-export default {};
+import VoluntaryForm from './VoluntaryForm';
+
+export default {
+  components: {VoluntaryForm},
+  name: 'Intro',
+  data: function() {
+    return {
+      index: 0,
+      transition: "transform 0.2s ease",
+      hola: 'hola',
+    }
+  },
+  methods: {
+    next(){
+      console.log(this.index);
+      if(this.index === -200) {
+        this.transition= "none";
+        this.index = 0;
+      } else{
+        this.transition = "transform 0.2s ease";
+        this.index -= 100;
+      }
+    },
+    prev(){
+      if(this.index === 0){
+        this.transition = "none";
+        this.index = -200;
+      } else{
+        this.transition = "transform 0.2s ease";
+        this.index += 100;
+      }
+    },
+    llamar(){
+      console.log(this.hola)
+    }
+  }
+}
 </script>
 
 <style scoped>
@@ -39,11 +79,6 @@ export default {};
   background: url("/images/caritas1.png") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
-}
-
-#intro .intro-img {
-  width: 50%;
-  float: right;
 }
 
 #intro .intro-info {
@@ -58,13 +93,69 @@ export default {};
   font-weight: 700;
 }
 
-#intro .btn{
+#intro .btn-outline-dark:hover {
+  background: #799b9173;
+}
+
+#intro .slider{
+  width: 50%;
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  float: right;
+  border-radius: 10px;
+}
+
+#intro .container-slides {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+#intro .img-slider {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+
+}
+
+#intro .boton {
+  outline: none;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  z-index: 1000;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+#intro .icone {
+  width: 15px;
+}
+
+#intro .btn-left {
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+}
+#intro .btn-right {
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+}
+
+#intro .btn {
   font-size: 16px;
-  color: rgb(224, 209, 209); 
+  color: rgb(224, 209, 209);
   border-width: 1.5px;
 }
 
-#intro .btn-outline-dark:hover{
-  background: #799b9173;
-}
+
 </style>

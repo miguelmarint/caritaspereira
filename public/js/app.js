@@ -17896,16 +17896,43 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var _VoluntaryForm__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./VoluntaryForm */ "./resources/js/Pages/Landing/VoluntaryForm.vue");
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  name: "Intro",
+  components: {
+    VoluntaryForm: _VoluntaryForm__WEBPACK_IMPORTED_MODULE_0__.default
+  },
+  name: 'Intro',
   data: function data() {
     return {
-      slides: ["https://upload.wikimedia.org/wikipedia/commons/2/26/F1-Bandera_verde.png", "https://upload.wikimedia.org/wikipedia/commons/7/7a/Bueno-verde.png"]
+      index: 0,
+      transition: "transform 0.2s ease",
+      hola: 'hola'
     };
   },
   methods: {
-    moveSlider: function moveSlider() {
-      console.log(n);
+    next: function next() {
+      console.log(this.index);
+
+      if (this.index === -200) {
+        this.transition = "none";
+        this.index = 0;
+      } else {
+        this.transition = "transform 0.2s ease";
+        this.index -= 100;
+      }
+    },
+    prev: function prev() {
+      if (this.index === 0) {
+        this.transition = "none";
+        this.index = -200;
+      } else {
+        this.transition = "transform 0.2s ease";
+        this.index += 100;
+      }
+    },
+    llamar: function llamar() {
+      console.log(this.hola);
     }
   }
 });
@@ -21856,26 +21883,59 @@ var _hoisted_2 = {
   "class": "container"
 };
 var _hoisted_3 = {
-  "class": "intro-img"
+  "class": "slider"
 };
-var _hoisted_4 = {
-  "class": "slider__controls"
-};
-var _hoisted_5 = {
+
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: "/images/flecha-left.jpg",
+  "class": "icone"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: "/images/tenequipo.jpg",
+  "class": "img-slider"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: "/images/responsabilidad-caritas.jpg",
+  "class": "img-slider"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: "/images/Pastoral.jpg",
+  "class": "img-slider"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  src: "/images/flecha-right.jpg",
+  "class": "icone"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_9 = {
   "class": "intro-info"
 };
 
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h2", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Somos la labor "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("span", null, "social de la"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Iglesia Católica ")], -1
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h2", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Somos la labor "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("span", null, "social de la"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Iglesia Católica ")], -1
 /* HOISTED */
 );
 
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("strong", null, "¿Quieres ser voluntario?", -1
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("strong", null, "¿Quiere ser voluntario?", -1
 /* HOISTED */
 );
 
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
   type: "button",
-  "class": "btn btn btn-outline-dark mr-4"
+  "class": "btn btn-outline-dark mr-4"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("strong", null, "Our Services")], -1
 /* HOISTED */
 );
@@ -21883,35 +21943,33 @@ var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
 var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_4, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.slides.length, function (n) {
-    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("a", {
-      onClick: function onClick($event) {
-        return $options.moveSlider(n);
-      },
-      href: "#",
-      key: n,
-      "class": "slider__coFntrols__link"
-    }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(n), 9
-    /* TEXT, PROPS */
-    , ["onClick"]);
-  }), 128
-  /* KEYED_FRAGMENT */
-  ))]), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.slides, function (image, index) {
-    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", {
-      key: index,
-      style: "background-image:url(".concat(image, ")"),
-      "class": "slider__content"
-    }, null, 4
-    /* STYLE */
-    );
-  }), 128
-  /* KEYED_FRAGMENT */
-  ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_5, [_hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
-    onClick: _cache[1] || (_cache[1] = function ($event) {
-      return _ctx.scrollMeTo('why-us');
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+    onClick: _cache[1] || (_cache[1] = function () {
+      return $options.prev && $options.prev.apply($options, arguments);
     }),
-    "class": "btn btn-outline-dark mr-4"
-  }, [_hoisted_7]), _hoisted_8])])])]);
+    type: "button",
+    "class": "boton btn-left"
+  }, [_hoisted_4]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+    "class": "container-slides",
+    style: {
+      transform: "translateX(".concat(_ctx.index, "%)"),
+      transition: "".concat(_ctx.transition)
+    }
+  }, [_hoisted_5, _hoisted_6, _hoisted_7], 4
+  /* STYLE */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+    onClick: _cache[2] || (_cache[2] = function () {
+      return $options.next && $options.next.apply($options, arguments);
+    }),
+    type: "button",
+    "class": "boton btn-right"
+  }, [_hoisted_8])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_9, [_hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+    onClick: _cache[3] || (_cache[3] = function () {
+      return $options.llamar && $options.llamar.apply($options, arguments);
+    }),
+    type: "button",
+    "class": " btn btn btn-outline-dark mr-4"
+  }, [_hoisted_11]), _hoisted_12])])])]);
 });
 
 /***/ }),
@@ -28582,7 +28640,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#intro[data-v-3937010a] {\r\n  width: 100%;\r\n  position: relative;\r\n  background: url(\"/images/caritas1.png\") center bottom no-repeat;\r\n  background-size: cover;\r\n  padding: 200px 0 120px 0;\n}\n#intro .intro-img[data-v-3937010a] {\r\n  width: 50%;\r\n  height: 50vh;\r\n  position: relative;\r\n  overflow: scroll;\r\n  background-color: #fff;\r\n  float: right;\r\n  -ms-scroll-snap-type: x mandatory;\r\n      scroll-snap-type: x mandatory;\n}\n#intro .intro-info[data-v-3937010a] {\r\n  width: 50%;\r\n  float: left;\n}\n#intro .intro-info h2[data-v-3937010a] {\r\n  color: #fff;\r\n  margin-bottom: 40px;\r\n  font-size: 48px;\r\n  font-weight: 700;\n}\n#intro .btn[data-v-3937010a] {\r\n  font-size: 16px;\r\n  color: rgb(224, 209, 209);\r\n  border-width: 1.5px;\n}\n#intro .btn-outline-dark[data-v-3937010a]:hover {\r\n  background: #799b9173;\n}\n.slider__controls[data-v-3937010a] {\r\n  position: fixed;\r\n  right: 5rem;\r\n  top: 0;\r\n  width: 3rem;\r\n  height: 50%;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  flex-direction: column;\n}\n.slider__controls__link[data-v-3937010a] {\r\n  width: 3rem;\r\n  height: 3rem;\r\n  background-color: rgba(255, 255, 255, 8);\r\n  color: black;\r\n  border-radius: 50%;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  text-decoration: none;\r\n  font-weight:bold;\r\n  margin: 1rem 0;\n}\n.slider__content[data-v-3937010a] {\r\n  height: 50vh;\r\n  background-position: center;\r\n  background-size: cover;\r\n  scroll-snap-align: center;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#intro[data-v-3937010a] {\r\n  width: 100%;\r\n  position: relative;\r\n  background: url(\"/images/caritas1.png\") center bottom no-repeat;\r\n  background-size: cover;\r\n  padding: 200px 0 120px 0;\n}\n#intro .intro-info[data-v-3937010a] {\r\n  width: 50%;\r\n  float: left;\n}\n#intro .intro-info h2[data-v-3937010a] {\r\n  color: #fff;\r\n  margin-bottom: 40px;\r\n  font-size: 48px;\r\n  font-weight: 700;\n}\n#intro .btn-outline-dark[data-v-3937010a]:hover {\r\n  background: #799b9173;\n}\n#intro .slider[data-v-3937010a]{\r\n  width: 50%;\r\n  height: 50vh;\r\n  position: relative;\r\n  overflow: hidden;\r\n  background-color: #fff;\r\n  float: right;\r\n  border-radius: 10px;\n}\n#intro .container-slides[data-v-3937010a] {\r\n  width: 100%;\r\n  height: 100%;\r\n  display: flex;\n}\n#intro .img-slider[data-v-3937010a] {\r\n  width: 100%;\r\n  height: auto;\r\n  border-radius: 10px;\n}\n#intro .boton[data-v-3937010a] {\r\n  outline: none;\r\n  border: none;\r\n  width: 50px;\r\n  height: 50px;\r\n  border-radius: 50%;\r\n  display: block;\r\n  position: absolute;\r\n  z-index: 1000;\r\n  cursor: pointer;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  background: #fff;\n}\n#intro .icone[data-v-3937010a] {\r\n  width: 15px;\n}\n#intro .btn-left[data-v-3937010a] {\r\n  top: 50%;\r\n  left: 5px;\r\n  transform: translateY(-50%);\n}\n#intro .btn-right[data-v-3937010a] {\r\n  top: 50%;\r\n  right: 5px;\r\n  transform: translateY(-50%);\n}\n#intro .btn[data-v-3937010a] {\r\n  font-size: 16px;\r\n  color: rgb(224, 209, 209);\r\n  border-width: 1.5px;\n}\r\n\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
