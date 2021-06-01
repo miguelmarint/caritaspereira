@@ -6,6 +6,7 @@
     <Services />
     <Activities />
     <WhyUs />
+    <Documents />
     <VoluntaryForm />
     <Companies />
     <ContactUs />
@@ -20,12 +21,13 @@ import AboutUs from "./AboutUs";
 import Services from "./Services";
 import Activities from "./Activities";
 import WhyUs from "./WhyUs";
+import Documents from "./Documents";
 import VoluntaryForm from "./VoluntaryForm";
 import ContactUs from "./ContactUs";
 import Footer from "@/Layouts/Footer";
 import Companies from "./Companies";
 export default {
-  components: { Navbar, Intro, AboutUs, Services, Activities, WhyUs, VoluntaryForm, Companies, ContactUs, Footer },
+  components: { Navbar, Intro, AboutUs, Services, Activities, WhyUs, Documents, VoluntaryForm, Companies, ContactUs, Footer },
 };
 </script>
 

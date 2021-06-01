@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section id="why-us">
+    <section id="voluntary">
       <div class="container-fluid">
         <div class="section-header">
           <h3>¿Quieres ser voluntario?</h3>
@@ -77,7 +77,7 @@
 export default {};
 </script>
 <style  scoped>
-#why-us {
+#voluntary {
   box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 10%);
   padding: 60px 0;
   overflow: hidden;
@@ -90,7 +90,7 @@ container-fluid {
   margin-right: auto;
   margin-left: auto;
 }
-#why-us .section-header {
+#voluntary .section-header {
   padding-bottom: 30px;
 }
 .section-header h3 {
@@ -106,22 +106,22 @@ container-fluid {
   margin-right: -15px;
   margin-left: -15px;
 }
-#why-us .info {
+#voluntary .info {
   color: #283d50;
 }
-#why-us .info i {
+#voluntary .info i {
   font-size: 32px;
   color: #025228;
   float: left;
   line-height: 1;
 }
-#why-us .info p {
+#voluntary .info p {
   padding: 0 0 10px 36px;
   line-height: 28px;
   font-size: 17px;
   font-family: "Arial Narrow";
 }
-#why-us .form #sendmessage {
+#voluntary .form #sendmessage {
   color: #007bff;
   border: 1px solid #007bff;
   display: none;
@@ -130,7 +130,7 @@ container-fluid {
   font-weight: 600;
   margin-bottom: 15px;
 }
-#why-us .form #errormessage {
+#voluntary .form #errormessage {
   color: red;
   display: none;
   border: 1px solid red;
@@ -150,13 +150,13 @@ container-fluid {
   padding-right: 5px;
   padding-left: 5px;
 }
-#why-us .form input,
-#why-us .form textarea {
+#voluntary .form input,
+#voluntary .form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
-#why-us .form .validation {
+#voluntary .form .validation {
   color: red;
   display: none;
   margin: 0 0 20px;
@@ -169,7 +169,7 @@ container-fluid {
 .text-center {
   text-align: center !important;
 }
-#why-us .form button[type="submit"] {
+#voluntary .form button[type="submit"] {
   background: #025228;
   border: 0;
   border-radius: 20px;

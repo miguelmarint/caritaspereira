@@ -20,11 +20,11 @@
           <h2>
             Somos la labor <br /><span>social de la</span><br />Iglesia Católica
           </h2>
-          <button @click="llamar" type="button" class=" btn btn btn-outline-dark mr-4">
+          <button type="button" @click="scrollMeTo('voluntary')" class=" btn btn btn-outline-dark mr-4">
             <strong>¿Quiere ser voluntario?</strong>
           </button>
           <button type="button" class="btn btn-outline-dark mr-4">
-            <strong>Our Services</strong>
+            <strong>!Quiero Donar¡</strong>
           </button>
         </div>
       </div>
@@ -33,16 +33,17 @@
 </template>
 
 <script>
+import JetDropdownLink from "@/Jetstream/DropdownLink";
+import LanguageSelector from "@/Shared/LanguageSelector";
 import VoluntaryForm from './VoluntaryForm';
 
 export default {
-  components: {VoluntaryForm},
+  components: {VoluntaryForm, JetDropdownLink, LanguageSelector,},
   name: 'Intro',
   data: function() {
     return {
       index: 0,
       transition: "transform 0.2s ease",
-      hola: 'hola',
     }
   },
   methods: {
@@ -65,9 +66,27 @@ export default {
         this.index += 100;
       }
     },
-    llamar(){
-      console.log(this.hola)
-    }
+        scrollMeTo(refName) {
+      if (this.route().current() !== "landing") {
+        this.$inertia.get(this.route("landing"), "", {
+          onFinish: () => this.doScroll(refName),
+        });
+      } else {
+        this.doScroll(refName);
+      }
+    },
+    doScroll(refName) {
+      var element = document.getElementById(`${refName}`);
+      var top = element.offsetTop;
+      window.scrollTo({
+        top: top,
+        left: 0,
+        behavior: "smooth",
+      });
+    },
+    logout() {
+      this.$inertia.post(route("logout"));
+    },
   }
 }
 </script>
