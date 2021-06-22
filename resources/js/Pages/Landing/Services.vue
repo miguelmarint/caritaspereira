@@ -28,6 +28,7 @@
                 <br />
                 <p>
                   <a
+                    style="color: #fff"
                     class="btn btn-success"
                     data-toggle="collapse"
                     href="#collapseCriterios"
@@ -46,17 +47,17 @@
                   <br />
                   <h4 class="criterios">Criterios de Acción</h4>
                   <ul type="circle">
-                    <li style="color: #ffff">
+                    <li class="description">
                       Se enmarca en el ámbito de la Pastoral Social: Su misión
                       es llevar la Buena Nueva de Jesús resucitado a los hombres
                       y mujeres del campo
                     </li>
-                    <li style="color: #ffff">
+                    <li class="description">
                       Tiene una profunda inspiración bíblica: La tierra es don
                       de Dios y lugar del encuentro con “los otros” y con “el
                       Otro”.
                     </li>
-                    <li style="color: #ffff">
+                    <li class="description">
                       Está orientada por la Doctrina Social de la Iglesia: El
                       trabajo, la propiedad y la justa distribución de los
                       bienes y la riqueza son temas centrales.
@@ -84,6 +85,7 @@
                 <br />
                 <p>
                   <a
+                    style="color: #fff"
                     class="btn btn-success"
                     data-toggle="collapse"
                     href="#collapseDescription"
@@ -136,6 +138,7 @@
                 <br />
                 <p>
                   <a
+                    style="color: #fff"
                     class="btn btn-success"
                     data-toggle="collapse"
                     href="#collapseDescription"
@@ -194,6 +197,7 @@
                 <br />
                 <p>
                   <a
+                    style="color: #fff"
                     class="btn btn-success"
                     data-toggle="collapse"
                     href="#collapseAlianza"
@@ -234,6 +238,7 @@
                   <br />
                   <p>
                     <a
+                      style="color: #fff"
                       class="btn btn-success"
                       data-toggle="collapse"
                       href="#collapseTransform"
@@ -282,11 +287,12 @@ export default {};
 #services {
   padding: 60px 0 40px 0;
   box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);
+  background-color: #025228;
 }
 
 #services .section-header h3 {
   font-size: 36px;
-  color: #000000;
+  color: #fff;
   text-align: center;
   font-weight: 500;
   position: relative;
@@ -296,17 +302,12 @@ export default {};
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
-  color: #000000;
+  color: #000;
   width: 50%;
 }
 
 h4 {
-  color: #ffffff;
-}
-
-#services .row {
-  border-radius: 10px;
-  background: #025228;
+  color: #000;
 }
 
 #services .box {
@@ -315,15 +316,16 @@ h4 {
   overflow: hidden;
   border-radius: 10px;
   margin: 0 10px 40px 10px;
-  background: #025228;
-  box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgb(0 0 0 / 10%);
   transition: all 0.3s ease-in-out;
 }
 
 #services img {
-  margin: 10px 5px 15px 20px;
-  width: 100%;
-  height: 120%;
+  width: 85%;
+  max-width: 485px;
+  max-height: 300px;
+  margin: 30px 30px 20px 30px;
 }
 
 #services .icon {
@@ -342,16 +344,20 @@ h4 {
   margin-bottom: 15px;
   font-size: 19px;
 }
-#services .title a {
-  color: #ffffff;
+#services  a {
+  font-size: 20px;
+  text-align: justify;
+  color: #000;
 }
+
 #services .description {
   font-size: 16px;
-  margin-left: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
   line-height: 24px;
   margin-bottom: 0;
   text-align: justify;
-  color: #ffffff;
+  color: #000;
 }
 
 #services .video-youtube{
@@ -385,7 +391,7 @@ h4 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 19px;
-  color: #ffffff;
+  color: #000;
 }
 
 #services .proyection {
@@ -397,9 +403,6 @@ h4 {
 #services ul {
   font-size: 16px;
   text-align: justify;
-}
-.accion {
-  background: greenyellow;
 }
 
 .section-bg {

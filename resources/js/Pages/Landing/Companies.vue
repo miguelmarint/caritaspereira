@@ -160,9 +160,9 @@ export default {};
 .section-header p {
   text-align: center;
   margin: auto;
-  font-size: 15px;
+  font-size: 17px;
   padding-bottom: 60px;
-  color: #ffffff;
+  color: #fff;
   width: 50%;
 }
 #clients .clients-wrap {

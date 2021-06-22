@@ -78,7 +78,7 @@
               @click="scrollMeTo('documents')"
               class="btn btn-light nav-link"
             >
-              {{ __("nav.documents") }}
+              {{ __("Documents") }}
             </button>
           </li>
           <li class="nav-item">

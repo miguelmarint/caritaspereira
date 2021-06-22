@@ -3,7 +3,7 @@
     <section id="portfolio" class="clearfix">
       <div class="container">
         <header class="section-header">
-          <h3 class="section-title">Our Portfolio</h3>
+          <h3 class="section-title">!Haz aquí tu donación¡</h3>
         </header>
 
         <div class="row">

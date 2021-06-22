@@ -17852,6 +17852,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Landing/Donations.vue?vue&type=script&lang=js":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Landing/Donations.vue?vue&type=script&lang=js ***!
+  \******************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Landing/Index.vue?vue&type=script&lang=js":
 /*!**************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Landing/Index.vue?vue&type=script&lang=js ***!
@@ -17868,12 +17883,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _AboutUs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AboutUs */ "./resources/js/Pages/Landing/AboutUs.vue");
 /* harmony import */ var _Services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Services */ "./resources/js/Pages/Landing/Services.vue");
 /* harmony import */ var _Activities__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Activities */ "./resources/js/Pages/Landing/Activities.vue");
-/* harmony import */ var _WhyUs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./WhyUs */ "./resources/js/Pages/Landing/WhyUs.vue");
-/* harmony import */ var _Documents__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Documents */ "./resources/js/Pages/Landing/Documents.vue");
-/* harmony import */ var _VoluntaryForm__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./VoluntaryForm */ "./resources/js/Pages/Landing/VoluntaryForm.vue");
-/* harmony import */ var _ContactUs__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./ContactUs */ "./resources/js/Pages/Landing/ContactUs.vue");
-/* harmony import */ var _Layouts_Footer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @/Layouts/Footer */ "./resources/js/Layouts/Footer.vue");
-/* harmony import */ var _Companies__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Companies */ "./resources/js/Pages/Landing/Companies.vue");
+/* harmony import */ var _Donations__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Donations */ "./resources/js/Pages/Landing/Donations.vue");
+/* harmony import */ var _WhyUs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./WhyUs */ "./resources/js/Pages/Landing/WhyUs.vue");
+/* harmony import */ var _Documents__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Documents */ "./resources/js/Pages/Landing/Documents.vue");
+/* harmony import */ var _VoluntaryForm__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./VoluntaryForm */ "./resources/js/Pages/Landing/VoluntaryForm.vue");
+/* harmony import */ var _ContactUs__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./ContactUs */ "./resources/js/Pages/Landing/ContactUs.vue");
+/* harmony import */ var _Layouts_Footer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @/Layouts/Footer */ "./resources/js/Layouts/Footer.vue");
+/* harmony import */ var _Companies__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Companies */ "./resources/js/Pages/Landing/Companies.vue");
+
 
 
 
@@ -17892,12 +17909,13 @@ __webpack_require__.r(__webpack_exports__);
     AboutUs: _AboutUs__WEBPACK_IMPORTED_MODULE_2__.default,
     Services: _Services__WEBPACK_IMPORTED_MODULE_3__.default,
     Activities: _Activities__WEBPACK_IMPORTED_MODULE_4__.default,
-    WhyUs: _WhyUs__WEBPACK_IMPORTED_MODULE_5__.default,
-    Documents: _Documents__WEBPACK_IMPORTED_MODULE_6__.default,
-    VoluntaryForm: _VoluntaryForm__WEBPACK_IMPORTED_MODULE_7__.default,
-    Companies: _Companies__WEBPACK_IMPORTED_MODULE_10__.default,
-    ContactUs: _ContactUs__WEBPACK_IMPORTED_MODULE_8__.default,
-    Footer: _Layouts_Footer__WEBPACK_IMPORTED_MODULE_9__.default
+    Donations: _Donations__WEBPACK_IMPORTED_MODULE_5__.default,
+    WhyUs: _WhyUs__WEBPACK_IMPORTED_MODULE_6__.default,
+    Documents: _Documents__WEBPACK_IMPORTED_MODULE_7__.default,
+    VoluntaryForm: _VoluntaryForm__WEBPACK_IMPORTED_MODULE_8__.default,
+    Companies: _Companies__WEBPACK_IMPORTED_MODULE_11__.default,
+    ContactUs: _ContactUs__WEBPACK_IMPORTED_MODULE_9__.default,
+    Footer: _Layouts_Footer__WEBPACK_IMPORTED_MODULE_10__.default
   }
 });
 
@@ -17917,11 +17935,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Jetstream_DropdownLink__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Jetstream/DropdownLink */ "./resources/js/Jetstream/DropdownLink.vue");
 /* harmony import */ var _Shared_LanguageSelector__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/Shared/LanguageSelector */ "./resources/js/Shared/LanguageSelector.vue");
 /* harmony import */ var _VoluntaryForm__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./VoluntaryForm */ "./resources/js/Pages/Landing/VoluntaryForm.vue");
+/* harmony import */ var _Donations__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Donations */ "./resources/js/Pages/Landing/Donations.vue");
+
 
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
+    Donations: _Donations__WEBPACK_IMPORTED_MODULE_3__.default,
     VoluntaryForm: _VoluntaryForm__WEBPACK_IMPORTED_MODULE_2__.default,
     JetDropdownLink: _Jetstream_DropdownLink__WEBPACK_IMPORTED_MODULE_0__.default,
     LanguageSelector: _Shared_LanguageSelector__WEBPACK_IMPORTED_MODULE_1__.default
@@ -19742,7 +19763,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
       return $options.scrollMeTo('documents');
     }),
     "class": "btn btn-light nav-link"
-  }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__("nav.documents")), 1
+  }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__("Documents")), 1
   /* TEXT */
   )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
     type: "button",
@@ -21364,6 +21385,9 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "box"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("img", {
+  style: {
+    "height": "300px"
+  },
   src: "images/corazon-contento.png",
   alt: ""
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
@@ -21400,8 +21424,8 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "video-youtube"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("iframe", {
-  width: "560",
-  height: "315",
+  width: "450",
+  height: "300",
   src: "https://www.youtube.com/embed/sRvp-_lILQ4",
   title: "YouTube video player",
   frameborder: "0",
@@ -21424,7 +21448,7 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
   href: ""
 }, "INTÉGRATE CON CÁRITAS - BANCO DE ALIMENTOS Y MERCASA")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "description"
-}, " A partir del proceso con la materia de Comunicación de gobierno y tercer sector y el trabajo realizado en Mercasa en búsqueda de dar a conocer la Fundación Cáritas, mejorar la confianza e imagen con "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+}, " A partir del proceso con la materia de Comunicación de gobierno y tercer sector y el trabajo realizado en Mercasa en búsqueda de dar a conocer la Fundación Cáritas, mejorar la confianza e imagen con "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
   "class": "btn btn-success",
   "data-toggle": "collapse",
   href: "#collapsebtnMerc",
@@ -21440,7 +21464,13 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
   "class": "description"
 }, " la que esta cuenta en algunas partes de este sector y con la misión de conseguir un porcentaje más alto en las donaciones de alimentos. Gracias a esto se desarrollaron tres estrategias para lograr cumplir con los objetivos planteados: "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("ul", {
   type: "number"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, "Sensibilización: Base de datos."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, "Boletín de registro “Top de máximos donantes”"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", null, " Video del proceso desde la recolección en Mercasa, hasta la entrega en las fundaciones. ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h4", {
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
+  "class": "description"
+}, "Sensibilización: Base de datos."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
+  "class": "description"
+}, "Boletín de registro “Top de máximos donantes”"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
+  "class": "description"
+}, " Video del proceso desde la recolección en Mercasa, hasta la entrega en las fundaciones. ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h4", {
   "class": "criterios",
   style: {
     "text-align": "center"
@@ -21450,8 +21480,8 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "video-youtube"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("iframe", {
-  width: "435",
-  height: "315",
+  width: "450",
+  height: "300",
   src: "https://www.youtube.com/embed/iFfQMiZI_8A",
   title: "YouTube video player",
   frameborder: "0",
@@ -21873,6 +21903,34 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Landing/Donations.vue?vue&type=template&id=d0dbe3a0&scoped=true":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Landing/Donations.vue?vue&type=template&id=d0dbe3a0&scoped=true ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+
+var _withId = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.withScopeId)("data-v-d0dbe3a0");
+
+(0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-d0dbe3a0");
+
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section id=\"donation\" class=\"clearfix\" data-v-d0dbe3a0><div class=\"container\" data-v-d0dbe3a0><header class=\"section-header\" data-v-d0dbe3a0><h3 class=\"section-title\" data-v-d0dbe3a0>!Haz aquí tu donación¡</h3><li style=\"list-style:number;\" data-v-d0dbe3a0> Elige la cantidad con la que quieres colaborar </li></header><div class=\"container-form\" data-v-d0dbe3a0><div class=\"row\" data-v-d0dbe3a0><div class=\"col-md-6 col-lg-6\" data-v-d0dbe3a0><div class=\"container-pay\" data-v-d0dbe3a0><div class=\"method\" data-v-d0dbe3a0><p data-v-d0dbe3a0>Método de pago</p><input type=\"radio\" id=\"credito\" value=\"targeta-credito\" data-v-d0dbe3a0><label for=\"credito\" data-v-d0dbe3a0> Tarjeta de Crédito</label><br data-v-d0dbe3a0><input type=\"radio\" id=\"paypal\" value=\"pago-paypal\" data-v-d0dbe3a0><label for=\"paypal\" data-v-d0dbe3a0> PayPal</label></div><br data-v-d0dbe3a0><div class=\"donate\" data-v-d0dbe3a0><p data-v-d0dbe3a0>Tipo de donación</p><input type=\"radio\" id=\"anon\" value=\"don-anonima\" data-v-d0dbe3a0><label for=\"anon\" data-v-d0dbe3a0> Deseo que mi donación sea anónima</label><br data-v-d0dbe3a0><input type=\"radio\" id=\"data\" value=\"fac-datos\" data-v-d0dbe3a0><label for=\"data\" data-v-d0dbe3a0> No tengo problema en facilitar mis datos</label></div></div></div><div class=\"col-md-6 col-lg-6\" data-v-d0dbe3a0><div class=\"container-pay\" data-v-d0dbe3a0><div class=\"method\" data-v-d0dbe3a0><div class=\"reference\" data-v-d0dbe3a0><q style=\"text-align:justify;\" data-v-d0dbe3a0> LA POBREZA NO LA HIZO DIOS, LA HACEMOS TÚ Y YO CUANDO NO COMPARTIMOS LO QUE TENEMOS. </q></div><br data-v-d0dbe3a0><i style=\"font-size:20px;\" data-v-d0dbe3a0>Madre Teresa</i><br data-v-d0dbe3a0><br data-v-d0dbe3a0><div class=\"info\" data-v-d0dbe3a0><i class=\"fas fa-map-marker-alt\" data-v-d0dbe3a0></i><p data-v-d0dbe3a0> Calle 20 Nro 4-47 Pereira y Sede Banco de Alimentos : Transversal 5 # 6-30 Calle de las Aromas la Badea Dosquebradas </p></div></div><br data-v-d0dbe3a0><div class=\"donate\" data-v-d0dbe3a0><p data-v-d0dbe3a0>Importe</p><div class=\"input\" data-v-d0dbe3a0><select class=\"form\" id=\"importe\" data-v-d0dbe3a0><option selected data-v-d0dbe3a0>10.000</option><option value=\"1\" data-v-d0dbe3a0>20.000</option><option value=\"2\" data-v-d0dbe3a0>30.000</option><option value=\"3\" data-v-d0dbe3a0>40.000</option><option value=\"3\" data-v-d0dbe3a0>50.000</option><option value=\"3\" data-v-d0dbe3a0>Más de 50.000</option></select></div></div></div></div></div></div><button type=\"button\" class=\" btn btn btn-outline-dark mr-4\" data-v-d0dbe3a0>Siguiente</button></div></section>", 1);
+
+(0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
+
+var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data, $options) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [_hoisted_1]);
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Landing/Index.vue?vue&type=template&id=7f509ee1&scoped=true":
 /*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Landing/Index.vue?vue&type=template&id=7f509ee1&scoped=true ***!
@@ -21900,6 +21958,8 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
 
   var _component_Activities = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Activities");
 
+  var _component_Donations = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Donations");
+
   var _component_WhyUs = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("WhyUs");
 
   var _component_Documents = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Documents");
@@ -21912,7 +21972,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
 
   var _component_Footer = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Footer");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Navbar), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Intro), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_AboutUs), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Services), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Activities), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_WhyUs), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Documents), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_VoluntaryForm), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Companies), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ContactUs), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Navbar), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Intro), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_AboutUs), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Services), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Activities), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Donations), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_WhyUs), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Documents), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_VoluntaryForm), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Companies), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ContactUs), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)]);
 });
 
 /***/ }),
@@ -21993,10 +22053,7 @@ var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
 /* HOISTED */
 );
 
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
-  type: "button",
-  "class": "btn btn-outline-dark mr-4"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("strong", null, "!Quiero Donar¡")], -1
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("strong", null, "!Quiero Donar¡", -1
 /* HOISTED */
 );
 
@@ -22029,7 +22086,13 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
       return $options.scrollMeTo('voluntary');
     }),
     "class": " btn btn btn-outline-dark mr-4"
-  }, [_hoisted_11]), _hoisted_12])])])]);
+  }, [_hoisted_11]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+    type: "button",
+    onClick: _cache[4] || (_cache[4] = function ($event) {
+      return $options.scrollMeTo('donation');
+    }),
+    "class": "btn btn-outline-dark mr-4"
+  }, [_hoisted_12])])])])]);
 });
 
 /***/ }),
@@ -22052,7 +22115,7 @@ var _withId = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.withScopeId)("dat
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-325b8652");
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section id=\"portfolio\" class=\"clearfix\" data-v-325b8652><div class=\"container\" data-v-325b8652><header class=\"section-header\" data-v-325b8652><h3 class=\"section-title\" data-v-325b8652>Our Portfolio</h3></header><div class=\"row\" data-v-325b8652><div class=\"col-lg-12\" data-v-325b8652><ul id=\"portfolio-flters\" data-v-325b8652><li data-filter=\"*\" class=\"filter-active\" data-v-325b8652>All</li><li data-filter=\".filter-app\" data-v-325b8652>App</li><li data-filter=\".filter-card\" data-v-325b8652>Card</li><li data-filter=\".filter-web\" data-v-325b8652>Web</li></ul></div></div></div></section>", 1);
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section id=\"portfolio\" class=\"clearfix\" data-v-325b8652><div class=\"container\" data-v-325b8652><header class=\"section-header\" data-v-325b8652><h3 class=\"section-title\" data-v-325b8652>!Haz aquí tu donación¡</h3></header><div class=\"row\" data-v-325b8652><div class=\"col-lg-12\" data-v-325b8652><ul id=\"portfolio-flters\" data-v-325b8652><li data-filter=\"*\" class=\"filter-active\" data-v-325b8652>All</li><li data-filter=\".filter-app\" data-v-325b8652>App</li><li data-filter=\".filter-card\" data-v-325b8652>Card</li><li data-filter=\".filter-web\" data-v-325b8652>Web</li></ul></div></div></div></section>", 1);
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
@@ -22110,6 +22173,9 @@ var _hoisted_7 = {
 var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<img src=\"images/pastoral.jpg\" alt=\"\" data-v-66bcffc2><br data-v-66bcffc2><div class=\"icon\" data-v-66bcffc2><i class=\"ion-ios-analytics-outline\" data-v-66bcffc2></i></div><h4 class=\"title\" data-v-66bcffc2><a href=\"\" data-v-66bcffc2>PASTORAL RURAL Y DE LA TIERRA</a></h4><p class=\"description\" data-v-66bcffc2> La Pastoral Rural y de la tierra es un servicio de Iglesia, que busca acompañar y caminar al lado de los hombres y las mujeres del campo, asumiendo los ritmos y ciclos propios de su entorno, </p><br data-v-66bcffc2>", 6);
 
 var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  style: {
+    "color": "#fff"
+  },
   "class": "btn btn-success",
   "data-toggle": "collapse",
   href: "#collapseCriterios",
@@ -22129,7 +22195,7 @@ var _hoisted_15 = {
 
 var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" compartiendo el amor por la tierra, sembrando la semilla, nutriéndola y regándola en solidaridad con sus dificultades y esperanzas. ");
 
-var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<br data-v-66bcffc2><h4 class=\"criterios\" data-v-66bcffc2>Criterios de Acción</h4><ul type=\"circle\" data-v-66bcffc2><li style=\"color:#ffff;\" data-v-66bcffc2> Se enmarca en el ámbito de la Pastoral Social: Su misión es llevar la Buena Nueva de Jesús resucitado a los hombres y mujeres del campo </li><li style=\"color:#ffff;\" data-v-66bcffc2> Tiene una profunda inspiración bíblica: La tierra es don de Dios y lugar del encuentro con “los otros” y con “el Otro”. </li><li style=\"color:#ffff;\" data-v-66bcffc2> Está orientada por la Doctrina Social de la Iglesia: El trabajo, la propiedad y la justa distribución de los bienes y la riqueza son temas centrales. </li></ul>", 3);
+var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<br data-v-66bcffc2><h4 class=\"criterios\" data-v-66bcffc2>Criterios de Acción</h4><ul type=\"circle\" data-v-66bcffc2><li class=\"description\" data-v-66bcffc2> Se enmarca en el ámbito de la Pastoral Social: Su misión es llevar la Buena Nueva de Jesús resucitado a los hombres y mujeres del campo </li><li class=\"description\" data-v-66bcffc2> Tiene una profunda inspiración bíblica: La tierra es don de Dios y lugar del encuentro con “los otros” y con “el Otro”. </li><li class=\"description\" data-v-66bcffc2> Está orientada por la Doctrina Social de la Iglesia: El trabajo, la propiedad y la justa distribución de los bienes y la riqueza son temas centrales. </li></ul>", 3);
 
 var _hoisted_20 = {
   "class": "col-md-6 col-lg-6"
@@ -22141,6 +22207,9 @@ var _hoisted_21 = {
 var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<img src=\"images/responsabilidad-caritas.jpg\" alt=\"\" data-v-66bcffc2><br data-v-66bcffc2><div class=\"icon\" data-v-66bcffc2><i class=\"ion-ios-bookmarks-outline\" data-v-66bcffc2></i></div><h4 class=\"title\" data-v-66bcffc2><a href=\"\" data-v-66bcffc2>RESPONSABILIDAD SOCIAL EMPRESARIAL</a></h4><p class=\"description\" data-v-66bcffc2> Buscamos a través de esta iniciativa apoyar lideres emprendedores en la creación de empresas eficientes e integrales que aporten valor e implementen un modelo empresarial solido </p><br data-v-66bcffc2>", 6);
 
 var _hoisted_28 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  style: {
+    "color": "#fff"
+  },
   "class": "btn btn-success",
   "data-toggle": "collapse",
   href: "#collapseDescription",
@@ -22212,6 +22281,9 @@ var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
 }, "BANCO DE ALIMENTOS")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "description"
 }, " El Banco de Alimentos, de la Fundación Cáritas Diocesana de Pereira, ubicada en La Calle Las Aromas, en La Badea, Dosquebradas, Risaralda, es una fundación encargada de "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  style: {
+    "color": "#fff"
+  },
   "class": "btn btn-success",
   "data-toggle": "collapse",
   href: "#collapseDescription",
@@ -22257,6 +22329,9 @@ var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
 }, "FORMACIÓN AGENTES DE PASTORAL SOCIAL")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "description"
 }, " Hemos contado con 71 personas que han dado su SI a esta propuesta de ir al más necesitado de una manera integral, impactando directamente en sus personas y comunidades. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  style: {
+    "color": "#fff"
+  },
   "class": "btn btn-success",
   "data-toggle": "collapse",
   href: "#collapseAlianza",
@@ -22296,6 +22371,9 @@ var _hoisted_37 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", {
   "class": "description"
 }, " Una prouesta para construir conocimiento y dar oportunidades. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+  style: {
+    "color": "#fff"
+  },
   "class": "btn btn-success",
   "data-toggle": "collapse",
   href: "#collapseTransform",
@@ -28552,7 +28630,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#about[data-v-1ebaeeda] {\r\n  background: #fff;\r\n  padding: 60px 0;\n}\n#about .section-header h3[data-v-1ebaeeda] {\r\n  font-size: 38px;\r\n  color: #0c0c0c;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#about .section-header p[data-v-1ebaeeda] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 16px;\r\n  padding-bottom: 60px;\r\n  color: #0c0c0c;\r\n  width: 50%;\r\n  text-align: justify;\n}\n#about .row[data-v-1ebaeeda] {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  margin-right: -15px;\r\n  margin-left: -15px;\n}\n#about .about-container .content[data-v-1ebaeeda] {\r\n  background: #fff;\n}\n#about .about-container p[data-v-1ebaeeda] {\r\n  line-height: 26px;\n}\n#about .about-container .icon-box[data-v-1ebaeeda] {\r\n  background: #fff;\r\n  background-size: cover;\r\n  padding: 0 0 30px 0;\n}\n#about .about-container .icon-box .icon[data-v-1ebaeeda] {\r\n  float: left;\r\n  background: #fff;\r\n  width: 64px;\r\n  height: 64px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  flex-direction: column;\r\n  text-align: center;\r\n  border-radius: 50%;\r\n  border: 2px solid #028341;\r\n  transition: all 0.3s ease-in-out;\n}\n#about .about-container .icon-box .icon i[data-v-1ebaeeda] {\r\n  color: #028341;\r\n  font-size: 24px;\n}\n#about .fa-shopping-bag[data-v-1ebaeeda]:before {\r\n  content: \"\\f290\";\n}\n#about .about-container .icon-box .title[data-v-1ebaeeda] {\r\n  margin-left: 80px;\r\n  font-weight: 600;\r\n  margin-bottom: 5px;\r\n  font-size: 19px;\n}\n#about .about-container .icon-box .title a[data-v-1ebaeeda] {\r\n  color: #0c0c0c;\n}\n#about .about-container .icon-box .description[data-v-1ebaeeda] {\r\n  margin-left: 80px;\r\n  line-height: 24px;\r\n  font-size: 16px;\r\n  text-align: justify;\n}\n#about .about-container .background[data-v-1ebaeeda] {\r\n  margin: 20px 0;\n}\n#about .img-fluid[data-v-1ebaeeda] {\r\n  max-width: 100%;\r\n  height: auto;\n}\n#about .img[data-v-1ebaeeda] {\r\n  vertical-align: middle;\r\n  border-style: none;\n}\n#about .about-extra[data-v-1ebaeeda] {\r\n  padding-top: 60px;\n}\n#about .about-extra h4[data-v-1ebaeeda] {\r\n  font-weight: 600;\r\n  font-size: 24px;\n}\n#about .p[data-v-1ebaeeda] {\r\n  padding: 0;\r\n  margin: 0 0 30px 0;\n}\n#about .about-extra h4[data-v-1ebaeeda] {\r\n  font-weight: 600;\r\n  font-size: 24px;\n}\n#about .ready[data-v-1ebaeeda]{\r\n  margin-left: 2rem;\r\n  font-size: 16px;\n}\n.fa-circle[data-v-1ebaeeda]{\r\n  color: #028341;\n}\n#about .about-extra ul[data-v-1ebaeeda] {\r\n  text-align: justify;\r\n  font-size: 16px;\r\n  padding-left: 2rem;\r\n  list-style: circle;\n}\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#about[data-v-1ebaeeda] {\r\n  background: #fff;\r\n  padding: 60px 0;\n}\n#about .section-header h3[data-v-1ebaeeda] {\r\n  font-size: 38px;\r\n  color: #0c0c0c;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#about .section-header p[data-v-1ebaeeda] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 16px;\r\n  padding-bottom: 60px;\r\n  color: #0c0c0c;\r\n  width: 50%;\r\n  text-align: justify;\n}\n#about .row[data-v-1ebaeeda] {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  margin-right: -15px;\r\n  margin-left: -15px;\n}\n#about .about-container .content[data-v-1ebaeeda] {\r\n  background: #fff;\n}\n#about .about-container p[data-v-1ebaeeda] {\r\n  line-height: 26px;\n}\n#about .about-container .icon-box[data-v-1ebaeeda] {\r\n  background: #fff;\r\n  background-size: cover;\r\n  padding: 0 0 30px 0;\n}\n#about .about-container .icon-box .icon[data-v-1ebaeeda] {\r\n  float: left;\r\n  background: #fff;\r\n  width: 64px;\r\n  height: 64px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  flex-direction: column;\r\n  text-align: center;\r\n  border-radius: 50%;\r\n  border: 2px solid #028341;\r\n  transition: all 0.3s ease-in-out;\n}\n#about .about-container .icon-box .icon i[data-v-1ebaeeda] {\r\n  color: #028341;\r\n  font-size: 24px;\n}\n#about .fa-shopping-bag[data-v-1ebaeeda]:before {\r\n  content: \"\\f290\";\n}\n#about .about-container .icon-box .title[data-v-1ebaeeda] {\r\n  margin-left: 80px;\r\n  font-weight: 600;\r\n  margin-bottom: 5px;\r\n  font-size: 19px;\n}\n#about .about-container .icon-box .title a[data-v-1ebaeeda] {\r\n  color: #0c0c0c;\n}\n#about .about-container .icon-box .description[data-v-1ebaeeda] {\r\n  margin-left: 80px;\r\n  line-height: 24px;\r\n  font-size: 16px;\r\n  text-align: justify;\n}\n#about .about-container .background[data-v-1ebaeeda] {\r\n  margin: 20px 0;\n}\n#about .img-fluid[data-v-1ebaeeda] {\r\n  max-width: 100%;\r\n  height: auto;\n}\n#about .img[data-v-1ebaeeda] {\r\n  vertical-align: middle;\r\n  border-style: none;\n}\n#about .about-extra[data-v-1ebaeeda] {\r\n  padding-top: 60px;\n}\n#about .about-extra h4[data-v-1ebaeeda] {\r\n  font-weight: 600;\r\n  font-size: 24px;\n}\n#about .p[data-v-1ebaeeda] {\r\n  padding: 0;\r\n  margin: 0 0 30px 0;\n}\n#about .about-extra h4[data-v-1ebaeeda] {\r\n  font-weight: 600;\r\n  font-size: 24px;\n}\n#about .ready[data-v-1ebaeeda]{\r\n  margin-left: 2rem;\r\n  font-size: 16px;\r\n  -moz-column-count: 2;\r\n       column-count: 2; \r\n  padding-top: 15px;\n}\n#about span[data-v-1ebaeeda] {\r\n  margin: 5px 0 15px 0;\n}\n.fa-circle[data-v-1ebaeeda]{\r\n  color: #028341;\n}\n#about .about-extra ul[data-v-1ebaeeda] {\r\n  text-align: justify;\r\n  font-size: 16px;\r\n  padding-left: 2rem;\r\n  list-style: circle outside;\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28576,7 +28654,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#activities[data-v-2f82e5ee] {\r\n  padding: 60px 0 40px 0;\r\n  box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);\n}\n#activities .section-header h3[data-v-2f82e5ee] {\r\n  font-size: 36px;\r\n  color: #ffffff;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#activities .section-header p[data-v-2f82e5ee] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #ffffff;\r\n  width: 50%;\n}\n#activities .row[data-v-2f82e5ee] {\r\n  border-radius: 10px;\r\n  background: #025228;\n}\n#activities .box[data-v-2f82e5ee] {\r\n  padding: 30px;\r\n  position: relative;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n  margin: 0 10px 40px 10px;\r\n  background: #ffffff;\r\n  box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);\r\n  transition: all 0.3s ease-in-out;\n}\n#activities img[data-v-2f82e5ee] {\r\n  margin: 10px 5px 15px 20px;\r\n  width: 100%;\r\n  height: 100%;\n}\n#activities .icon[data-v-2f82e5ee] {\r\n  position: absolute;\r\n  left: -10px;\r\n  top: calc(50% - 32px);\n}\n#activities .icon i[data-v-2f82e5ee] {\r\n  font-size: 64px;\r\n  line-height: 1;\r\n  transition: 0.5s;\n}\n#activities .title[data-v-2f82e5ee] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\n}\n#activities .title a[data-v-2f82e5ee] {\r\n  color: #111;\n}\n#activities .description[data-v-2f82e5ee] {\r\n  font-size: 16px;\r\n  margin-left: 40px;\r\n  line-height: 24px;\r\n  margin-bottom: 0;\r\n  text-align: justify;\n}\n#activities .btn[data-v-2f82e5ee] {\r\n  margin-inline: 10px;\r\n  margin-left: 3em;\r\n  background: #025228;\n}\n#activities .criterios[data-v-2f82e5ee] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\r\n  color: #111;\n}\n#activities .proyection[data-v-2f82e5ee] {\r\n  background: #028341;\r\n  margin-left: 2.5em;\r\n  text-align: center;\n}\n#activities ul[data-v-2f82e5ee] {\r\n  font-size: 16px;\r\n  text-align: justify;\n}\n#activities .video-youtube[data-v-2f82e5ee]{\r\n  border: 2px solid #028341;\r\n  height: 0px;\r\n  padding-bottom: 56.25%;\r\n  position: relative;\n}\n#activities .video-youtube iframe[data-v-2f82e5ee]{\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  height: 100%;\r\n  width: 100%;\n}\n.youtube-wrapper[data-v-2f82e5ee]{\r\n  width: 100%;\r\n  margin: auto;\n}\n.accion[data-v-2f82e5ee] {\r\n  background: greenyellow;\n}\n.section-bg[data-v-2f82e5ee] {\r\n  background: #025228;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#activities[data-v-2f82e5ee] {\r\n  padding: 60px 0 40px 0;\r\n  box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);\r\n  background-color: #799b9173;\n}\n#activities .section-header h3[data-v-2f82e5ee] {\r\n  font-size: 36px;\r\n  color: #000;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#activities .box[data-v-2f82e5ee] {\r\n  padding: 30px;\r\n  position: relative;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n  margin: 0 10px 40px 10px;\r\n  background: #025228;\r\n  box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);\r\n  transition: all 0.3s ease-in-out;\n}\n#activities img[data-v-2f82e5ee] {\r\n  width: 85%;\r\n  max-height: 300px;\r\n  max-width: 450px;\r\n  margin: 30px 30px 20px 30px;\n}\n#activities .icon[data-v-2f82e5ee] {\r\n  position: absolute;\r\n  left: -10px;\r\n  top: calc(50% - 32px);\n}\n#activities .icon i[data-v-2f82e5ee] {\r\n  font-size: 64px;\r\n  line-height: 1;\r\n  transition: 0.5s;\n}\n#activities .title[data-v-2f82e5ee] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\n}\n#activities a[data-v-2f82e5ee] {\r\n  font-size: 20px;\r\n  text-align: justify;\r\n  color: #fff;\n}\n#activities .description[data-v-2f82e5ee] {\r\n  font-size: 16px;\r\n  margin-left: 30px;\r\n  margin-right: 30px;\r\n  line-height: 24px;\r\n  margin-bottom: 0;\r\n  text-align: justify;\r\n  color: #fff;\n}\n#activities .btn[data-v-2f82e5ee] {\r\n  margin-inline: 10px;\r\n  margin-left: 3em;\r\n  color: #000;\r\n  background: #fff;\n}\n#activities .criterios[data-v-2f82e5ee] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\r\n  color: #fff;\n}\n#activities .proyection[data-v-2f82e5ee] {\r\n  background: #028341;\r\n  margin-left: 2.5em;\r\n  text-align: center;\n}\n#activities ul[data-v-2f82e5ee] {\r\n  font-size: 16px;\r\n  text-align: justify;\n}\n#activities .video-youtube[data-v-2f82e5ee]{\r\n  border: 2px solid #fff;\r\n  height: 0px;\r\n  padding-bottom: 56.25%;\r\n  position: relative;\n}\n#activities .video-youtube iframe[data-v-2f82e5ee]{\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  height: 100%;\r\n  width: 100%;\n}\n.youtube-wrapper[data-v-2f82e5ee]{\r\n  width: 100%;\r\n  margin: auto;\n}\n.section-bg[data-v-2f82e5ee] {\r\n  background: #025228;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28600,7 +28678,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#clients[data-v-1e0897ea] {\r\n  padding: 60px 0;\r\n  box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);\n}\n.section-bg[data-v-1e0897ea] {\r\n  background: #025228;\n}\n.container[data-v-1e0897ea] {\r\n  width: 100%;\r\n  padding-right: 15px;\r\n  padding-left: 15px;\r\n  margin-right: auto;\r\n  margin-left: auto;\n}\n.section-header h3[data-v-1e0897ea] {\r\n  font-size: 40px;\r\n  color: #ffffff;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n.section-header p[data-v-1e0897ea] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #ffffff;\r\n  width: 50%;\n}\n#clients .clients-wrap[data-v-1e0897ea] {\r\n  border-top: 1px solid #d6eaff;\r\n  border-left: 1px solid #d6eaff;\r\n  margin-bottom: 30px;\n}\n#clients .client-logo[data-v-1e0897ea]  {\r\n  padding: 64px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  border-right: 1px solid #d6eaff;\r\n  border-bottom: 1px solid #d6eaff;\r\n  overflow: hidden;\r\n  background: #fff;\r\n  height: 160px;\r\n  width: 100%;\n}\n#clients .client-logo img[data-v-1e0897ea]:hover{\r\n  transform: scale(1.2);\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#clients[data-v-1e0897ea] {\r\n  padding: 60px 0;\r\n  box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);\n}\n.section-bg[data-v-1e0897ea] {\r\n  background: #025228;\n}\n.container[data-v-1e0897ea] {\r\n  width: 100%;\r\n  padding-right: 15px;\r\n  padding-left: 15px;\r\n  margin-right: auto;\r\n  margin-left: auto;\n}\n.section-header h3[data-v-1e0897ea] {\r\n  font-size: 40px;\r\n  color: #ffffff;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n.section-header p[data-v-1e0897ea] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 17px;\r\n  padding-bottom: 60px;\r\n  color: #fff;\r\n  width: 50%;\n}\n#clients .clients-wrap[data-v-1e0897ea] {\r\n  border-top: 1px solid #d6eaff;\r\n  border-left: 1px solid #d6eaff;\r\n  margin-bottom: 30px;\n}\n#clients .client-logo[data-v-1e0897ea]  {\r\n  padding: 64px;\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n  border-right: 1px solid #d6eaff;\r\n  border-bottom: 1px solid #d6eaff;\r\n  overflow: hidden;\r\n  background: #fff;\r\n  height: 160px;\r\n  width: 100%;\n}\n#clients .client-logo img[data-v-1e0897ea]:hover{\r\n  transform: scale(1.2);\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28648,7 +28726,31 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#documents[data-v-6f6e5247] {\r\n  padding: 60px 0;\r\n  box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 10%);\r\n  background: #025228;\n}\n.section-header h3[data-v-6f6e5247] {\r\n  font-size: 36px;\r\n  color: #fff;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n.section-header p[data-v-6f6e5247] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #fff;\r\n  width: 50%;\n}\n.row[data-v-6f6e5247] {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  margin-right: -15px;\r\n  margin-left: -15px;\r\n  background: #fff;\n}\n#documents i[data-v-6f6e5247] {\r\n  padding: 0.5em;\r\n  color: #025228;\n}\n#documents #documents-flters[data-v-6f6e5247] {\r\n  padding: 0;\r\n  margin: 5px 0 35px 0;\r\n  list-style: none;\r\n  text-align: left;\n}\n#documents #documents-flters a[data-v-6f6e5247]:hover{\r\n  background: #025228;\r\n  color: #fff;\n}\n#documents #documents-flters a[data-v-6f6e5247] {\r\n  cursor: pointer;\r\n  margin: 15px 15px 15px 0;\r\n  display: inline-block;\r\n  padding: 6px 20px;\r\n  font-size: 12px;\r\n  line-height: 20px;\r\n  border-radius: 50px;\r\n  text-transform: uppercase;\r\n  margin-bottom: 5px;\r\n  transition: all 0.3s ease-in-out;\n}\n#documents a[data-v-6f6e5247] {\r\n  color: #000;\n}\n#documents i[data-v-6f6e5247]:hover {\r\n  transform: scale(1.5);\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#documents[data-v-6f6e5247] {\r\n  padding: 60px 0;\r\n  box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 10%);\r\n  background: #025228;\n}\n.section-header h3[data-v-6f6e5247] {\r\n  font-size: 36px;\r\n  color: #fff;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n.section-header p[data-v-6f6e5247] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 17px;\r\n  padding-bottom: 60px;\r\n  color: #fff;\r\n  width: 50%;\n}\n.row[data-v-6f6e5247] {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  margin-right: -15px;\r\n  margin-left: -15px;\r\n  background: #fff;\n}\n#documents i[data-v-6f6e5247] {\r\n  padding: 0.5em;\r\n  color: #025228;\n}\n#documents #documents-flters[data-v-6f6e5247] {\r\n  padding: 0;\r\n  margin: 5px 0 35px 0;\r\n  list-style: none;\r\n  text-align: left;\n}\n#documents #documents-flters a[data-v-6f6e5247]:hover{\r\n  background: #025228;\r\n  color: #fff;\n}\n#documents #documents-flters a[data-v-6f6e5247] {\r\n  cursor: pointer;\r\n  margin: 15px 15px 15px 0;\r\n  display: inline-block;\r\n  padding: 6px 20px;\r\n  font-size: 12px;\r\n  line-height: 20px;\r\n  border-radius: 50px;\r\n  text-transform: uppercase;\r\n  margin-bottom: 5px;\r\n  transition: all 0.3s ease-in-out;\n}\n#documents a[data-v-6f6e5247] {\r\n  color: #000;\n}\n#documents i[data-v-6f6e5247]:hover {\r\n  transform: scale(1.5);\n}\r\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Landing/Donations.vue?vue&type=style&index=0&id=d0dbe3a0&scoped=true&lang=css":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Landing/Donations.vue?vue&type=style&index=0&id=d0dbe3a0&scoped=true&lang=css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n#donation[data-v-d0dbe3a0] {\r\n  padding: 60px 0;\r\n  box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 10%);\r\n  background-color: #025228;\n}\n.section-header h3[data-v-d0dbe3a0] {\r\n  font-size: 40px;\r\n  color: #fff;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n.section-header li[data-v-d0dbe3a0] {\r\n  text-align: left;\r\n  font-size: 17px;\r\n  padding-bottom: 30px;\r\n  color: #fff;\r\n  width: 50%;\r\n  font-family: \"Arial Narrow\";\n}\n#donation .container-pay[data-v-d0dbe3a0] {\r\n  padding: 30px;\r\n  position: relative;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n  margin: 0 10px 40px 10px;\r\n  background-color: #ffff;\n}\n#donation input[data-v-d0dbe3a0] {\r\n  font-size: 32px;\n}\n#donation .radio[data-v-d0dbe3a0]{\r\n  background-color: #025228;\n}\n#donation p[data-v-d0dbe3a0] {\r\n  font-size: 19px;\r\n  color: #000;\r\n  font-weight: normal;\r\n  font-family: \"Arial Narrow\";\n}\n#donation label[data-v-d0dbe3a0] {\r\n  padding-left: 10px;\r\n  padding-bottom: 20px;\r\n  font-size: 17px;\r\n  font-family: \"Arial Narrow\";\n}\n#donation .reference[data-v-d0dbe3a0] {\r\n  background-color: #025228;\r\n  color: #fff;\r\n  font-size: 17px;\r\n  font-family: \"Arial Narrow\";\r\n  border-radius: 10px;\n}\n#donation .info i[data-v-d0dbe3a0] {\r\n  font-size: 32px;\r\n  color: #025228;\r\n  float: left;\r\n  line-height: 1;\n}\n#donation .info p[data-v-d0dbe3a0] {\r\n  padding: 0 0 10px 36px;\r\n  line-height: 28px;\r\n  font-size: 17px;\r\n  font-family: \"Arial Narrow\";\n}\n#donation .form[data-v-d0dbe3a0] {\r\n  background-color: #025228;\r\n  color: #fff;\r\n  font-size: 25px;\r\n  width: 200px;\r\n  border:1px dashed;\n}\n#donation .btn[data-v-d0dbe3a0] {\r\n  font-size: 25px;\r\n  color: rgb(224, 209, 209);\r\n  border-width: 1.5px;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28744,7 +28846,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#services[data-v-66bcffc2] {\r\n  padding: 60px 0 40px 0;\r\n  box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);\n}\n#services .section-header h3[data-v-66bcffc2] {\r\n  font-size: 36px;\r\n  color: #000000;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#services .section-header p[data-v-66bcffc2] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #000000;\r\n  width: 50%;\n}\nh4[data-v-66bcffc2] {\r\n  color: #ffffff;\n}\n#services .row[data-v-66bcffc2] {\r\n  border-radius: 10px;\r\n  background: #025228;\n}\n#services .box[data-v-66bcffc2] {\r\n  padding: 30px;\r\n  position: relative;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n  margin: 0 10px 40px 10px;\r\n  background: #025228;\r\n  box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);\r\n  transition: all 0.3s ease-in-out;\n}\n#services img[data-v-66bcffc2] {\r\n  margin: 10px 5px 15px 20px;\r\n  width: 100%;\r\n  height: 120%;\n}\n#services .icon[data-v-66bcffc2] {\r\n  position: absolute;\r\n  left: -10px;\r\n  top: calc(50% - 32px);\n}\n#services .icon i[data-v-66bcffc2] {\r\n  font-size: 64px;\r\n  line-height: 1;\r\n  transition: 0.5s;\n}\n#services .title[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\n}\n#services .title a[data-v-66bcffc2] {\r\n  color: #ffffff;\n}\n#services .description[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  margin-left: 40px;\r\n  line-height: 24px;\r\n  margin-bottom: 0;\r\n  text-align: justify;\r\n  color: #ffffff;\n}\n#services .video-youtube[data-v-66bcffc2]{\r\n  border: 2px solid #028341;\r\n  height: 0px;\r\n  padding-bottom: 56.25%;\r\n  position: relative;\n}\n#services .video-youtube iframe[data-v-66bcffc2]{\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  height: 100%;\r\n  width: 100%;\n}\n.youtube-wrapper[data-v-66bcffc2]{\r\n  width: 100%;\r\n  margin: auto;\n}\n#services .btn[data-v-66bcffc2] {\r\n  margin-inline: 10px;\r\n  margin-left: 3em;\r\n  background: #025228;\n}\n#services .criterios[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\r\n  color: #ffffff;\n}\n#services .proyection[data-v-66bcffc2] {\r\n  background: #028341;\r\n  margin-left: 2.5em;\r\n  text-align: center;\n}\n#services ul[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  text-align: justify;\n}\n.accion[data-v-66bcffc2] {\r\n  background: greenyellow;\n}\n.section-bg[data-v-66bcffc2] {\r\n  background: #799b9173;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#services[data-v-66bcffc2] {\r\n  padding: 60px 0 40px 0;\r\n  box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);\r\n  background-color: #025228;\n}\n#services .section-header h3[data-v-66bcffc2] {\r\n  font-size: 36px;\r\n  color: #fff;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#services .section-header p[data-v-66bcffc2] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #000;\r\n  width: 50%;\n}\nh4[data-v-66bcffc2] {\r\n  color: #000;\n}\n#services .box[data-v-66bcffc2] {\r\n  padding: 30px;\r\n  position: relative;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n  margin: 0 10px 40px 10px;\r\n  background: #fff;\r\n  box-shadow: 0 10px 29px 0 rgb(0 0 0 / 10%);\r\n  transition: all 0.3s ease-in-out;\n}\n#services img[data-v-66bcffc2] {\r\n  width: 85%;\r\n  max-width: 485px;\r\n  max-height: 300px;\r\n  margin: 30px 30px 20px 30px;\n}\n#services .icon[data-v-66bcffc2] {\r\n  position: absolute;\r\n  left: -10px;\r\n  top: calc(50% - 32px);\n}\n#services .icon i[data-v-66bcffc2] {\r\n  font-size: 64px;\r\n  line-height: 1;\r\n  transition: 0.5s;\n}\n#services .title[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\n}\n#services  a[data-v-66bcffc2] {\r\n  font-size: 20px;\r\n  text-align: justify;\r\n  color: #000;\n}\n#services .description[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  margin-left: 30px;\r\n  margin-right: 30px;\r\n  line-height: 24px;\r\n  margin-bottom: 0;\r\n  text-align: justify;\r\n  color: #000;\n}\n#services .video-youtube[data-v-66bcffc2]{\r\n  border: 2px solid #028341;\r\n  height: 0px;\r\n  padding-bottom: 56.25%;\r\n  position: relative;\n}\n#services .video-youtube iframe[data-v-66bcffc2]{\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  height: 100%;\r\n  width: 100%;\n}\n.youtube-wrapper[data-v-66bcffc2]{\r\n  width: 100%;\r\n  margin: auto;\n}\n#services .btn[data-v-66bcffc2] {\r\n  margin-inline: 10px;\r\n  margin-left: 3em;\r\n  background: #025228;\n}\n#services .criterios[data-v-66bcffc2] {\r\n  margin-left: 40px;\r\n  font-weight: 700;\r\n  margin-bottom: 15px;\r\n  font-size: 19px;\r\n  color: #000;\n}\n#services .proyection[data-v-66bcffc2] {\r\n  background: #028341;\r\n  margin-left: 2.5em;\r\n  text-align: center;\n}\n#services ul[data-v-66bcffc2] {\r\n  font-size: 16px;\r\n  text-align: justify;\n}\n.section-bg[data-v-66bcffc2] {\r\n  background: #799b9173;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -28792,7 +28894,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#why-us[data-v-67168095] {\r\n  padding: 60px 0;\r\n  background: #799b9173;\n}\n#why-us .section-header h3[data-v-67168095],\r\n#why-us .section-header p[data-v-67168095] {\r\n  color: rgb(0, 0, 0);\n}\n.section-header h3[data-v-67168095] {\r\n  font-size: 36px;\r\n  color: #283d50;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#Why-us h1[data-v-67168095],\r\nh2[data-v-67168095],\r\nh3[data-v-67168095],\r\nh4[data-v-67168095],\r\nh5[data-v-67168095],\r\nh6[data-v-67168095] {\r\n  font-family: \"Montserrat\", sans-serif;\r\n  margin: 0 0 20px 0;\r\n  padding: 0;\n}\n.section-header p[data-v-67168095] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 15px;\r\n  padding-bottom: 60px;\r\n  color: #556877;\r\n  width: 50%;\n}\n#Why-us .row[data-v-67168095] {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  margin-right: -15px;\r\n  margin-left: -15px;\n}\n.justify-content-center[data-v-67168095] {\r\n  justify-content: center !important;\n}\n.mb-4[data-v-67168095],\r\n.my-4[data-v-67168095] {\r\n  margin-bottom: 1.5rem !important;\n}\n#why-us .card[data-v-67168095] {\r\n  background: #025228;\r\n  border-color: #028341;\r\n  border-radius: 10px;\r\n  margin: 0 15px;\r\n  padding: 15px 0;\r\n  text-align: center;\r\n  color: #fff;\r\n  transition: 0.3s ease-in-out;\r\n  height: 100%;\n}\n#why-us .card i[data-v-67168095] {\r\n  font-size: 48px;\r\n  padding-top: 15px;\r\n  color: #bfddfe;\n}\n.fa[data-v-67168095] {\r\n  display: inline-block;\r\n  font: normal normal normal 14px/1 FontAwesome;\r\n  text-rendering: auto;\n}\n.fa-diamond[data-v-67168095]:before {\r\n  content: \"\\f219\";\n}\n.card-body[data-v-67168095] {\r\n  flex: 1 1 auto;\r\n  padding: 1.25rem;\n}\n#why-us .card h5[data-v-67168095] {\r\n  font-size: 22px;\r\n  font-weight: 600;\n}\n.card-title[data-v-67168095] {\r\n  margin-bottom: 0.75rem;\n}\nh1[data-v-67168095],\r\nh2[data-v-67168095],\r\nh3[data-v-67168095],\r\nh4[data-v-67168095],\r\nh5[data-v-67168095],\r\nh6[data-v-67168095] {\r\n  font-family: \"Montserrat\", sans-serif;\r\n  margin: 0 0 20px 0;\r\n  padding: 0;\n}\n#why-us .card p[data-v-67168095] {\r\n  font-size: 15px;\r\n  color: #d8eafe;\n}\n.p[data-v-67168095] {\r\n  padding: 0;\r\n  margin: 0 0 30px 0;\n}\n#why-us .card .readmore[data-v-67168095] {\r\n  color: #fff;\r\n  font-weight: 600;\r\n  display: inline-block;\r\n  transition: 0.3s ease-in-out;\r\n  border-bottom: #00458f solid 2px;\n}\n.fa-language[data-v-67168095]:before {\r\n  content: \"\\f1ab\";\n}\n.fa-object-group[data-v-67168095]:before {\r\n  content: \"\\f247\";\n}\n#why-us .counters[data-v-67168095] {\r\n  padding-top: 40px;\n}\n.text-center[data-v-67168095] {\r\n  text-align: center !important;\n}\n#why-us .counters span[data-v-67168095] {\r\n  font-family: \"Montserrat\", sans-serif;\r\n  font-weight: bold;\r\n  font-size: 48px;\r\n  display: block;\r\n  color: #fff;\n}\n#why-us .counters p[data-v-67168095] {\r\n  padding: 0;\r\n  margin: 0 0 20px 0;\r\n  font-family: \"Montserrat\", sans-serif;\r\n  font-size: 14px;\r\n  color: #cce5ff;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#why-us[data-v-67168095] {\r\n  padding: 60px 0;\r\n  background: #799b9173;\n}\n#why-us .section-header h3[data-v-67168095],\r\n#why-us .section-header p[data-v-67168095] {\r\n  color: rgb(0, 0, 0);\n}\n.section-header h3[data-v-67168095] {\r\n  font-size: 36px;\r\n  color: #283d50;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n#Why-us h1[data-v-67168095],\r\nh2[data-v-67168095],\r\nh3[data-v-67168095],\r\nh4[data-v-67168095],\r\nh5[data-v-67168095],\r\nh6[data-v-67168095] {\r\n  font-family: \"Montserrat\", sans-serif;\r\n  margin: 0 0 20px 0;\r\n  padding: 0;\n}\n.section-header p[data-v-67168095] {\r\n  text-align: center;\r\n  margin: auto;\r\n  font-size: 17px;\r\n  padding-bottom: 60px;\r\n  color: #556877;\r\n  width: 50%;\n}\n#Why-us .row[data-v-67168095] {\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  margin-right: -15px;\r\n  margin-left: -15px;\n}\n.justify-content-center[data-v-67168095] {\r\n  justify-content: center !important;\n}\n.mb-4[data-v-67168095],\r\n.my-4[data-v-67168095] {\r\n  margin-bottom: 1.5rem !important;\n}\n#why-us .card[data-v-67168095] {\r\n  background: #025228;\r\n  border-color: #028341;\r\n  border-radius: 10px;\r\n  margin: 0 15px;\r\n  padding: 15px 0;\r\n  text-align: center;\r\n  color: #fff;\r\n  transition: 0.3s ease-in-out;\r\n  height: 100%;\n}\n#why-us .card i[data-v-67168095] {\r\n  font-size: 48px;\r\n  padding-top: 15px;\r\n  color: #bfddfe;\n}\n.fa[data-v-67168095] {\r\n  display: inline-block;\r\n  font: normal normal normal 14px/1 FontAwesome;\r\n  text-rendering: auto;\n}\n.fa-diamond[data-v-67168095]:before {\r\n  content: \"\\f219\";\n}\n.card-body[data-v-67168095] {\r\n  flex: 1 1 auto;\r\n  padding: 1.25rem;\n}\n#why-us .card h5[data-v-67168095] {\r\n  font-size: 22px;\r\n  font-weight: 600;\n}\n.card-title[data-v-67168095] {\r\n  margin-bottom: 0.75rem;\n}\nh1[data-v-67168095],\r\nh2[data-v-67168095],\r\nh3[data-v-67168095],\r\nh4[data-v-67168095],\r\nh5[data-v-67168095],\r\nh6[data-v-67168095] {\r\n  font-family: \"Montserrat\", sans-serif;\r\n  margin: 0 0 20px 0;\r\n  padding: 0;\n}\n#why-us .card p[data-v-67168095] {\r\n  font-size: 15px;\r\n  color: #d8eafe;\n}\n.p[data-v-67168095] {\r\n  padding: 0;\r\n  margin: 0 0 30px 0;\n}\n#why-us .card .readmore[data-v-67168095] {\r\n  color: #fff;\r\n  font-weight: 600;\r\n  display: inline-block;\r\n  transition: 0.3s ease-in-out;\r\n  border-bottom: #00458f solid 2px;\n}\n.fa-language[data-v-67168095]:before {\r\n  content: \"\\f1ab\";\n}\n.fa-object-group[data-v-67168095]:before {\r\n  content: \"\\f247\";\n}\n#why-us .counters[data-v-67168095] {\r\n  padding-top: 40px;\n}\n.text-center[data-v-67168095] {\r\n  text-align: center !important;\n}\n#why-us .counters span[data-v-67168095] {\r\n  font-family: \"Montserrat\", sans-serif;\r\n  font-weight: bold;\r\n  font-size: 48px;\r\n  display: block;\r\n  color: #fff;\n}\n#why-us .counters p[data-v-67168095] {\r\n  padding: 0;\r\n  margin: 0 0 20px 0;\r\n  font-family: \"Montserrat\", sans-serif;\r\n  font-size: 14px;\r\n  color: #cce5ff;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -65192,6 +65294,36 @@ _Documents_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default.__fi
 
 /***/ }),
 
+/***/ "./resources/js/Pages/Landing/Donations.vue":
+/*!**************************************************!*\
+  !*** ./resources/js/Pages/Landing/Donations.vue ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Donations_vue_vue_type_template_id_d0dbe3a0_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Donations.vue?vue&type=template&id=d0dbe3a0&scoped=true */ "./resources/js/Pages/Landing/Donations.vue?vue&type=template&id=d0dbe3a0&scoped=true");
+/* harmony import */ var _Donations_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Donations.vue?vue&type=script&lang=js */ "./resources/js/Pages/Landing/Donations.vue?vue&type=script&lang=js");
+/* harmony import */ var _Donations_vue_vue_type_style_index_0_id_d0dbe3a0_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Donations.vue?vue&type=style&index=0&id=d0dbe3a0&scoped=true&lang=css */ "./resources/js/Pages/Landing/Donations.vue?vue&type=style&index=0&id=d0dbe3a0&scoped=true&lang=css");
+
+
+
+
+;
+_Donations_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default.render = _Donations_vue_vue_type_template_id_d0dbe3a0_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render
+_Donations_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default.__scopeId = "data-v-d0dbe3a0"
+/* hot reload */
+if (false) {}
+
+_Donations_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default.__file = "resources/js/Pages/Landing/Donations.vue"
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_Donations_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default);
+
+/***/ }),
+
 /***/ "./resources/js/Pages/Landing/Index.vue":
 /*!**********************************************!*\
   !*** ./resources/js/Pages/Landing/Index.vue ***!
@@ -66128,6 +66260,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Pages/Landing/Donations.vue?vue&type=script&lang=js":
+/*!**************************************************************************!*\
+  !*** ./resources/js/Pages/Landing/Donations.vue?vue&type=script&lang=js ***!
+  \**************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Donations_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__.default)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Donations_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Donations.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Landing/Donations.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
 /***/ "./resources/js/Pages/Landing/Index.vue?vue&type=script&lang=js":
 /*!**********************************************************************!*\
   !*** ./resources/js/Pages/Landing/Index.vue?vue&type=script&lang=js ***!
@@ -66960,6 +67108,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Pages/Landing/Donations.vue?vue&type=template&id=d0dbe3a0&scoped=true":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/Pages/Landing/Donations.vue?vue&type=template&id=d0dbe3a0&scoped=true ***!
+  \********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Donations_vue_vue_type_template_id_d0dbe3a0_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Donations_vue_vue_type_template_id_d0dbe3a0_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Donations.vue?vue&type=template&id=d0dbe3a0&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Landing/Donations.vue?vue&type=template&id=d0dbe3a0&scoped=true");
+
+
+/***/ }),
+
 /***/ "./resources/js/Pages/Landing/Index.vue?vue&type=template&id=7f509ee1&scoped=true":
 /*!****************************************************************************************!*\
   !*** ./resources/js/Pages/Landing/Index.vue?vue&type=template&id=7f509ee1&scoped=true ***!
@@ -67320,6 +67484,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Pages/Landing/Donations.vue?vue&type=style&index=0&id=d0dbe3a0&scoped=true&lang=css":
+/*!**********************************************************************************************************!*\
+  !*** ./resources/js/Pages/Landing/Donations.vue?vue&type=style&index=0&id=d0dbe3a0&scoped=true&lang=css ***!
+  \**********************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Donations_vue_vue_type_style_index_0_id_d0dbe3a0_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-style-loader/index.js!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Donations.vue?vue&type=style&index=0&id=d0dbe3a0&scoped=true&lang=css */ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Landing/Donations.vue?vue&type=style&index=0&id=d0dbe3a0&scoped=true&lang=css");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Donations_vue_vue_type_style_index_0_id_d0dbe3a0_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Donations_vue_vue_type_style_index_0_id_d0dbe3a0_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
+/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Donations_vue_vue_type_style_index_0_id_d0dbe3a0_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== "default") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _node_modules_vue_style_loader_index_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Donations_vue_vue_type_style_index_0_id_d0dbe3a0_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__[__WEBPACK_IMPORT_KEY__]
+/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
+
+
+/***/ }),
+
 /***/ "./resources/js/Pages/Landing/Index.vue?vue&type=style&index=0&id=7f509ee1&scoped=true&lang=css":
 /*!******************************************************************************************************!*\
   !*** ./resources/js/Pages/Landing/Index.vue?vue&type=style&index=0&id=7f509ee1&scoped=true&lang=css ***!
@@ -67623,6 +67804,27 @@ if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = __webpack_require__(/*! !../../../../node_modules/vue-style-loader/lib/addStylesClient.js */ "./node_modules/vue-style-loader/lib/addStylesClient.js").default
 var update = add("2781ce70", content, false, {});
+// Hot Module Replacement
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Landing/Donations.vue?vue&type=style&index=0&id=d0dbe3a0&scoped=true&lang=css":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-style-loader/index.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Landing/Donations.vue?vue&type=style&index=0&id=d0dbe3a0&scoped=true&lang=css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Donations.vue?vue&type=style&index=0&id=d0dbe3a0&scoped=true&lang=css */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Landing/Donations.vue?vue&type=style&index=0&id=d0dbe3a0&scoped=true&lang=css");
+if(content.__esModule) content = content.default;
+if(typeof content === 'string') content = [[module.id, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__(/*! !../../../../node_modules/vue-style-loader/lib/addStylesClient.js */ "./node_modules/vue-style-loader/lib/addStylesClient.js").default
+var update = add("595ccbe0", content, false, {});
 // Hot Module Replacement
 if(false) {}
 
@@ -68290,6 +68492,8 @@ var map = {
 	"./Landing/ContactUs.vue": "./resources/js/Pages/Landing/ContactUs.vue",
 	"./Landing/Documents": "./resources/js/Pages/Landing/Documents.vue",
 	"./Landing/Documents.vue": "./resources/js/Pages/Landing/Documents.vue",
+	"./Landing/Donations": "./resources/js/Pages/Landing/Donations.vue",
+	"./Landing/Donations.vue": "./resources/js/Pages/Landing/Donations.vue",
 	"./Landing/Index": "./resources/js/Pages/Landing/Index.vue",
 	"./Landing/Index.vue": "./resources/js/Pages/Landing/Index.vue",
 	"./Landing/Intro": "./resources/js/Pages/Landing/Intro.vue",

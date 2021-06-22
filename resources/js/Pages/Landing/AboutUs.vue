@@ -302,7 +302,12 @@ export default {};
 #about .ready{
   margin-left: 2rem;
   font-size: 16px;
-  
+  column-count: 2; 
+  padding-top: 15px; 
+}
+
+#about span {
+  margin: 5px 0 15px 0;
 }
 
 .fa-circle{
@@ -313,7 +318,8 @@ export default {};
   text-align: justify;
   font-size: 16px;
   padding-left: 2rem;
-  list-style: circle;
+  list-style: circle outside;
+
 }
 
 </style>

@@ -11,7 +11,7 @@
           <div class="row">
             <div class="col-md-6 col-lg-6">
               <div class="box">
-                <img src="images/corazon-contento.png" alt="" />
+                <img style="height:300px" src="images/corazon-contento.png" alt="" />
                 <br />
                 <div class="icon">
                   <i class="ion-ios-analytics-outline"></i>
@@ -55,8 +55,8 @@
                   <div class="youtube-wrapper">
                     <div class="video-youtube">
                       <iframe
-                        width="560"
-                        height="315"
+                        width="450"
+                        height="300"
                         src="https://www.youtube.com/embed/sRvp-_lILQ4"
                         title="YouTube video player"
                         frameborder="0"
@@ -86,6 +86,7 @@
                   búsqueda de dar a conocer la Fundación Cáritas, mejorar la
                   confianza e imagen con 
                 </p>
+                <br>
                 <p>
                   <a
                     class="btn btn-success"
@@ -108,9 +109,9 @@
                 <br />
 
                   <ul type="number">
-                    <li>Sensibilización: Base de datos.</li>
-                    <li>Boletín de registro “Top de máximos donantes”</li>
-                    <li>
+                    <li class="description">Sensibilización: Base de datos.</li>
+                    <li class="description">Boletín de registro “Top de máximos donantes”</li>
+                    <li class="description">
                       Video del proceso desde la recolección en Mercasa, hasta
                       la entrega en las fundaciones.
                     </li>
@@ -121,8 +122,8 @@
                   <div class="youtube-wrapper">
                     <div class="video-youtube">
                       <iframe
-                        width="435"
-                        height="315"
+                        width="450"
+                        height="300"
                         src="https://www.youtube.com/embed/iFfQMiZI_8A"
                         title="YouTube video player"
                         frameborder="0"
@@ -213,27 +214,15 @@ export default {};
 #activities {
   padding: 60px 0 40px 0;
   box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 10%);
+  background-color: #799b9173;
 }
 
 #activities .section-header h3 {
   font-size: 36px;
-  color: #ffffff;
+  color: #000;
   text-align: center;
   font-weight: 500;
   position: relative;
-}
-#activities .section-header p {
-  text-align: center;
-  margin: auto;
-  font-size: 15px;
-  padding-bottom: 60px;
-  color: #ffffff;
-  width: 50%;
-}
-
-#activities .row {
-  border-radius: 10px;
-  background: #025228;
 }
 
 #activities .box {
@@ -242,15 +231,16 @@ export default {};
   overflow: hidden;
   border-radius: 10px;
   margin: 0 10px 40px 10px;
-  background: #ffffff;
+  background: #025228;
   box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
   transition: all 0.3s ease-in-out;
 }
 
 #activities img {
-  margin: 10px 5px 15px 20px;
-  width: 100%;
-  height: 100%;
+  width: 85%;
+  max-height: 300px;
+  max-width: 450px;
+  margin: 30px 30px 20px 30px;
 }
 
 #activities .icon {
@@ -269,21 +259,28 @@ export default {};
   margin-bottom: 15px;
   font-size: 19px;
 }
-#activities .title a {
-  color: #111;
-}
+
+#activities a {
+  font-size: 20px;
+  text-align: justify;
+  color: #fff;
+} 
+
 #activities .description {
   font-size: 16px;
-  margin-left: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
   line-height: 24px;
   margin-bottom: 0;
   text-align: justify;
+  color: #fff;
 }
 
 #activities .btn {
   margin-inline: 10px;
   margin-left: 3em;
-  background: #025228;
+  color: #000;
+  background: #fff;
 }
 
 #activities .criterios {
@@ -291,7 +288,7 @@ export default {};
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 19px;
-  color: #111;
+  color: #fff;
 }
 
 #activities .proyection {
@@ -306,7 +303,7 @@ export default {};
 }
 
 #activities .video-youtube{
-  border: 2px solid #028341;
+  border: 2px solid #fff;
   height: 0px;
   padding-bottom: 56.25%;
   position: relative;
@@ -323,9 +320,6 @@ export default {};
 .youtube-wrapper{
   width: 100%;
   margin: auto;
-}
-.accion {
-  background: greenyellow;
 }
 
 .section-bg {

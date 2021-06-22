@@ -23,7 +23,7 @@
           <button type="button" @click="scrollMeTo('voluntary')" class=" btn btn btn-outline-dark mr-4">
             <strong>¿Quiere ser voluntario?</strong>
           </button>
-          <button type="button" class="btn btn-outline-dark mr-4">
+          <button type="button" @click="scrollMeTo('donation')" class="btn btn-outline-dark mr-4">
             <strong>!Quiero Donar¡</strong>
           </button>
         </div>
@@ -36,9 +36,10 @@
 import JetDropdownLink from "@/Jetstream/DropdownLink";
 import LanguageSelector from "@/Shared/LanguageSelector";
 import VoluntaryForm from './VoluntaryForm';
+import Donations from "./Donations";
 
 export default {
-  components: {VoluntaryForm, JetDropdownLink, LanguageSelector,},
+  components: {Donations, VoluntaryForm, JetDropdownLink, LanguageSelector,},
   name: 'Intro',
   data: function() {
     return {
