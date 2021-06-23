@@ -2,9 +2,10 @@
     "nav": {
         "home": "Home",
         "about": "About us",
-        "services": "Services",
+        "services": "Programs",
+        "activities": "Activities",
         "why": "Why us?",
-        "portfolio": "Portfolio",
+        "documents": "Documents",
         "contact": "Contact us",
         "login": "Login",
         "dashboard": "Dashboard",

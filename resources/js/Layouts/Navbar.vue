@@ -60,7 +60,7 @@
               @click="scrollMeTo('activities')"
               class="btn btn-light nav-link"
             >
-              {{ __("Activities") }}
+              {{ __("nav.activities") }}
             </button>
           </li>
           <li class="nav-item">
@@ -78,7 +78,7 @@
               @click="scrollMeTo('documents')"
               class="btn btn-light nav-link"
             >
-              {{ __("Documents") }}
+              {{ __("nav.documents") }}
             </button>
           </li>
           <li class="nav-item">

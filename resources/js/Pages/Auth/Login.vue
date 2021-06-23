@@ -60,7 +60,7 @@
                   />
 
                   <label class="custom-control-label" for="remember_me">
-                    Remember Me
+                    Recuérdame
                   </label>
                 </div>
               </div>
@@ -79,7 +79,7 @@
                       v-if="canResetPassword"
                       :href="route('password.request')"
                     >
-                      Forgot your password?
+                      ¿Olvidaste tu contraseña?
                     </inertia-link>
                   </div>
                 </div>

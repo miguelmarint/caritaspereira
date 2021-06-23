@@ -17863,7 +17863,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  components: {},
+  name: 'Donations',
+  data: function data() {
+    return {
+      index: 0
+    };
+  }
+});
 
 /***/ }),
 
@@ -19747,7 +19755,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
       return $options.scrollMeTo('activities');
     }),
     "class": "btn btn-light nav-link"
-  }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__("Activities")), 1
+  }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__("nav.activities")), 1
   /* TEXT */
   )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
     type: "button",
@@ -19763,7 +19771,7 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
       return $options.scrollMeTo('documents');
     }),
     "class": "btn btn-light nav-link"
-  }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__("Documents")), 1
+  }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__("nav.documents")), 1
   /* TEXT */
   )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
     type: "button",
@@ -20538,7 +20546,7 @@ var _hoisted_13 = {
 var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("label", {
   "class": "custom-control-label",
   "for": "remember_me"
-}, " Remember Me ", -1
+}, " Recuérdame ", -1
 /* HOISTED */
 );
 
@@ -20559,7 +20567,7 @@ var _hoisted_18 = {
   "class": "mt-3"
 };
 
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Forgot your password? ");
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" ¿Olvidaste tu contraseña? ");
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Navbar = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Navbar");
@@ -21921,12 +21929,51 @@ var _withId = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.withScopeId)("dat
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-d0dbe3a0");
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section id=\"donation\" class=\"clearfix\" data-v-d0dbe3a0><div class=\"container\" data-v-d0dbe3a0><header class=\"section-header\" data-v-d0dbe3a0><h3 class=\"section-title\" data-v-d0dbe3a0>!Haz aquí tu donación¡</h3><li style=\"list-style:number;\" data-v-d0dbe3a0> Elige la cantidad con la que quieres colaborar </li></header><div class=\"container-form\" data-v-d0dbe3a0><div class=\"row\" data-v-d0dbe3a0><div class=\"col-md-6 col-lg-6\" data-v-d0dbe3a0><div class=\"container-pay\" data-v-d0dbe3a0><div class=\"method\" data-v-d0dbe3a0><p data-v-d0dbe3a0>Método de pago</p><input type=\"radio\" id=\"credito\" value=\"targeta-credito\" data-v-d0dbe3a0><label for=\"credito\" data-v-d0dbe3a0> Tarjeta de Crédito</label><br data-v-d0dbe3a0><input type=\"radio\" id=\"paypal\" value=\"pago-paypal\" data-v-d0dbe3a0><label for=\"paypal\" data-v-d0dbe3a0> PayPal</label></div><br data-v-d0dbe3a0><div class=\"donate\" data-v-d0dbe3a0><p data-v-d0dbe3a0>Tipo de donación</p><input type=\"radio\" id=\"anon\" value=\"don-anonima\" data-v-d0dbe3a0><label for=\"anon\" data-v-d0dbe3a0> Deseo que mi donación sea anónima</label><br data-v-d0dbe3a0><input type=\"radio\" id=\"data\" value=\"fac-datos\" data-v-d0dbe3a0><label for=\"data\" data-v-d0dbe3a0> No tengo problema en facilitar mis datos</label></div></div></div><div class=\"col-md-6 col-lg-6\" data-v-d0dbe3a0><div class=\"container-pay\" data-v-d0dbe3a0><div class=\"method\" data-v-d0dbe3a0><div class=\"reference\" data-v-d0dbe3a0><q style=\"text-align:justify;\" data-v-d0dbe3a0> LA POBREZA NO LA HIZO DIOS, LA HACEMOS TÚ Y YO CUANDO NO COMPARTIMOS LO QUE TENEMOS. </q></div><br data-v-d0dbe3a0><i style=\"font-size:20px;\" data-v-d0dbe3a0>Madre Teresa</i><br data-v-d0dbe3a0><br data-v-d0dbe3a0><div class=\"info\" data-v-d0dbe3a0><i class=\"fas fa-map-marker-alt\" data-v-d0dbe3a0></i><p data-v-d0dbe3a0> Calle 20 Nro 4-47 Pereira y Sede Banco de Alimentos : Transversal 5 # 6-30 Calle de las Aromas la Badea Dosquebradas </p></div></div><br data-v-d0dbe3a0><div class=\"donate\" data-v-d0dbe3a0><p data-v-d0dbe3a0>Importe</p><div class=\"input\" data-v-d0dbe3a0><select class=\"form\" id=\"importe\" data-v-d0dbe3a0><option selected data-v-d0dbe3a0>10.000</option><option value=\"1\" data-v-d0dbe3a0>20.000</option><option value=\"2\" data-v-d0dbe3a0>30.000</option><option value=\"3\" data-v-d0dbe3a0>40.000</option><option value=\"3\" data-v-d0dbe3a0>50.000</option><option value=\"3\" data-v-d0dbe3a0>Más de 50.000</option></select></div></div></div></div></div></div><button type=\"button\" class=\" btn btn btn-outline-dark mr-4\" data-v-d0dbe3a0>Siguiente</button></div></section>", 1);
+var _hoisted_1 = {
+  id: "donation",
+  "class": "clearfix"
+};
+var _hoisted_2 = {
+  "class": "container"
+};
+
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("header", {
+  "class": "section-header"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", {
+  "class": "section-title"
+}, "!Haz aquí tu donación¡"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("li", {
+  style: {
+    "list-style": "number"
+  }
+}, " Elige la cantidad con la que quieres colaborar ")], -1
+/* HOISTED */
+);
+
+var _hoisted_4 = {
+  "class": "slider"
+};
+
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "container-slides"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "dona-slider"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "dona-slider"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
+  "class": "dona-slider"
+})], -1
+/* HOISTED */
+);
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
 var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [_hoisted_1]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_4, [_hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
+    onClick: _cache[1] || (_cache[1] = function () {
+      return _ctx.next && _ctx.next.apply(_ctx, arguments);
+    }),
+    type: "button"
+  }, "Siguiente")])])])]);
 });
 
 /***/ }),
@@ -28750,7 +28797,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#donation[data-v-d0dbe3a0] {\r\n  padding: 60px 0;\r\n  box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 10%);\r\n  background-color: #025228;\n}\n.section-header h3[data-v-d0dbe3a0] {\r\n  font-size: 40px;\r\n  color: #fff;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n.section-header li[data-v-d0dbe3a0] {\r\n  text-align: left;\r\n  font-size: 17px;\r\n  padding-bottom: 30px;\r\n  color: #fff;\r\n  width: 50%;\r\n  font-family: \"Arial Narrow\";\n}\n#donation .container-pay[data-v-d0dbe3a0] {\r\n  padding: 30px;\r\n  position: relative;\r\n  overflow: hidden;\r\n  border-radius: 10px;\r\n  margin: 0 10px 40px 10px;\r\n  background-color: #ffff;\n}\n#donation input[data-v-d0dbe3a0] {\r\n  font-size: 32px;\n}\n#donation .radio[data-v-d0dbe3a0]{\r\n  background-color: #025228;\n}\n#donation p[data-v-d0dbe3a0] {\r\n  font-size: 19px;\r\n  color: #000;\r\n  font-weight: normal;\r\n  font-family: \"Arial Narrow\";\n}\n#donation label[data-v-d0dbe3a0] {\r\n  padding-left: 10px;\r\n  padding-bottom: 20px;\r\n  font-size: 17px;\r\n  font-family: \"Arial Narrow\";\n}\n#donation .reference[data-v-d0dbe3a0] {\r\n  background-color: #025228;\r\n  color: #fff;\r\n  font-size: 17px;\r\n  font-family: \"Arial Narrow\";\r\n  border-radius: 10px;\n}\n#donation .info i[data-v-d0dbe3a0] {\r\n  font-size: 32px;\r\n  color: #025228;\r\n  float: left;\r\n  line-height: 1;\n}\n#donation .info p[data-v-d0dbe3a0] {\r\n  padding: 0 0 10px 36px;\r\n  line-height: 28px;\r\n  font-size: 17px;\r\n  font-family: \"Arial Narrow\";\n}\n#donation .form[data-v-d0dbe3a0] {\r\n  background-color: #025228;\r\n  color: #fff;\r\n  font-size: 25px;\r\n  width: 200px;\r\n  border:1px dashed;\n}\n#donation .btn[data-v-d0dbe3a0] {\r\n  font-size: 25px;\r\n  color: rgb(224, 209, 209);\r\n  border-width: 1.5px;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#donation[data-v-d0dbe3a0] {\r\n  padding: 60px 0;\r\n  box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 10%);\r\n  background-color: #025228;\n}\n.section-header h3[data-v-d0dbe3a0] {\r\n  font-size: 40px;\r\n  color: #fff;\r\n  text-align: center;\r\n  font-weight: 500;\r\n  position: relative;\n}\n.section-header li[data-v-d0dbe3a0] {\r\n  text-align: left;\r\n  font-size: 17px;\r\n  padding-bottom: 30px;\r\n  color: #fff;\r\n  width: 50%;\r\n  font-family: \"Arial Narrow\";\n}\n#donation .slider[data-v-d0dbe3a0]{\r\n  width: 50%;\r\n  height: 50vh;\r\n  position: relative;\r\n  overflow: hidden;\r\n  background-color: #fff;\r\n  border-radius: 10px;\n}\n#donation .container-slides[data-v-d0dbe3a0] {\r\n  width: 100%;\r\n  height: 100%;\r\n  display: flex;\n}\n#donation .dona-slider[data-v-d0dbe3a0] {\r\n  width: 100%;\r\n  height: auto;\r\n  border-radius: 10px;\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
