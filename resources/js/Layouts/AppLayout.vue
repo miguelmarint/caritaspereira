@@ -23,6 +23,7 @@
                 __("sidebar.home")
               }}</span>
             </div>
+            
           </inertia-link>
           <div class="accordion" id="sidebarAcordion">
             <!-- Personalization -->
@@ -35,9 +36,9 @@
               <div
                 class="d-flex w-100 justify-content-start align-items-center"
               >
-                <span class="fas fa-paint-brush fa-fw mr-2"></span>
+                <span class="fab fa-wpforms fa-fw mr-2"></span>
                 <span class="menu-collapsed font-weight-bold">{{
-                  __("sidebar.personalization")
+                  __("sidebar.forms")
                 }}</span>
               </div>
             </a>
@@ -53,9 +54,18 @@
                 <div
                   class="ml-2 d-flex w-100 justify-content-start align-items-center"
                 >
-                  <i class="fas fa-house-user mr-2"></i>
+                  <i class="fas fa-address-card mr-2"></i>
                   <span class="menu-collapsed">{{
-                    __("sidebar.presentation")
+                    __("sidebar.contact")
+                  }}</span>
+                </div>
+                <br>
+                <div
+                  class="ml-2 d-flex w-100 justify-content-start align-items-center"
+                >
+                  <i class="fas fa-hands-helping mr-2"></i>
+                  <span class="menu-collapsed">{{
+                    __("sidebar.volunteers")
                   }}</span>
                 </div>
               </inertia-link>
@@ -88,9 +98,13 @@
 
 <script>
 import Navbar from "@/Layouts/Navbar";
+import JetDropdownLink from "@/Jetstream/DropdownLink";
+import LanguageSelector from "@/Shared/LanguageSelector";
 export default {
   components: {
-    Navbar,
+    Navbar, 
+    JetDropdownLink,
+    LanguageSelector,
   },
 
   data() {
@@ -122,7 +136,7 @@ export default {
 }
 
 .list-group-item.active {
-  background-color: #3490dc !important;
+  background-color: #025228 !important;
 }
 
 #wrapper {

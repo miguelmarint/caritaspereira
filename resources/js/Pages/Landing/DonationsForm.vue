@@ -1,45 +1,13 @@
 <template>
   <div>
-    <section id="contact">
+    <section id="formdonations">
       <div class="container-fluid">
         <div class="section-header">
-          <h3>Contáctanos</h3>
+          <h3>¿Quieres ser voluntario?</h3>
+          <p>Inscríbete aquí.</p>
         </div>
-        <div class="row" >
-        <div class="col-md-5 info">
-          <i class="fas fa-map-marker-alt"></i>
-          <p>
-            Calle 20 Nro 4-47 Pereira y Sede Banco de Alimentos : Transversal 5
-            # 6-30 Calle de las Aromas la Badea Dosquebradas
-          </p>
-        </div>
-        <div class="col-md-4 info">
-          <i class="fas fa-envelope"></i>
-          <p>comunicaciones@caritaspereira.org</p>
-        </div>
-        <div class="col-md-3 info">
-          <i class="fas fa-mobile-alt"></i>
-          <p>(+57)321 6467811 – (+57)3148962397 - Fijo 3154138</p>
-        </div>
-      </div>
-        <div
-          class="row wow fadeInUp"
-          style="visibility: visible; animation-name: fadeInUp"
-        >
-          <div class="col-lg-6">
-            <div class="map mb-4 mb-lg-0">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d295.49514831461426!2d-75.69468133428327!3d4.822684139361927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38874b36fd45e9%3A0x2e55d8c012cbff71!2sFundaci%C3%B3n%20Caritas%20Diocesana!5e0!3m2!1ses!2sco!4v1620498035697!5m2!1ses!2sco"
-                frameborder="0"
-                style="border: 0; width: 100%; height: 312px"
-                allowfullscreen=""
-              ></iframe>
-            </div>
-          </div>
 
-          <form @submit.prevent="submit">
-
-            <div class="col-lg-6">
+          <div class="col-sm">
             <div class="form">
               <div id="sendmessage">Your message has been sent. Thank you!</div>
               <div id="errormessage"></div>
@@ -86,7 +54,6 @@
                   <textarea
                     class="form-control"
                     name="message"
-                    id="message"
                     rows="5"
                     data-rule="required"
                     data-msg="Please write something for us"
@@ -99,51 +66,18 @@
                     Enviar mensaje
                   </button>
                 </div>
-                
               </form>
             </div>
           </div>
-          </form>
-        </div>
       </div>
-      
     </section>
   </div>
 </template>
 <script>
-import JetAuthenticationCard from "@/Jetstream/AuthenticationCard";
-import JetCheckbox from "@/Jetstream/Checkbox";
-import Navbar from "@/Layouts/Navbar";
-
-export default {
-  components: {
-    JetAuthenticationCard,
-    JetCheckbox,
-    Navbar,
-  },
-  props: {
-    canResetPassword: Boolean,
-    status: String,
-  },
-  data() {
-    return {
-      form: this.$inertia.form({
-        email: "",
-        email: "",
-        subject: "",
-        message: "",
-      }),
-    };
-  },
-  methods: {
-    submit() {
-      
-    },
-  },
-};
+export default {};
 </script>
 <style  scoped>
-#contact {
+#formdonations {
   box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 10%);
   padding: 60px 0;
   overflow: hidden;
@@ -156,7 +90,7 @@ container-fluid {
   margin-right: auto;
   margin-left: auto;
 }
-#contact .section-header {
+#formdonations .section-header {
   padding-bottom: 30px;
 }
 .section-header h3 {
@@ -172,22 +106,22 @@ container-fluid {
   margin-right: -15px;
   margin-left: -15px;
 }
-#contact .info {
+#formdonations .info {
   color: #283d50;
 }
-#contact .info i {
+#formdonations .info i {
   font-size: 32px;
   color: #025228;
   float: left;
   line-height: 1;
 }
-#contact .info p {
+#formdonations .info p {
   padding: 0 0 10px 36px;
   line-height: 28px;
   font-size: 17px;
   font-family: "Arial Narrow";
 }
-#contact .form #sendmessage {
+#formdonations .form #sendmessage {
   color: #007bff;
   border: 1px solid #007bff;
   display: none;
@@ -196,7 +130,7 @@ container-fluid {
   font-weight: 600;
   margin-bottom: 15px;
 }
-#contact .form #errormessage {
+#formdonations .form #errormessage {
   color: red;
   display: none;
   border: 1px solid red;
@@ -216,13 +150,13 @@ container-fluid {
   padding-right: 5px;
   padding-left: 5px;
 }
-#contact .form input,
-#contact .form textarea {
+#formdonations .form input,
+#formdonations .form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
-#contact .form .validation {
+#formdonations .form .validation {
   color: red;
   display: none;
   margin: 0 0 20px;
@@ -235,12 +169,20 @@ container-fluid {
 .text-center {
   text-align: center !important;
 }
-#contact .form button[type="submit"] {
+#formdonations .form button[type="submit"] {
   background: #025228;
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
   color: #fff;
   transition: 0.3s;
+}
+.section-header p {
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 60px;
+  color: #ffffff;
+  width: 50%;
 }
 </style>

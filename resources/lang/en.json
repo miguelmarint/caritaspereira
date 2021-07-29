@@ -20,7 +20,8 @@
     "sidebar": {
         "profile": "Profile",
         "home": "Home",
-        "personalization": "Personalization",
-        "presentation": "Página de presentación"
+        "forms": "Registration forms",
+        "contact": "Contact us",
+        "volunteers": "Volunteers"
     }
 }
